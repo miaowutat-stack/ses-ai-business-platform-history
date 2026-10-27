@@ -1,13 +1,13 @@
 {
   "format_version": 1,
-  "exported_on": "2026-10-21",
+  "exported_on": "2026-10-27",
   "repository": {
     "id": 1377397480,
     "full_name": "miaowutat-stack/ses-ai-business-platform",
     "visibility": "private"
   },
-  "record_count": 376,
-  "scope": "7ブランチから到達できる全コミット。V4の375件と別分岐の固有1件。各行は実在する1コミットに対応。",
+  "record_count": 413,
+  "scope": "2026-10-21公開の376件を維持し、V5 6件、V6 25件、V7固有5件、V4追加保守1件を追加。9ブランチ・8タグの照合。",
   "field_selection": "件名と識別・日時のメタデータを抽出。詳細本文、差分、ソースファイル、メールアドレスは含まない。",
   "translation_note": "original_subject は機密箇所のみ伏字。japanese_translation はその件名の翻訳であり、元のGit記録を書き換えたものではない。",
   "records": [
@@ -8800,6 +8800,956 @@
       ],
       "message_body_exported": false,
       "japanese_translation": "snapshot(v4): ラウンド43時点のバックエンド、AIオーケストレーター、Dify DSLおよび文書（フロントエンドは変更なし）"
+    },
+    {
+      "sequence": 377,
+      "source_list": "v4-ai-business-assistant",
+      "sha": "029897eea9c94fe27f1feed1515db4f29900da1b",
+      "parent_shas": [
+        "4ab70bb83bce88c656fa1520fef5a9805af3845b"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-27T01:24:21Z",
+      "author_date_jst": "2026-10-27 10:24:21 +09:00",
+      "committer_date_utc": "2026-10-27T01:24:21Z",
+      "committer_date_jst": "2026-10-27 10:24:21 +09:00",
+      "original_subject": "feat(v5): add multi-topic policy conversation harness",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v4-ai-business-assistant"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v5): 複数話題に対応する社内規程の会話ハーネスを追加",
+      "version": "V5",
+      "development_status": "実装・歴史的検証",
+      "verification_note": "意図・文脈に応じた会話の継続と切替を実装。10/26の第一回オフライン検証は37/37（会話34＋SIMULATED MCP 3）。この一括登録時には再実行しておらず、最新のブラウザ受入確認は未完了。"
+    },
+    {
+      "sequence": 378,
+      "source_list": "v4-ai-business-assistant",
+      "sha": "5b8e3434e20a48cc015f0590dd13c77733f5ef39",
+      "parent_shas": [
+        "029897eea9c94fe27f1feed1515db4f29900da1b"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-27T01:24:29Z",
+      "author_date_jst": "2026-10-27 10:24:29 +09:00",
+      "committer_date_utc": "2026-10-27T01:24:29Z",
+      "committer_date_jst": "2026-10-27 10:24:29 +09:00",
+      "original_subject": "feat(v5): add authenticated conversation and self-context endpoints",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v4-ai-business-assistant"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v5): 認証付き会話と本人情報参照の入口を追加",
+      "version": "V5",
+      "development_status": "実装・歴史的検証",
+      "verification_note": "認証された利用者に基づく会話と本人情報参照を追加。会話8件・本人情報27件のテスト記録を保持。一括登録時の再実行や本番連携の完了を意味しない。"
+    },
+    {
+      "sequence": 379,
+      "source_list": "v4-ai-business-assistant",
+      "sha": "6b4e1905567d2185c00b6227ea65865b60e7b47c",
+      "parent_shas": [
+        "5b8e3434e20a48cc015f0590dd13c77733f5ef39"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-27T01:24:34Z",
+      "author_date_jst": "2026-10-27 10:24:34 +09:00",
+      "committer_date_utc": "2026-10-27T01:24:34Z",
+      "committer_date_jst": "2026-10-27 10:24:34 +09:00",
+      "original_subject": "feat(v5-web): add multi-turn policy conversation view",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v4-ai-business-assistant"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v5-web): 社内規程の複数往復会話画面を追加",
+      "version": "V5",
+      "development_status": "実装・課題継続",
+      "verification_note": "会話履歴、根拠、確認待ち・拒否等の表示を追加。画面上の未解決事項があり、最新の複数話題シナリオのブラウザ受入確認は未完了。"
+    },
+    {
+      "sequence": 380,
+      "source_list": "v4-ai-business-assistant",
+      "sha": "14b66327f038e804ef5f28bed4e7d7cd7af15ef4",
+      "parent_shas": [
+        "6b4e1905567d2185c00b6227ea65865b60e7b47c"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-27T01:24:48Z",
+      "author_date_jst": "2026-10-27 10:24:48 +09:00",
+      "committer_date_utc": "2026-10-27T01:24:48Z",
+      "committer_date_jst": "2026-10-27 10:24:48 +09:00",
+      "original_subject": "feat(v5-tools): archive offline policy agent harness and contracts",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v4-ai-business-assistant"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v5-tools): オフライン規程エージェントの検証ハーネスと仕様を一括登録",
+      "version": "V5",
+      "development_status": "一括登録・未完了を保持",
+      "verification_note": "既存のオフライン検証ツール・仕様をGitに記録。検証用のSkill、プロンプト、詳細ルール、仕様本文は公開しない。長期会話保存や履歴画面等は未完成。"
+    },
+    {
+      "sequence": 381,
+      "source_list": "v4-ai-business-assistant",
+      "sha": "93f7f2ce0797533ad02b24c4d04fc7162326f1f6",
+      "parent_shas": [
+        "14b66327f038e804ef5f28bed4e7d7cd7af15ef4"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-27T01:25:00Z",
+      "author_date_jst": "2026-10-27 10:25:00 +09:00",
+      "committer_date_utc": "2026-10-27T01:25:00Z",
+      "committer_date_jst": "2026-10-27 10:25:00 +09:00",
+      "original_subject": "feat(v5-tools): add SIMULATED commuter-pass MCP and HTTP transport",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v4-ai-business-assistant"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v5-tools): SIMULATED定期券MCPとHTTP通信を追加",
+      "version": "V5",
+      "development_status": "実装・課題継続",
+      "verification_note": "ツール連携の検証用MCPを追加。見積値はSIMULATEDであり実運賃ではない。経路条件に関する未解決事項を保持し、実サービスでの受入完了とは扱わない。"
+    },
+    {
+      "sequence": 382,
+      "source_list": "v4-ai-business-assistant",
+      "sha": "167dc849a683050c4a1000e16181852acb92945a",
+      "parent_shas": [
+        "93f7f2ce0797533ad02b24c4d04fc7162326f1f6"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-27T01:25:10Z",
+      "author_date_jst": "2026-10-27 10:25:10 +09:00",
+      "committer_date_utc": "2026-10-27T01:25:10Z",
+      "committer_date_jst": "2026-10-27 10:25:10 +09:00",
+      "original_subject": "feat(v5-tools): add policy corpus import, preflight and retrieval tooling",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v4-ai-business-assistant"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v5-tools): 規程資料の取り込み・事前確認・検索ツールを追加",
+      "version": "V5",
+      "development_status": "実装・DEMO限定",
+      "verification_note": "隔離したDEMOデータを対象に取り込み・事前確認・検索のツールを整備。本番データの取り込み・書込み・有料API検証の実施を意味しない。"
+    },
+    {
+      "sequence": 383,
+      "source_list": "v6-interview-report",
+      "sha": "01cdec8dc423724f78ee3235e4ff8e2d82f9c0a1",
+      "parent_shas": [
+        "dd2a81668135fc7a58e47e948448318cbbaccdd1"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-21T07:01:25Z",
+      "author_date_jst": "2026-10-21 16:01:25 +09:00",
+      "committer_date_utc": "2026-10-21T07:01:25Z",
+      "committer_date_jst": "2026-10-21 16:01:25 +09:00",
+      "original_subject": "feat(v6): dual-perspective interview reports, phase 1 (isolated checkpoint, NOT integrated)",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v6): 技術者・営業の二つの視点による面談報告を追加（第1段階・隔離チェックポイント・未統合）",
+      "version": "V6",
+      "development_status": "隔離実装・未統合",
+      "verification_note": "面談報告の基礎を追加。共用環境への統合は未実施。長期ナレッジへの書込みを行わない境界で開発。"
+    },
+    {
+      "sequence": 384,
+      "source_list": "v6-interview-report",
+      "sha": "6c41103807efee5254bc0badb7330785d409e013",
+      "parent_shas": [
+        "01cdec8dc423724f78ee3235e4ff8e2d82f9c0a1"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-22T04:05:33Z",
+      "author_date_jst": "2026-10-22 13:05:33 +09:00",
+      "committer_date_utc": "2026-10-22T04:05:33Z",
+      "committer_date_jst": "2026-10-22 13:05:33 +09:00",
+      "original_subject": "feat(v6): phase 2 backend - follow-up sessions, evidence drafts, cross-check, review (M1 + server side of M2-M6)",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v6): 第2段階のバックエンドを追加―追問セッション、根拠付き草案、照合、レビュー",
+      "version": "V6",
+      "development_status": "隔離実装",
+      "verification_note": "面談内容を追問で補足し、根拠付き草案と人による確認へつなぐ処理を追加。長期ナレッジ登録は対象外。"
+    },
+    {
+      "sequence": 385,
+      "source_list": "v6-interview-report",
+      "sha": "d9cc950b8a689e649ee03e8e0cee7517b40e66ca",
+      "parent_shas": [
+        "6c41103807efee5254bc0badb7330785d409e013"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-22T04:16:15Z",
+      "author_date_jst": "2026-10-22 13:16:15 +09:00",
+      "committer_date_utc": "2026-10-22T04:16:15Z",
+      "committer_date_jst": "2026-10-22 13:16:15 +09:00",
+      "original_subject": "feat(v6): ai-orchestrator interview workflows (LangGraph + DeepSeek) and API acceptance script",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v6): 面談AIワークフロー（LangGraph＋DeepSeek）とAPI受入確認スクリプトを追加",
+      "version": "V6",
+      "development_status": "実装・検証整備",
+      "verification_note": "面談情報をAIで整理する処理とAPI検証手段を追加。実装の追加と受入確認の完了を区別する。"
+    },
+    {
+      "sequence": 386,
+      "source_list": "v6-interview-report",
+      "sha": "25e949f4cfcfa5e1c0d5b810cdbe1c5a104a52b3",
+      "parent_shas": [
+        "d9cc950b8a689e649ee03e8e0cee7517b40e66ca"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-22T04:23:18Z",
+      "author_date_jst": "2026-10-22 13:23:18 +09:00",
+      "committer_date_utc": "2026-10-22T04:23:18Z",
+      "committer_date_jst": "2026-10-22 13:23:18 +09:00",
+      "original_subject": "feat(v6): frontend for follow-up dialogue, AI drafts with citations, per-item review, client materials, cross-check, summary",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v6): 追問対話、根拠付きAI草案、項目別レビュー、客先資料、照合・総合報告の画面を追加",
+      "version": "V6",
+      "development_status": "隔離実装",
+      "verification_note": "AIの草案を項目ごとに確認・修正・採用保留できる画面を追加。この時点ではブラウザ受入確認の完了を主張しない。"
+    },
+    {
+      "sequence": 387,
+      "source_list": "v6-interview-report",
+      "sha": "f521de1c568a5432d06e7ded005af0cfbee1202b",
+      "parent_shas": [
+        "25e949f4cfcfa5e1c0d5b810cdbe1c5a104a52b3"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-22T04:24:43Z",
+      "author_date_jst": "2026-10-22 13:24:43 +09:00",
+      "committer_date_utc": "2026-10-22T04:24:43Z",
+      "committer_date_jst": "2026-10-22 13:24:43 +09:00",
+      "original_subject": "docs(v6): phase 2 handoff and status (no secrets)",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 第2段階の引継ぎと開発状況を記録（秘密情報なし）",
+      "version": "V6",
+      "development_status": "状況記録",
+      "verification_note": "実装済み範囲、検証と未完了事項を記録。公開ページには機能と検証状態のみを掲載し、元の引継ぎ本文は掲載しない。"
+    },
+    {
+      "sequence": 388,
+      "source_list": "v6-interview-report",
+      "sha": "0ccfa4685dbfbd2fee3329b91a62d5f2bc946b5a",
+      "parent_shas": [
+        "f521de1c568a5432d06e7ded005af0cfbee1202b"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-22T07:53:44Z",
+      "author_date_jst": "2026-10-22 16:53:44 +09:00",
+      "committer_date_utc": "2026-10-22T07:53:44Z",
+      "committer_date_jst": "2026-10-22 16:53:44 +09:00",
+      "original_subject": "docs(v6): record that browser acceptance is pending (isolated services stopped for low memory)",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): ブラウザ受入確認が未実施であることを記録（メモリ不足のため隔離サービスを停止）",
+      "version": "V6",
+      "development_status": "検証未実施",
+      "verification_note": "メモリ不足で隔離サービスを停止したため、ブラウザ受入確認が保留になった事実を記録。後日の実施結果と混同しない。"
+    },
+    {
+      "sequence": 389,
+      "source_list": "v6-interview-report",
+      "sha": "895239b9fd148c7fe96adcfc00c7f7f54473be48",
+      "parent_shas": [
+        "0ccfa4685dbfbd2fee3329b91a62d5f2bc946b5a"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-22T09:31:58Z",
+      "author_date_jst": "2026-10-22 18:31:58 +09:00",
+      "committer_date_utc": "2026-10-22T09:31:58Z",
+      "committer_date_jst": "2026-10-22 18:31:58 +09:00",
+      "original_subject": "fix(v6): per-source external-AI consent, summary pinned to item versions, guarded voice cleanup",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 出典別の外部AI利用同意、総合報告の項目版管理、音声整形の保護制御を修正",
+      "version": "V6",
+      "development_status": "修正",
+      "verification_note": "外部AI利用の同意と参照する情報の版を確認する制御を修正。個人情報保護に関する内部条件や再現手順は非公開。"
+    },
+    {
+      "sequence": 390,
+      "source_list": "v6-interview-report",
+      "sha": "e91dba802483d0000464f994f3c8a3d03cc77693",
+      "parent_shas": [
+        "895239b9fd148c7fe96adcfc00c7f7f54473be48"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-22T09:31:58Z",
+      "author_date_jst": "2026-10-22 18:31:58 +09:00",
+      "committer_date_utc": "2026-10-22T09:31:58Z",
+      "committer_date_jst": "2026-10-22 18:31:58 +09:00",
+      "original_subject": "feat(v6): voice-cleanup workflow purpose, guarded voice cleanup and consent UI",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v6): 音声整形のワークフロー用途、保護制御と同意画面を追加",
+      "version": "V6",
+      "development_status": "実装",
+      "verification_note": "音声から整理した面談内容を扱う用途と同意表示を追加。業務情報の長期ナレッジ登録は引き続き未実装。"
+    },
+    {
+      "sequence": 391,
+      "source_list": "v6-interview-report",
+      "sha": "8873c8b1a9f34b97291411a2c8494b15f3a1766c",
+      "parent_shas": [
+        "e91dba802483d0000464f994f3c8a3d03cc77693"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-22T09:31:58Z",
+      "author_date_jst": "2026-10-22 18:31:58 +09:00",
+      "committer_date_utc": "2026-10-22T09:31:58Z",
+      "committer_date_jst": "2026-10-22 18:31:58 +09:00",
+      "original_subject": "test(v6): API e2e covers P1/P2 with captured model requests; small Japanese semantic eval",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): モデル送信内容を確認するAPI E2Eと少量の日本語意味評価を追加",
+      "version": "V6",
+      "development_status": "検証追加",
+      "verification_note": "情報保護の修正を確認するAPI試験と日本語の意味評価を追加。小規模な評価であり一般的な精度の保証とはしない。"
+    },
+    {
+      "sequence": 392,
+      "source_list": "v6-interview-report",
+      "sha": "d37201e07a4e7a18bcc8def609a2ccd89bfbfef0",
+      "parent_shas": [
+        "8873c8b1a9f34b97291411a2c8494b15f3a1766c"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-22T09:32:22Z",
+      "author_date_jst": "2026-10-22 18:32:22 +09:00",
+      "committer_date_utc": "2026-10-22T09:32:22Z",
+      "committer_date_jst": "2026-10-22 18:32:22 +09:00",
+      "original_subject": "docs(v6): phase 3 remediation handoff (P1/P2 fixed, API 91/91, browser acceptance pending)",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 第3段階の是正引継ぎを記録（P1/P2修正、API 91/91、ブラウザ受入確認は保留）",
+      "version": "V6",
+      "development_status": "歴史的検証・保留",
+      "verification_note": "この段階のAPI E2Eは91/91。ブラウザ受入確認は当時保留。その後の変更にこの数値をそのまま適用しない。"
+    },
+    {
+      "sequence": 393,
+      "source_list": "v6-interview-report",
+      "sha": "2f836ad73c87b0d459ceaa3495f7b10dadbabc6b",
+      "parent_shas": [
+        "d37201e07a4e7a18bcc8def609a2ccd89bfbfef0"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-22T12:59:49Z",
+      "author_date_jst": "2026-10-22 21:59:49 +09:00",
+      "committer_date_utc": "2026-10-22T12:59:49Z",
+      "committer_date_jst": "2026-10-22 21:59:49 +09:00",
+      "original_subject": "fix(v6): allow correcting 'not remembered' answers from the review chat",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): レビューチャットから「覚えていない」という回答を訂正できるよう修正",
+      "version": "V6",
+      "development_status": "修正",
+      "verification_note": "追問後の人による訂正を反映できるように修正。曖昧な回答を確定事実として扱わないための操作を改善。"
+    },
+    {
+      "sequence": 394,
+      "source_list": "v6-interview-report",
+      "sha": "d893bb208c7591abbcf70234dec8e41f86df77c6",
+      "parent_shas": [
+        "2f836ad73c87b0d459ceaa3495f7b10dadbabc6b"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-22T13:01:08Z",
+      "author_date_jst": "2026-10-22 22:01:08 +09:00",
+      "committer_date_utc": "2026-10-22T13:01:08Z",
+      "committer_date_jst": "2026-10-22 22:01:08 +09:00",
+      "original_subject": "docs(v6): browser acceptance and V4 voice regression results",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): ブラウザ受入確認とV4音声機能の回帰結果を記録",
+      "version": "V6",
+      "development_status": "歴史的検証",
+      "verification_note": "それまで保留だったブラウザ確認の実施結果と、既存V4音声機能への影響確認を記録。最終修正後の全件再検証完了を意味しない。"
+    },
+    {
+      "sequence": 395,
+      "source_list": "v6-interview-report",
+      "sha": "8c1c2e34fbcce5878dd334ea4269cfaa14d326c8",
+      "parent_shas": [
+        "d893bb208c7591abbcf70234dec8e41f86df77c6"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-22T13:19:58Z",
+      "author_date_jst": "2026-10-22 22:19:58 +09:00",
+      "committer_date_utc": "2026-10-22T13:19:58Z",
+      "committer_date_jst": "2026-10-22 22:19:58 +09:00",
+      "original_subject": "fix(v6): mark summary sources that were not given to external AI",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 外部AIに渡していない出典を総合報告で明示",
+      "version": "V6",
+      "development_status": "修正",
+      "verification_note": "AI分析に使用していない資料が分かるよう表示を修正。出典の有無とAIが実際に参照した範囲を区別。"
+    },
+    {
+      "sequence": 396,
+      "source_list": "v6-interview-report",
+      "sha": "efd071025ddd46f25b90b59268162f7b133bdc60",
+      "parent_shas": [
+        "8c1c2e34fbcce5878dd334ea4269cfaa14d326c8"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-22T13:31:46Z",
+      "author_date_jst": "2026-10-22 22:31:46 +09:00",
+      "committer_date_utc": "2026-10-22T13:31:46Z",
+      "committer_date_jst": "2026-10-22 22:31:46 +09:00",
+      "original_subject": "feat(v7): read-only cross-case interview history for proposal preparation",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v7): 提案準備向けに、案件をまたぐ面談履歴の読取専用参照を追加",
+      "version": "V6",
+      "development_status": "実装・V6範囲に収録",
+      "verification_note": "件名にはv7とあるが、Git上ではV6の収録範囲からV7へ継承されるコミット。重複計上せずV6の25件に含める。"
+    },
+    {
+      "sequence": 397,
+      "source_list": "v6-interview-report",
+      "sha": "8ae17fd22b2bed6a171e4870cfd7239478fde9c0",
+      "parent_shas": [
+        "efd071025ddd46f25b90b59268162f7b133bdc60"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-23T04:10:39Z",
+      "author_date_jst": "2026-10-23 13:10:39 +09:00",
+      "committer_date_utc": "2026-10-23T04:10:39Z",
+      "committer_date_jst": "2026-10-23 13:10:39 +09:00",
+      "original_subject": "fix(v6): independent QA P0/P1 remediation (summary sections, consent default, impressions, follow-up)",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 独立QAのP0/P1指摘を是正（総合報告区分、同意の初期値、所感、追問）",
+      "version": "V6",
+      "development_status": "独立QA後の修正",
+      "verification_note": "QAで見つかった業務表示・同意・対話の問題を修正。修正前に問題があった事実を保持。保護上の詳細条件は非公開。"
+    },
+    {
+      "sequence": 398,
+      "source_list": "v6-interview-report",
+      "sha": "66e57bff03ca1f0e3391e418e33cf0292a3e3316",
+      "parent_shas": [
+        "8ae17fd22b2bed6a171e4870cfd7239478fde9c0"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-23T04:23:40Z",
+      "author_date_jst": "2026-10-23 13:23:40 +09:00",
+      "committer_date_utc": "2026-10-23T04:23:40Z",
+      "committer_date_jst": "2026-10-23 13:23:40 +09:00",
+      "original_subject": "fix(v6): client material authorship so sales-written memos are not client evidence (QA P1-1)",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 客先資料の作成者区分を修正し、営業メモを顧客発言の根拠として扱わないよう是正（QA P1-1）",
+      "version": "V6",
+      "development_status": "修正",
+      "verification_note": "資料の作成者と情報の出典を区別するために修正。人の所感と顧客の発言を混同しない表示・処理を改善。"
+    },
+    {
+      "sequence": 399,
+      "source_list": "v6-interview-report",
+      "sha": "f52bc86fe6c9691f426bf34b786fa08e54116070",
+      "parent_shas": [
+        "66e57bff03ca1f0e3391e418e33cf0292a3e3316"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-23T04:24:27Z",
+      "author_date_jst": "2026-10-23 13:24:27 +09:00",
+      "committer_date_utc": "2026-10-23T04:24:27Z",
+      "committer_date_jst": "2026-10-23 13:24:27 +09:00",
+      "original_subject": "docs(v6): QA remediation results and V7 pause point in handoff",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): QA是正結果とV7の一時停止位置を引継ぎに記録",
+      "version": "V6",
+      "development_status": "状況記録",
+      "verification_note": "QA対応の結果とV7へ進む前の保留位置を記録。V7の完成を示すコミットではない。"
+    },
+    {
+      "sequence": 400,
+      "source_list": "v6-interview-report",
+      "sha": "04117763acc1b444f4f0465419199679a1cfdf86",
+      "parent_shas": [
+        "f52bc86fe6c9691f426bf34b786fa08e54116070"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-23T09:01:08Z",
+      "author_date_jst": "2026-10-23 18:01:08 +09:00",
+      "committer_date_utc": "2026-10-23T09:01:08Z",
+      "committer_date_jst": "2026-10-23 18:01:08 +09:00",
+      "original_subject": "fix(v6): ［面談操作の権限制御修正の詳細］",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 営業管理者による面談操作の権限制御を是正",
+      "version": "V6",
+      "development_status": "権限制御の修正",
+      "verification_note": "役割に応じた面談情報の操作範囲を是正。具体的な権限判定ロジックや問題の再現手順は非公開。"
+    },
+    {
+      "sequence": 401,
+      "source_list": "v6-interview-report",
+      "sha": "66f36232a856304096acf905fe444bf86212fd50",
+      "parent_shas": [
+        "04117763acc1b444f4f0465419199679a1cfdf86"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-23T09:01:08Z",
+      "author_date_jst": "2026-10-23 18:01:08 +09:00",
+      "committer_date_utc": "2026-10-23T09:01:08Z",
+      "committer_date_jst": "2026-10-23 18:01:08 +09:00",
+      "original_subject": "fix(v6): ［外部AI送信前のマスキング修正の詳細］ (QA P2-11, partial)",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 外部AI送信前の個人情報マスキングを修正（QA P2-11・部分対応）",
+      "version": "V6",
+      "development_status": "部分修正・課題継続",
+      "verification_note": "個人情報保護を部分的に改善。対応範囲には限界があり、匿名化が完全になったとは扱わない。検出条件・漏れの再現例は非公開。"
+    },
+    {
+      "sequence": 402,
+      "source_list": "v6-interview-report",
+      "sha": "49a927fe6a67bba3a0c583ecf718fe7c7745167e",
+      "parent_shas": [
+        "66f36232a856304096acf905fe444bf86212fd50"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-23T09:01:08Z",
+      "author_date_jst": "2026-10-23 18:01:08 +09:00",
+      "committer_date_utc": "2026-10-23T09:01:08Z",
+      "committer_date_jst": "2026-10-23 18:01:08 +09:00",
+      "original_subject": "docs(v6): handoff section 12 for manager permission fix and P2-11",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 管理者権限の修正とP2-11の引継ぎ第12節を記録",
+      "version": "V6",
+      "development_status": "状況記録",
+      "verification_note": "権限の是正と個人情報保護の部分対応、残課題を記録。内部の仕様・ルール本文は非公開。"
+    },
+    {
+      "sequence": 403,
+      "source_list": "v6-interview-report",
+      "sha": "7665195f0a4a30d59fdace0fe16074d8727dd55f",
+      "parent_shas": [
+        "49a927fe6a67bba3a0c583ecf718fe7c7745167e"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-23T14:34:26Z",
+      "author_date_jst": "2026-10-23 23:34:26 +09:00",
+      "committer_date_utc": "2026-10-23T14:34:26Z",
+      "committer_date_jst": "2026-10-23 23:34:26 +09:00",
+      "original_subject": "fix(v6): B round-2 QA remediation (radio P0, ［権限制御不具合の詳細］, stale copy, follow-up guards)",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 第2回独立QAの指摘を是正（単一選択、権限制御、古い表示のコピー、追問制御）",
+      "version": "V6",
+      "development_status": "独立QA後の修正",
+      "verification_note": "追加QAで見つかった画面操作・情報整合性・保護制御の問題を修正。具体的な保護条件や再現手順は掲載しない。"
+    },
+    {
+      "sequence": 404,
+      "source_list": "v6-interview-report",
+      "sha": "9034ea4a25f05cb0a92c35a872af9203370fb51a",
+      "parent_shas": [
+        "7665195f0a4a30d59fdace0fe16074d8727dd55f"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-23T14:35:29Z",
+      "author_date_jst": "2026-10-23 23:35:29 +09:00",
+      "committer_date_utc": "2026-10-23T14:35:29Z",
+      "committer_date_jst": "2026-10-23 23:35:29 +09:00",
+      "original_subject": "docs(v6): handoff section 13 for B round-2 remediation (code checkpoint 7665195)",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 第2回独立QA是正の引継ぎ第13節を記録（コード基準点7665195）",
+      "version": "V6",
+      "development_status": "状況記録",
+      "verification_note": "是正内容と再検証の基準点を記録。後続の独立再検証でさらに修正が見つかったことも保持。"
+    },
+    {
+      "sequence": 405,
+      "source_list": "v6-interview-report",
+      "sha": "02c16733b959cce484f1a0b785c7cccbabd56b4d",
+      "parent_shas": [
+        "9034ea4a25f05cb0a92c35a872af9203370fb51a"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-23T15:32:03Z",
+      "author_date_jst": "2026-10-24 00:32:03 +09:00",
+      "committer_date_utc": "2026-10-23T15:32:03Z",
+      "committer_date_jst": "2026-10-24 00:32:03 +09:00",
+      "original_subject": "fix(v6): summary AI payload sends masked ［内部識別子（追加01）］ for unmodified items",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 総合報告の外部AI送信時に使用する匿名化済みデータを修正",
+      "version": "V6",
+      "development_status": "修正",
+      "verification_note": "独立再検証で判明した個人情報保護の不具合を修正。問題の具体的な成立条件・内部項目名は非公開。"
+    },
+    {
+      "sequence": 406,
+      "source_list": "v6-interview-report",
+      "sha": "495ef1343b8e3425592d593041a65dc9dd9ab1b4",
+      "parent_shas": [
+        "02c16733b959cce484f1a0b785c7cccbabd56b4d"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-23T15:32:42Z",
+      "author_date_jst": "2026-10-24 00:32:42 +09:00",
+      "committer_date_utc": "2026-10-23T15:32:42Z",
+      "committer_date_jst": "2026-10-24 00:32:42 +09:00",
+      "original_subject": "docs(v6): handoff section 14 for B round-2 verification (code 02c1673)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 第2回独立QAの再検証結果を引継ぎ第14節に記録（コード02c1673）",
+      "version": "V6",
+      "development_status": "歴史的検証・未達あり",
+      "verification_note": "当時の記録：Java 1172件・失敗0・skip 1、Python 482 passed・skip 13、API E2E 124/124、追問E2E 11/11。意味評価105/111、追加QA 134/137→修正後136/137（残1は確認語彙の不一致）。意味評価等の未達を保持。最新e6824f5後の結果ではない。"
+    },
+    {
+      "sequence": 407,
+      "source_list": "v6-interview-report",
+      "sha": "e6824f5c2be653a54f2433547f1718371ac47e93",
+      "parent_shas": [
+        "495ef1343b8e3425592d593041a65dc9dd9ab1b4"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-24T00:07:09Z",
+      "author_date_jst": "2026-10-24 09:07:09 +09:00",
+      "committer_date_utc": "2026-10-24T00:07:09Z",
+      "committer_date_jst": "2026-10-24 09:07:09 +09:00",
+      "original_subject": "fix(v6): ［個人情報保護・同意制御修正の詳細］",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-interview-report",
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 個人情報保護と同意撤回時の応答制御を修正（詳細非公開）",
+      "version": "V6",
+      "development_status": "修正・独立再検証待ち",
+      "verification_note": "追加の情報保護・同意制御修正を記録。関連する自動テスト記録はあるが、この最終修正後の独立QA・ブラウザ・実モデルでの一連の再検証は未完了。"
+    },
+    {
+      "sequence": 408,
+      "source_list": "v7-agent-r",
+      "sha": "b24ba5460149b363e2316fe302abfd3aaf8529b3",
+      "parent_shas": [
+        "495ef1343b8e3425592d593041a65dc9dd9ab1b4"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-23T23:53:44Z",
+      "author_date_jst": "2026-10-24 08:53:44 +09:00",
+      "committer_date_utc": "2026-10-23T23:53:44Z",
+      "committer_date_jst": "2026-10-24 08:53:44 +09:00",
+      "original_subject": "feat(v7): Agent R R0 data contract and R1 core (normalizer, outbound filter, draft validator)",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v7): Agent Rのデータ仕様と中核処理（正規化・送信前確認・草案検証）を追加",
+      "version": "V7",
+      "development_status": "隔離実装・検証",
+      "verification_note": "異なる出典の業務情報を整理して草案へ渡す土台を実装。当時の中核テスト22/22。仕様本文、Skill、プロンプト、詳細ルールは公開しない。"
+    },
+    {
+      "sequence": 409,
+      "source_list": "v7-agent-r",
+      "sha": "0b1d60a337c7aa61098d535c7492231849eb1b7e",
+      "parent_shas": [
+        "b24ba5460149b363e2316fe302abfd3aaf8529b3"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-24T00:13:22Z",
+      "author_date_jst": "2026-10-24 09:13:22 +09:00",
+      "committer_date_utc": "2026-10-24T00:13:22Z",
+      "committer_date_jst": "2026-10-24 09:13:22 +09:00",
+      "original_subject": "feat(v7): ai-orchestrator Agent R preview route (stub by default, DEMO/TEST only, ［内部ルール識別子（追加04）］ budget ledger)",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v7): Agent Rのプレビュー入口を追加（既定はSTUB、DEMO/TEST限定、予算記録）",
+      "version": "V7",
+      "development_status": "STUB・DEMO/TEST限定",
+      "verification_note": "Python側のプレビュー入口を実装。既定動作はSTUB。実モデルの一連の評価や業務環境への統合が完了したとは扱わない。"
+    },
+    {
+      "sequence": 410,
+      "source_list": "v7-agent-r",
+      "sha": "86d457652bb596e4dacb0e9d9baf014d33c4b88c",
+      "parent_shas": [
+        "0b1d60a337c7aa61098d535c7492231849eb1b7e"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-24T04:52:36Z",
+      "author_date_jst": "2026-10-24 13:52:36 +09:00",
+      "committer_date_utc": "2026-10-24T04:52:36Z",
+      "committer_date_jst": "2026-10-24 13:52:36 +09:00",
+      "original_subject": "﻿feat(v7): Agent R R1-a Spring input assembly, cross-case authorization （［内部ルール識別子（追加02）］）, ［内部ルール識別子（追加03）］ rules, V4/V6 mapping and dedup",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v7): Spring側の入力組立、権限確認、V4/V6情報の対応付けと重複確認を追加",
+      "version": "V7",
+      "development_status": "隔離実装・接続は未完了",
+      "verification_note": "V4/V6情報の読取・正規化と権限確認を追加。当時の関連テスト37件、全量1210件・失敗0を記録。Springからプレビューまでの一連の接続は次段階。"
+    },
+    {
+      "sequence": 411,
+      "source_list": "v7-agent-r",
+      "sha": "544a2cf45c489145d8ae6fe714ae361f5977d05c",
+      "parent_shas": [
+        "86d457652bb596e4dacb0e9d9baf014d33c4b88c",
+        "e6824f5c2be653a54f2433547f1718371ac47e93"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-24T04:52:51Z",
+      "author_date_jst": "2026-10-24 13:52:51 +09:00",
+      "committer_date_utc": "2026-10-24T04:52:51Z",
+      "committer_date_jst": "2026-10-24 13:52:51 +09:00",
+      "original_subject": "merge(v6): bring privacy fix e6824f5 （［個人情報保護修正の詳細］） into v7-agent-r",
+      "coauthors": [],
+      "branches": [
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "merge(v6): V6の個人情報保護修正e6824f5をV7へ取り込み（詳細非公開）",
+      "version": "V7",
+      "development_status": "マージ・独立再検証待ち",
+      "verification_note": "V6の修正を2親のマージとして取り込み。関連テスト72/72の記録はあるが、最新修正の独立QA再検証は保留。mergeは機能完成とは区別。"
+    },
+    {
+      "sequence": 412,
+      "source_list": "v7-agent-r",
+      "sha": "a3ad1f6cc4a7ea642109f2832d451ff8011084c5",
+      "parent_shas": [
+        "544a2cf45c489145d8ae6fe714ae361f5977d05c"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-24T04:55:06Z",
+      "author_date_jst": "2026-10-24 13:55:06 +09:00",
+      "committer_date_utc": "2026-10-24T04:55:06Z",
+      "committer_date_jst": "2026-10-24 13:55:06 +09:00",
+      "original_subject": "docs(v7): HANDOFF for R1-b (hashes, modules, egress masking rule, V6 e6824f5 pending B re-verify)",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v7-agent-r"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v7): 次段階への引継ぎを記録（基準SHA・構成・送信前マスキング方針、V6 e6824f5の独立再検証は保留）",
+      "version": "V7",
+      "development_status": "引継ぎ・開発中",
+      "verification_note": "Spring側のプレビュー接続、実モデル評価、比較用の受入検証、草案の保存と人による確定は未完了。長期ナレッジへの書込みやGraph Engineering構想全体の完成を示さない。"
+    },
+    {
+      "sequence": 413,
+      "source_list": "v4-ai-business-assistant",
+      "sha": "4ab70bb83bce88c656fa1520fef5a9805af3845b",
+      "parent_shas": [
+        "dd2a81668135fc7a58e47e948448318cbbaccdd1"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-23T15:36:32Z",
+      "author_date_jst": "2026-10-24 00:36:32 +09:00",
+      "committer_date_utc": "2026-10-23T15:36:32Z",
+      "committer_date_jst": "2026-10-24 00:36:32 +09:00",
+      "original_subject": "fix(resume): re-check PII after manual project fact edits",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v4-ai-business-assistant"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(resume): プロジェクト事実の手動編集後に個人情報を再確認するよう修正",
+      "version": "V4追加保守",
+      "development_status": "V4追加保守",
+      "verification_note": "既存の履歴書機能に対する保護修正。V5の6件には混ぜず、V4追加保守の1件として独立収録。"
     }
-  ]
+  ],
+  "extension_note": "旧376件の各レコードは変更していない。新規レコードのみversion、development_status、verification_noteを追加。注記は当時の資料との照合であり件名・本文の翻訳と区別。業務テストは今回再実行していない。"
 }
