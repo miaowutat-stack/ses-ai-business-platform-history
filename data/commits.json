@@ -1,13 +1,13 @@
 {
   "format_version": 1,
-  "exported_on": "2026-10-27",
+  "exported_on": "2026-10-29",
   "repository": {
     "id": 1377397480,
     "full_name": "miaowutat-stack/ses-ai-business-platform",
     "visibility": "private"
   },
-  "record_count": 413,
-  "scope": "2026-10-21公開の376件を維持し、V5 6件、V6 25件、V7固有5件、V4追加保守1件を追加。9ブランチ・8タグの照合。",
+  "record_count": 497,
+  "scope": "旧413件を保持し、10/29照合のローカルGitから最新統合候補版・作業分岐の84件を追記。正式統合・開発元GitHubへの反映・本番配備の完了は示さない。",
   "field_selection": "件名と識別・日時のメタデータを抽出。詳細本文、差分、ソースファイル、メールアドレスは含まない。",
   "translation_note": "original_subject は機密箇所のみ伏字。japanese_translation はその件名の翻訳であり、元のGit記録を書き換えたものではない。",
   "records": [
@@ -9749,7 +9749,2756 @@
       "version": "V4追加保守",
       "development_status": "V4追加保守",
       "verification_note": "既存の履歴書機能に対する保護修正。V5の6件には混ぜず、V4追加保守の1件として独立収録。"
+    },
+    {
+      "sequence": 414,
+      "source_list": "v6-interview-report",
+      "sha": "5db36fe9b6479762e972d6ed5e653c0ad3cdfc58",
+      "parent_shas": [
+        "e6824f5c2be653a54f2433547f1718371ac47e93"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-24T05:16:29Z",
+      "author_date_jst": "2026-10-24 14:16:29 +09:00",
+      "committer_date_utc": "2026-10-24T05:24:58Z",
+      "committer_date_jst": "2026-10-24 14:24:58 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-interview-report"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 利用同意の撤回に伴う応答制御を修正（詳細非公開）",
+      "version": "V6",
+      "development_status": "ローカル開発分岐の記録（GitHub未反映）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-24T14:16:29+09:00",
+      "original_committer_date": "2026-10-24T14:24:58+09:00"
+    },
+    {
+      "sequence": 415,
+      "source_list": "v7-agent-r / v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "b96ef73268b58bcf8890e461306e8e0f78a01732",
+      "parent_shas": [
+        "a3ad1f6cc4a7ea642109f2832d451ff8011084c5"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-24T05:16:29Z",
+      "author_date_jst": "2026-10-24 14:16:29 +09:00",
+      "committer_date_utc": "2026-10-24T05:25:02Z",
+      "committer_date_jst": "2026-10-24 14:25:02 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v7-agent-r",
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 利用同意の撤回に伴う応答制御を修正（詳細非公開）",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-24T14:16:29+09:00",
+      "original_committer_date": "2026-10-24T14:25:02+09:00"
+    },
+    {
+      "sequence": 416,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "cfd42dfa956999a6e03d04ffaa5a9db7925ab210",
+      "parent_shas": [
+        "b96ef73268b58bcf8890e461306e8e0f78a01732"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-24T05:25:20Z",
+      "author_date_jst": "2026-10-24 14:25:20 +09:00",
+      "committer_date_utc": "2026-10-25T13:28:53Z",
+      "committer_date_jst": "2026-10-25 22:28:53 +09:00",
+      "original_subject": "feat(v7): skill recency and commercial-condition reminders (C R1-c)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v7): スキル経験の時期と取引条件の確認を支援する表示を追加",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は実装の追加。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-24T14:25:20+09:00",
+      "original_committer_date": "2026-10-25T22:28:53+09:00"
+    },
+    {
+      "sequence": 417,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "86055307aaf86dc43deb1239e49a60aa2789d8fa",
+      "parent_shas": [
+        "cfd42dfa956999a6e03d04ffaa5a9db7925ab210"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-25T13:14:31Z",
+      "author_date_jst": "2026-10-25 22:14:31 +09:00",
+      "committer_date_utc": "2026-10-25T13:31:12Z",
+      "committer_date_jst": "2026-10-25 22:31:12 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): AI草案の出典情報の保持を修正（詳細非公開）",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-25T22:14:31+09:00",
+      "original_committer_date": "2026-10-25T22:31:12+09:00"
+    },
+    {
+      "sequence": 418,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "955a2f6f35038805fe1198f80b905a043ab24b8e",
+      "parent_shas": [
+        "b2c51d8044770b2d9a8154ad98c5e847c2ecde0e"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-25T14:11:50Z",
+      "author_date_jst": "2026-10-25 23:11:50 +09:00",
+      "committer_date_utc": "2026-10-25T15:21:54Z",
+      "committer_date_jst": "2026-10-26 00:21:54 +09:00",
+      "original_subject": "test(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): V6の出典情報と面談履歴参照の回帰検証を追加",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-25T23:11:50+09:00",
+      "original_committer_date": "2026-10-26T00:21:54+09:00"
+    },
+    {
+      "sequence": 419,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "b2c51d8044770b2d9a8154ad98c5e847c2ecde0e",
+      "parent_shas": [
+        "95019c2eafbb1aafdf38054c615e903565ed2281"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-25T15:06:01Z",
+      "author_date_jst": "2026-10-26 00:06:01 +09:00",
+      "committer_date_utc": "2026-10-25T15:21:54Z",
+      "committer_date_jst": "2026-10-26 00:21:54 +09:00",
+      "original_subject": "feat(v7): add Agent R proposal preview panel with mock states",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v7): 提案草案のプレビューパネルと模擬状態の表示を追加",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は実装の追加。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-26T00:06:01+09:00",
+      "original_committer_date": "2026-10-26T00:21:54+09:00"
+    },
+    {
+      "sequence": 420,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "95019c2eafbb1aafdf38054c615e903565ed2281",
+      "parent_shas": [
+        "8ab70cc8ba25e25b63ab4c343e191f11df0963fb"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-25T14:46:32Z",
+      "author_date_jst": "2026-10-25 23:46:32 +09:00",
+      "committer_date_utc": "2026-10-25T15:21:54Z",
+      "committer_date_jst": "2026-10-26 00:21:54 +09:00",
+      "original_subject": "feat(v7): add public read-only matching preview input for Agent R",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v7): Agent R向けに読取専用のマッチングプレビュー入力を追加",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は実装の追加。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-25T23:46:32+09:00",
+      "original_committer_date": "2026-10-26T00:21:54+09:00"
+    },
+    {
+      "sequence": 421,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "8ab70cc8ba25e25b63ab4c343e191f11df0963fb",
+      "parent_shas": [
+        "32b412b2f15a6f65e6006a98833c45dbdae01f3d"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-25T14:52:24Z",
+      "author_date_jst": "2026-10-25 23:52:24 +09:00",
+      "committer_date_utc": "2026-10-25T15:21:54Z",
+      "committer_date_jst": "2026-10-26 00:21:54 +09:00",
+      "original_subject": "test(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): 個人情報マスキングのセッション分離を検証（詳細非公開）",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-25T23:52:24+09:00",
+      "original_committer_date": "2026-10-26T00:21:54+09:00"
+    },
+    {
+      "sequence": 422,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "32b412b2f15a6f65e6006a98833c45dbdae01f3d",
+      "parent_shas": [
+        "793a26dabe8770e96dcb42221ef0bfaffb18a8f2"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-25T14:47:28Z",
+      "author_date_jst": "2026-10-25 23:47:28 +09:00",
+      "committer_date_utc": "2026-10-25T15:21:54Z",
+      "committer_date_jst": "2026-10-26 00:21:54 +09:00",
+      "original_subject": "feat(v7): neutral PII masking port with a V6 interview adapter for Agent R",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v7): 個人情報マスキングの共通入口とV6面談情報との接続を追加",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は実装の追加。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-25T23:47:28+09:00",
+      "original_committer_date": "2026-10-26T00:21:54+09:00"
+    },
+    {
+      "sequence": 423,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "793a26dabe8770e96dcb42221ef0bfaffb18a8f2",
+      "parent_shas": [
+        "86055307aaf86dc43deb1239e49a60aa2789d8fa"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-25T14:48:06Z",
+      "author_date_jst": "2026-10-25 23:48:06 +09:00",
+      "committer_date_utc": "2026-10-25T15:21:54Z",
+      "committer_date_jst": "2026-10-26 00:21:54 +09:00",
+      "original_subject": "fix(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v7): DEMO・プレビューに関する保護制御を修正（詳細非公開）",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-25T23:48:06+09:00",
+      "original_committer_date": "2026-10-26T00:21:54+09:00"
+    },
+    {
+      "sequence": 424,
+      "source_list": "v6-interview-report",
+      "sha": "95c257aeb9782a0be37524268aa20157ded6b486",
+      "parent_shas": [
+        "5db36fe9b6479762e972d6ed5e653c0ad3cdfc58"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-25T13:14:31Z",
+      "author_date_jst": "2026-10-25 22:14:31 +09:00",
+      "committer_date_utc": "2026-10-25T15:22:38Z",
+      "committer_date_jst": "2026-10-26 00:22:38 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-interview-report"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): AI草案の出典情報の保持を修正（詳細非公開）",
+      "version": "V6",
+      "development_status": "ローカル開発分岐の記録（GitHub未反映）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-25T22:14:31+09:00",
+      "original_committer_date": "2026-10-26T00:22:38+09:00"
+    },
+    {
+      "sequence": 425,
+      "source_list": "v6-interview-report",
+      "sha": "fa214e542c5d93ab085c7441eba6c776f4b1998d",
+      "parent_shas": [
+        "95c257aeb9782a0be37524268aa20157ded6b486"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-25T15:27:17Z",
+      "author_date_jst": "2026-10-26 00:27:17 +09:00",
+      "committer_date_utc": "2026-10-25T15:27:17Z",
+      "committer_date_jst": "2026-10-26 00:27:17 +09:00",
+      "original_subject": "test(v6): port V6-scoped privacy regressions from G window",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-interview-report"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): V6向けの個人情報保護の回帰検証を取り込み",
+      "version": "V6",
+      "development_status": "ローカル開発分岐の記録（GitHub未反映）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-26T00:27:17+09:00",
+      "original_committer_date": "2026-10-26T00:27:17+09:00"
+    },
+    {
+      "sequence": 426,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "94f097047edff2d2f2b7442fdb4be4829fe0a101",
+      "parent_shas": [
+        "955a2f6f35038805fe1198f80b905a043ab24b8e"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-25T15:45:06Z",
+      "author_date_jst": "2026-10-26 00:45:06 +09:00",
+      "committer_date_utc": "2026-10-25T15:45:21Z",
+      "committer_date_jst": "2026-10-26 00:45:21 +09:00",
+      "original_subject": "feat(v7): wire Agent R preview end to end (R1-b)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v7): Agent Rプレビューの一連の接続を実装（R1-b）",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は実装の追加。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-26T00:45:06+09:00",
+      "original_committer_date": "2026-10-26T00:45:21+09:00"
+    },
+    {
+      "sequence": 427,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "855dc4265680f868765f6cac473a9dc8d2e2817c",
+      "parent_shas": [
+        "94f097047edff2d2f2b7442fdb4be4829fe0a101"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-25T16:50:44Z",
+      "author_date_jst": "2026-10-26 01:50:44 +09:00",
+      "committer_date_utc": "2026-10-26T03:18:44Z",
+      "committer_date_jst": "2026-10-26 12:18:44 +09:00",
+      "original_subject": "fix(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v7): 案件ごとの根拠確認と注意事項の表示を改善",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-26T01:50:44+09:00",
+      "original_committer_date": "2026-10-26T12:18:44+09:00"
+    },
+    {
+      "sequence": 428,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "7d2d4264028f17ec8a62584e6e2b34450e850b9f",
+      "parent_shas": [
+        "855dc4265680f868765f6cac473a9dc8d2e2817c"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-25T16:46:58Z",
+      "author_date_jst": "2026-10-26 01:46:58 +09:00",
+      "committer_date_utc": "2026-10-26T03:18:59Z",
+      "committer_date_jst": "2026-10-26 12:18:59 +09:00",
+      "original_subject": "fix(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v7): 稼働可能時期・経験時期・根拠の選択を改善",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-26T01:46:58+09:00",
+      "original_committer_date": "2026-10-26T12:18:59+09:00"
+    },
+    {
+      "sequence": 429,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "2cad750b94790bf9b7f11f55475da79f1d6c48fb",
+      "parent_shas": [
+        "7d2d4264028f17ec8a62584e6e2b34450e850b9f"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-26T02:55:01Z",
+      "author_date_jst": "2026-10-26 11:55:01 +09:00",
+      "committer_date_utc": "2026-10-26T03:19:10Z",
+      "committer_date_jst": "2026-10-26 12:19:10 +09:00",
+      "original_subject": "fix(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v7): アクセス・個人情報・DEMO・音声の保護制御を修正（詳細非公開）",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-26T11:55:01+09:00",
+      "original_committer_date": "2026-10-26T12:19:10+09:00"
+    },
+    {
+      "sequence": 430,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "ab7a5c09148570194b490e55d9df2354bad602c6",
+      "parent_shas": [
+        "2cad750b94790bf9b7f11f55475da79f1d6c48fb"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-25T16:59:12Z",
+      "author_date_jst": "2026-10-26 01:59:12 +09:00",
+      "committer_date_utc": "2026-10-26T03:19:27Z",
+      "committer_date_jst": "2026-10-26 12:19:27 +09:00",
+      "original_subject": "fix(v7): make the Agent R proposal draft usable for Japanese sales",
+      "coauthors": [],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v7): 日本語の営業業務で使いやすい提案草案へ改善",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-26T01:59:12+09:00",
+      "original_committer_date": "2026-10-26T12:19:27+09:00"
+    },
+    {
+      "sequence": 431,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "65e933851180df4636f0a52587e48bfcf4dc8f44",
+      "parent_shas": [
+        "ab7a5c09148570194b490e55d9df2354bad602c6"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-26T04:38:05Z",
+      "author_date_jst": "2026-10-26 13:38:05 +09:00",
+      "committer_date_utc": "2026-10-26T04:38:05Z",
+      "committer_date_jst": "2026-10-26 13:38:05 +09:00",
+      "original_subject": "feat(v7): integrate W1-W4 and complete W5 Agent R hardening",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v7): 各担当工程を統合し、対象段階のAgent R改善を完了",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "件名の「complete」は当該担当工程の改善をまとめた段階の記録。V7全体の完成・正式統合・本番配備を意味しない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-26T13:38:05+09:00",
+      "original_committer_date": "2026-10-26T13:38:05+09:00"
+    },
+    {
+      "sequence": 432,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "0f2cdddf3b37dea7f8f8259f5fdcc59e2996af81",
+      "parent_shas": [
+        "65e933851180df4636f0a52587e48bfcf4dc8f44"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T03:49:01Z",
+      "author_date_jst": "2026-10-28 12:49:01 +09:00",
+      "committer_date_utc": "2026-10-28T03:49:01Z",
+      "committer_date_jst": "2026-10-28 12:49:01 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 面談操作とAI生成の権限制御を修正（詳細非公開）",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T12:49:01+09:00",
+      "original_committer_date": "2026-10-28T12:49:01+09:00"
+    },
+    {
+      "sequence": 433,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "6cab8bdd055dd82690eb646aec06c4053d633bdf",
+      "parent_shas": [
+        "0f2cdddf3b37dea7f8f8259f5fdcc59e2996af81"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T03:45:50Z",
+      "author_date_jst": "2026-10-28 12:45:50 +09:00",
+      "committer_date_utc": "2026-10-28T04:20:29Z",
+      "committer_date_jst": "2026-10-28 13:20:29 +09:00",
+      "original_subject": "test(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): 利用同意の撤回に関するV6回帰検証を取り込み",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T12:45:50+09:00",
+      "original_committer_date": "2026-10-28T13:20:29+09:00"
+    },
+    {
+      "sequence": 434,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "c714513ebf32e1e7b565b904ef2e76b1231d2566",
+      "parent_shas": [
+        "1e4e029e52df6efc11fc2da8fd64ab1bf97c8a96"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T05:02:42Z",
+      "author_date_jst": "2026-10-28 14:02:42 +09:00",
+      "committer_date_utc": "2026-10-28T05:41:52Z",
+      "committer_date_jst": "2026-10-28 14:41:52 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 権限制御の受入確認におけるエラーとAI利用条件の説明を明確化",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は仕様・検証状況の記録。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T14:02:42+09:00",
+      "original_committer_date": "2026-10-28T14:41:52+09:00"
+    },
+    {
+      "sequence": 435,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "1e4e029e52df6efc11fc2da8fd64ab1bf97c8a96",
+      "parent_shas": [
+        "215bd2164172607823153951e89a209cbb35dd43"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T05:02:15Z",
+      "author_date_jst": "2026-10-28 14:02:15 +09:00",
+      "committer_date_utc": "2026-10-28T05:41:52Z",
+      "committer_date_jst": "2026-10-28 14:41:52 +09:00",
+      "original_subject": "test(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 権限制御の受入確認スクリプトのオフライン検査を強化",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T14:02:15+09:00",
+      "original_committer_date": "2026-10-28T14:41:52+09:00"
+    },
+    {
+      "sequence": 436,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "215bd2164172607823153951e89a209cbb35dd43",
+      "parent_shas": [
+        "32b9f4665945e338868162465166a4c614f758ee"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T04:32:37Z",
+      "author_date_jst": "2026-10-28 13:32:37 +09:00",
+      "committer_date_utc": "2026-10-28T05:41:52Z",
+      "committer_date_jst": "2026-10-28 14:41:52 +09:00",
+      "original_subject": "test(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 権限制御のAPI受入確認スクリプトを追加",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T13:32:37+09:00",
+      "original_committer_date": "2026-10-28T14:41:52+09:00"
+    },
+    {
+      "sequence": 437,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "32b9f4665945e338868162465166a4c614f758ee",
+      "parent_shas": [
+        "6cab8bdd055dd82690eb646aec06c4053d633bdf"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T04:54:03Z",
+      "author_date_jst": "2026-10-28 13:54:03 +09:00",
+      "committer_date_utc": "2026-10-28T05:41:52Z",
+      "committer_date_jst": "2026-10-28 14:41:52 +09:00",
+      "original_subject": "test(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): 権限制御に関する独立レビューの検査を追加（第2回）",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T13:54:03+09:00",
+      "original_committer_date": "2026-10-28T14:41:52+09:00"
+    },
+    {
+      "sequence": 438,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "ff4b205aadb51f419ee1c1c3bf3c53e19113904c",
+      "parent_shas": [
+        "c714513ebf32e1e7b565b904ef2e76b1231d2566"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T05:48:57Z",
+      "author_date_jst": "2026-10-28 14:48:57 +09:00",
+      "committer_date_utc": "2026-10-28T06:05:28Z",
+      "committer_date_jst": "2026-10-28 15:05:28 +09:00",
+      "original_subject": "fix(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v7): 共同作業者の承認・参加状態の整合性を修正（詳細非公開）",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T14:48:57+09:00",
+      "original_committer_date": "2026-10-28T15:05:28+09:00"
+    },
+    {
+      "sequence": 439,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "504126c10e6e142b9cf7b0b402a0a57c4aef45ba",
+      "parent_shas": [
+        "ff4b205aadb51f419ee1c1c3bf3c53e19113904c"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T06:15:03Z",
+      "author_date_jst": "2026-10-28 15:15:03 +09:00",
+      "committer_date_utc": "2026-10-28T08:05:00Z",
+      "committer_date_jst": "2026-10-28 17:05:00 +09:00",
+      "original_subject": "test(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): 参加状態と承認解除に関する独立セキュリティレビューを追加",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T15:15:03+09:00",
+      "original_committer_date": "2026-10-28T17:05:00+09:00"
+    },
+    {
+      "sequence": 440,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "4cb33172ef6095e8c12160d94e087d6e6fba707e",
+      "parent_shas": [
+        "084a749fcae22ac3f17c499d42565ebe295273d3"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T06:18:52Z",
+      "author_date_jst": "2026-10-28 15:18:52 +09:00",
+      "committer_date_utc": "2026-10-28T08:05:05Z",
+      "committer_date_jst": "2026-10-28 17:05:05 +09:00",
+      "original_subject": "test(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 受入確認スクリプトの計画・文字コード・結果分類を強化",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T15:18:52+09:00",
+      "original_committer_date": "2026-10-28T17:05:05+09:00"
+    },
+    {
+      "sequence": 441,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "084a749fcae22ac3f17c499d42565ebe295273d3",
+      "parent_shas": [
+        "504126c10e6e142b9cf7b0b402a0a57c4aef45ba"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T06:17:31Z",
+      "author_date_jst": "2026-10-28 15:17:31 +09:00",
+      "committer_date_utc": "2026-10-28T08:05:05Z",
+      "committer_date_jst": "2026-10-28 17:05:05 +09:00",
+      "original_subject": "test(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): 権限・監査記録・処理境界の回帰検証を追加",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T15:17:31+09:00",
+      "original_committer_date": "2026-10-28T17:05:05+09:00"
+    },
+    {
+      "sequence": 442,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "53066999be2765e9135381bb12830ab5a7aee28c",
+      "parent_shas": [
+        "4cb33172ef6095e8c12160d94e087d6e6fba707e"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T08:20:20Z",
+      "author_date_jst": "2026-10-28 17:20:20 +09:00",
+      "committer_date_utc": "2026-10-28T10:36:10Z",
+      "committer_date_jst": "2026-10-28 19:36:10 +09:00",
+      "original_subject": "fix(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v7): 承認状態と監査記録の制御を修正（詳細非公開）",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T17:20:20+09:00",
+      "original_committer_date": "2026-10-28T19:36:10+09:00"
+    },
+    {
+      "sequence": 443,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "f8061ef1f020bf68032aeadf4bfb4bec041613b9",
+      "parent_shas": [
+        "53066999be2765e9135381bb12830ab5a7aee28c"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T08:21:20Z",
+      "author_date_jst": "2026-10-28 17:21:20 +09:00",
+      "committer_date_utc": "2026-10-28T10:36:14Z",
+      "committer_date_jst": "2026-10-28 19:36:14 +09:00",
+      "original_subject": "test(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): 承認制御の修正後に検証コメントを訂正",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T17:21:20+09:00",
+      "original_committer_date": "2026-10-28T19:36:14+09:00"
+    },
+    {
+      "sequence": 444,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "c64e8ac96c397d1c1256a7700bdb9b34e839da37",
+      "parent_shas": [
+        "f8061ef1f020bf68032aeadf4bfb4bec041613b9"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T08:12:47Z",
+      "author_date_jst": "2026-10-28 17:12:47 +09:00",
+      "committer_date_utc": "2026-10-28T10:36:19Z",
+      "committer_date_jst": "2026-10-28 19:36:19 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 出典情報の有効性確認を修正（詳細非公開）",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T17:12:47+09:00",
+      "original_committer_date": "2026-10-28T19:36:19+09:00"
+    },
+    {
+      "sequence": 445,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "dc11c90e71488a036c899ec724717a622b9eb767",
+      "parent_shas": [
+        "c64e8ac96c397d1c1256a7700bdb9b34e839da37"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T08:17:07Z",
+      "author_date_jst": "2026-10-28 17:17:07 +09:00",
+      "committer_date_utc": "2026-10-28T10:36:23Z",
+      "committer_date_jst": "2026-10-28 19:36:23 +09:00",
+      "original_subject": "test(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 参加状態の変更に関する受入確認シナリオを追加",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T17:17:07+09:00",
+      "original_committer_date": "2026-10-28T19:36:23+09:00"
+    },
+    {
+      "sequence": 446,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "44ca617462e65bfd856179c684ef6df4408763a3",
+      "parent_shas": [
+        "dc11c90e71488a036c899ec724717a622b9eb767"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T10:49:12Z",
+      "author_date_jst": "2026-10-28 19:49:12 +09:00",
+      "committer_date_utc": "2026-10-28T10:49:12Z",
+      "committer_date_jst": "2026-10-28 19:49:12 +09:00",
+      "original_subject": "docs(v6v7): record the batch-05 security baseline and batch-06 verification",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6v7): 第5回の保護対策の基準点と第6回の検証を記録",
+      "version": "V6・V7共通",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は仕様・検証状況の記録。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T19:49:12+09:00",
+      "original_committer_date": "2026-10-28T19:49:12+09:00"
+    },
+    {
+      "sequence": 447,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "78d4c4d942296d3ab32c5f13b23b3eeccf6005f7",
+      "parent_shas": [
+        "44ca617462e65bfd856179c684ef6df4408763a3"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T10:58:55Z",
+      "author_date_jst": "2026-10-28 19:58:55 +09:00",
+      "committer_date_utc": "2026-10-28T10:58:55Z",
+      "committer_date_jst": "2026-10-28 19:58:55 +09:00",
+      "original_subject": "docs(v6): freeze batch-06 report organize/archive backend contract",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 第6回の報告書整理・保存に関するバックエンド仕様を確定",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は仕様・検証状況の記録。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T19:58:55+09:00",
+      "original_committer_date": "2026-10-28T19:58:55+09:00"
+    },
+    {
+      "sequence": 448,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "a19222cb5e15c496677bde5a66bfa92fd3e33777",
+      "parent_shas": [
+        "78d4c4d942296d3ab32c5f13b23b3eeccf6005f7"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T11:12:34Z",
+      "author_date_jst": "2026-10-28 20:12:34 +09:00",
+      "committer_date_utc": "2026-10-28T11:12:34Z",
+      "committer_date_jst": "2026-10-28 20:12:34 +09:00",
+      "original_subject": "feat(v6): organize a technician's own report into a readable, source-cited draft",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v6): 技術者本人の報告を根拠付きで読みやすい草案へ整理",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は実装の追加。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T20:12:34+09:00",
+      "original_committer_date": "2026-10-28T20:12:34+09:00"
+    },
+    {
+      "sequence": 449,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "b5afa923d7c4bb01240f3034501598635a38162c",
+      "parent_shas": [
+        "a19222cb5e15c496677bde5a66bfa92fd3e33777"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T11:12:45Z",
+      "author_date_jst": "2026-10-28 20:12:45 +09:00",
+      "committer_date_utc": "2026-10-28T11:12:45Z",
+      "committer_date_jst": "2026-10-28 20:12:45 +09:00",
+      "original_subject": "feat(v6): archive technician and sales reports with shared-read boundaries",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v6): 技術者・営業の報告を、共有範囲を区別して保存",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は実装の追加。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T20:12:45+09:00",
+      "original_committer_date": "2026-10-28T20:12:45+09:00"
+    },
+    {
+      "sequence": 450,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "b902b99ac7def39d388282b5a9c40451db0a3e6f",
+      "parent_shas": [
+        "b5afa923d7c4bb01240f3034501598635a38162c"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T11:13:53Z",
+      "author_date_jst": "2026-10-28 20:13:53 +09:00",
+      "committer_date_utc": "2026-10-28T11:13:53Z",
+      "committer_date_jst": "2026-10-28 20:13:53 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 報告書保存時の整合性確認を修正（詳細非公開）",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T20:13:53+09:00",
+      "original_committer_date": "2026-10-28T20:13:53+09:00"
+    },
+    {
+      "sequence": 451,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "61c82b57802d11dd0b43dfcaecdf07408f56e9ed",
+      "parent_shas": [
+        "b902b99ac7def39d388282b5a9c40451db0a3e6f"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T11:20:17Z",
+      "author_date_jst": "2026-10-28 20:20:17 +09:00",
+      "committer_date_utc": "2026-10-28T11:20:17Z",
+      "committer_date_jst": "2026-10-28 20:20:17 +09:00",
+      "original_subject": "fix(v6): do not regenerate the readable report for a no-text MODIFY",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 本文を変えない修正時に、読みやすい報告を再生成しないよう改善",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T20:20:17+09:00",
+      "original_committer_date": "2026-10-28T20:20:17+09:00"
+    },
+    {
+      "sequence": 452,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "9822848c431ea81393ebc8567bf9cc9d7fc849f4",
+      "parent_shas": [
+        "61c82b57802d11dd0b43dfcaecdf07408f56e9ed"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T11:17:13Z",
+      "author_date_jst": "2026-10-28 20:17:13 +09:00",
+      "committer_date_utc": "2026-10-28T11:48:19Z",
+      "committer_date_jst": "2026-10-28 20:48:19 +09:00",
+      "original_subject": "feat(v6): add report organize/archive web flow and offline acceptance",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v6): 報告書の整理・保存画面とオフライン受入確認を追加",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は実装の追加。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T20:17:13+09:00",
+      "original_committer_date": "2026-10-28T20:48:19+09:00"
+    },
+    {
+      "sequence": 453,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "77b85a3b581af579e6a540ebb33025c397e4f044",
+      "parent_shas": [
+        "9822848c431ea81393ebc8567bf9cc9d7fc849f4"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T10:49:58Z",
+      "author_date_jst": "2026-10-28 19:49:58 +09:00",
+      "committer_date_utc": "2026-10-28T11:48:23Z",
+      "committer_date_jst": "2026-10-28 20:48:23 +09:00",
+      "original_subject": "test(v6v7): independently review batch 05 security fixes",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6v7): 第5回のセキュリティ修正を独立レビュー",
+      "version": "V6・V7共通",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T19:49:58+09:00",
+      "original_committer_date": "2026-10-28T20:48:23+09:00"
+    },
+    {
+      "sequence": 454,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "9a40e9467764f82bcd36e1b870e7af9449ac4653",
+      "parent_shas": [
+        "77b85a3b581af579e6a540ebb33025c397e4f044"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T11:59:36Z",
+      "author_date_jst": "2026-10-28 20:59:36 +09:00",
+      "committer_date_utc": "2026-10-28T11:59:36Z",
+      "committer_date_jst": "2026-10-28 20:59:36 +09:00",
+      "original_subject": "test(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 出典情報の独立レビューを更新後の検証基準に合わせて修正",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T20:59:36+09:00",
+      "original_committer_date": "2026-10-28T20:59:36+09:00"
+    },
+    {
+      "sequence": 455,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-e-isolation-fixes-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "2589222b1594bd6847e0dc6e081dc3e26d87fb64",
+      "parent_shas": [
+        "9a40e9467764f82bcd36e1b870e7af9449ac4653"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T12:00:36Z",
+      "author_date_jst": "2026-10-28 21:00:36 +09:00",
+      "committer_date_utc": "2026-10-28T12:00:36Z",
+      "committer_date_jst": "2026-10-28 21:00:36 +09:00",
+      "original_subject": "docs(v6v7): record the batch-06 unified candidate and batch-07 verification",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-e-isolation-fixes-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6v7): 第6回の統合候補版と第7回の検証を記録",
+      "version": "V6・V7共通",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は仕様・検証状況の記録。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T21:00:36+09:00",
+      "original_committer_date": "2026-10-28T21:00:36+09:00"
+    },
+    {
+      "sequence": 456,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "bcdd3cc13f1304f404152df4ca9a9541c80485db",
+      "parent_shas": [
+        "2589222b1594bd6847e0dc6e081dc3e26d87fb64"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T12:01:46Z",
+      "author_date_jst": "2026-10-28 21:01:46 +09:00",
+      "committer_date_utc": "2026-10-28T12:36:24Z",
+      "committer_date_jst": "2026-10-28 21:36:24 +09:00",
+      "original_subject": "@",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "（原文の件名：@）",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名は「@」のまま保持。非公開本文は共同作業者の承認状態の整合性修正を記録しているが、具体的な成立条件・内部項目・本文は公開しない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T21:01:46+09:00",
+      "original_committer_date": "2026-10-28T21:36:24+09:00"
+    },
+    {
+      "sequence": 457,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "c15a8a3ae98e89b80a97a5496a8d913782d0881d",
+      "parent_shas": [
+        "bcdd3cc13f1304f404152df4ca9a9541c80485db"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T12:02:36Z",
+      "author_date_jst": "2026-10-28 21:02:36 +09:00",
+      "committer_date_utc": "2026-10-28T12:36:29Z",
+      "committer_date_jst": "2026-10-28 21:36:29 +09:00",
+      "original_subject": "test(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): 承認処理と既存データの互換性に関する回帰検証を追加",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T21:02:36+09:00",
+      "original_committer_date": "2026-10-28T21:36:29+09:00"
+    },
+    {
+      "sequence": 458,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "948fc7275567bcffb200ec77d4b2820c0ca0a924",
+      "parent_shas": [
+        "c15a8a3ae98e89b80a97a5496a8d913782d0881d"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T12:05:19Z",
+      "author_date_jst": "2026-10-28 21:05:19 +09:00",
+      "committer_date_utc": "2026-10-28T12:36:34Z",
+      "committer_date_jst": "2026-10-28 21:36:34 +09:00",
+      "original_subject": "test(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): 承認不成立時の状態変更に関する回帰検証を追加",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T21:05:19+09:00",
+      "original_committer_date": "2026-10-28T21:36:34+09:00"
+    },
+    {
+      "sequence": 459,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "6ca2f9ecb2545a04f5ddecbb7b914209de689e11",
+      "parent_shas": [
+        "948fc7275567bcffb200ec77d4b2820c0ca0a924"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T12:04:00Z",
+      "author_date_jst": "2026-10-28 21:04:00 +09:00",
+      "committer_date_utc": "2026-10-28T12:36:39Z",
+      "committer_date_jst": "2026-10-28 21:36:39 +09:00",
+      "original_subject": "test(v6): reproduce batch-06 report backend gaps in a window-local regression",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 第6回で判明した報告書処理の問題を独立した回帰検証で再現",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T21:04:00+09:00",
+      "original_committer_date": "2026-10-28T21:36:39+09:00"
+    },
+    {
+      "sequence": 460,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "5794885d49882fa32324b9461c2a6bff1841042d",
+      "parent_shas": [
+        "6ca2f9ecb2545a04f5ddecbb7b914209de689e11"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T12:04:08Z",
+      "author_date_jst": "2026-10-28 21:04:08 +09:00",
+      "committer_date_utc": "2026-10-28T12:36:45Z",
+      "committer_date_jst": "2026-10-28 21:36:45 +09:00",
+      "original_subject": "fix(v6): keep technician reflections and readable drafts inside their boundaries",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 技術者の振り返りと整理済み草案の参照範囲を修正",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T21:04:08+09:00",
+      "original_committer_date": "2026-10-28T21:36:45+09:00"
+    },
+    {
+      "sequence": 461,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "50c8e70133f75d39b31246fa2d5379afe9942bb0",
+      "parent_shas": [
+        "5794885d49882fa32324b9461c2a6bff1841042d"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T12:04:17Z",
+      "author_date_jst": "2026-10-28 21:04:17 +09:00",
+      "committer_date_utc": "2026-10-28T12:37:45Z",
+      "committer_date_jst": "2026-10-28 21:37:45 +09:00",
+      "original_subject": "docs(v6): record the batch-07 report backend hardening and compatibility notes",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 第7回の報告書処理の強化と互換性の注意事項を記録",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は仕様・検証状況の記録。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T21:04:17+09:00",
+      "original_committer_date": "2026-10-28T21:37:45+09:00"
+    },
+    {
+      "sequence": 462,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "f53242b27d573e77cdc182763bddf2c6fa73e10b",
+      "parent_shas": [
+        "50c8e70133f75d39b31246fa2d5379afe9942bb0"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T12:12:11Z",
+      "author_date_jst": "2026-10-28 21:12:11 +09:00",
+      "committer_date_utc": "2026-10-28T12:37:51Z",
+      "committer_date_jst": "2026-10-28 21:37:51 +09:00",
+      "original_subject": "fix(v6): close report review and archive gaps against backend 61c82b5",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): バックエンド基準点61c82b5に合わせてレビュー・保存画面の不足を修正",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T21:12:11+09:00",
+      "original_committer_date": "2026-10-28T21:37:51+09:00"
+    },
+    {
+      "sequence": 463,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "14ff63706d362d80238b9cff498124cfc043ff64",
+      "parent_shas": [
+        "f53242b27d573e77cdc182763bddf2c6fa73e10b"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T12:12:16Z",
+      "author_date_jst": "2026-10-28 21:12:16 +09:00",
+      "committer_date_utc": "2026-10-28T12:37:59Z",
+      "committer_date_jst": "2026-10-28 21:37:59 +09:00",
+      "original_subject": "test(v6): harden report archive acceptance against the final backend",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 更新後のバックエンドに合わせて報告書保存の受入確認を強化",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T21:12:16+09:00",
+      "original_committer_date": "2026-10-28T21:37:59+09:00"
+    },
+    {
+      "sequence": 464,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "852576adcda484d133d2504ac19a1b1875ee83be",
+      "parent_shas": [
+        "14ff63706d362d80238b9cff498124cfc043ff64"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T12:51:48Z",
+      "author_date_jst": "2026-10-28 21:51:48 +09:00",
+      "committer_date_utc": "2026-10-28T12:51:48Z",
+      "committer_date_jst": "2026-10-28 21:51:48 +09:00",
+      "original_subject": "test(v6v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6v7): 第6回の承認制御レビューを更新後の参加状態の扱いに合わせて修正",
+      "version": "V6・V7共通",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T21:51:48+09:00",
+      "original_committer_date": "2026-10-28T21:51:48+09:00"
+    },
+    {
+      "sequence": 465,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "55ea81d8ce3492fbd5956fbc6d3d75023faf849f",
+      "parent_shas": [
+        "852576adcda484d133d2504ac19a1b1875ee83be"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T12:54:06Z",
+      "author_date_jst": "2026-10-28 21:54:06 +09:00",
+      "committer_date_utc": "2026-10-28T12:54:06Z",
+      "committer_date_jst": "2026-10-28 21:54:06 +09:00",
+      "original_subject": "docs(v6v7): record the batch-08 unified candidate and its fixed point",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6v7): 第8回の統合候補版と基準点を記録",
+      "version": "V6・V7共通",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は仕様・検証状況の記録。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T21:54:06+09:00",
+      "original_committer_date": "2026-10-28T21:54:06+09:00"
+    },
+    {
+      "sequence": 466,
+      "source_list": "v6v7-b10-e-isolation-fixes-20261029",
+      "sha": "11c90d97844f0129d54f33c18ec84445e7d337fc",
+      "parent_shas": [
+        "2589222b1594bd6847e0dc6e081dc3e26d87fb64"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T13:13:39Z",
+      "author_date_jst": "2026-10-28 22:13:39 +09:00",
+      "committer_date_utc": "2026-10-28T13:13:39Z",
+      "committer_date_jst": "2026-10-28 22:13:39 +09:00",
+      "original_subject": "docs(v6): prepare the batch-08 isolation DB/API acceptance package",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b10-e-isolation-fixes-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 第8回の隔離DB・API受入確認用パッケージを準備",
+      "version": "V6",
+      "development_status": "作業・検証分岐の記録（候補版への取込未確認）",
+      "verification_note": "隔離検証の準備・構成確認・候補版の記録。最新の構成一覧は未統合・未配備で環境受入がブロック中と記載。オフライン確認と実環境での受入を区別する。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T22:13:39+09:00",
+      "original_committer_date": "2026-10-28T22:13:39+09:00"
+    },
+    {
+      "sequence": 467,
+      "source_list": "v6v7-b10-e-isolation-fixes-20261029",
+      "sha": "22d70f77d32d998b63d2a66b81a0dcc32dee0da5",
+      "parent_shas": [
+        "11c90d97844f0129d54f33c18ec84445e7d337fc"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T13:18:09Z",
+      "author_date_jst": "2026-10-28 22:18:09 +09:00",
+      "committer_date_utc": "2026-10-28T13:18:09Z",
+      "committer_date_jst": "2026-10-28 22:18:09 +09:00",
+      "original_subject": "docs(v6): bind the batch-08 A candidate 55ea81d in the isolation package",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b10-e-isolation-fixes-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 隔離検証用パッケージを第8回の候補版55ea81dに対応付け",
+      "version": "V6",
+      "development_status": "作業・検証分岐の記録（候補版への取込未確認）",
+      "verification_note": "隔離検証の準備・構成確認・候補版の記録。最新の構成一覧は未統合・未配備で環境受入がブロック中と記載。オフライン確認と実環境での受入を区別する。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T22:18:09+09:00",
+      "original_committer_date": "2026-10-28T22:18:09+09:00"
+    },
+    {
+      "sequence": 468,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "e65f0d51cf4220a9cc4f587f3b573873d2958930",
+      "parent_shas": [
+        "55ea81d8ce3492fbd5956fbc6d3d75023faf849f"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T12:48:51Z",
+      "author_date_jst": "2026-10-28 21:48:51 +09:00",
+      "committer_date_utc": "2026-10-28T13:42:09Z",
+      "committer_date_jst": "2026-10-28 22:42:09 +09:00",
+      "original_subject": "test(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): 承認と参加状態の対応に関する独立レビューを追加",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T21:48:51+09:00",
+      "original_committer_date": "2026-10-28T22:42:09+09:00"
+    },
+    {
+      "sequence": 469,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "14343a320a5ea9f8e6f98dd672b632b37e4b9014",
+      "parent_shas": [
+        "b9a813757b587b5081fdae03ed1fb2c8b4295a05"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T13:07:59Z",
+      "author_date_jst": "2026-10-28 22:07:59 +09:00",
+      "committer_date_utc": "2026-10-28T13:42:10Z",
+      "committer_date_jst": "2026-10-28 22:42:10 +09:00",
+      "original_subject": "test(v6): require batch-07 hardening and offline network isolation",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 第7回の改善とオフラインでのネットワーク分離を検証",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T22:07:59+09:00",
+      "original_committer_date": "2026-10-28T22:42:10+09:00"
+    },
+    {
+      "sequence": 470,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "b9a813757b587b5081fdae03ed1fb2c8b4295a05",
+      "parent_shas": [
+        "49fc2d826d55306bfe0987b196f60ffe598c2b0f"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T13:07:50Z",
+      "author_date_jst": "2026-10-28 22:07:50 +09:00",
+      "committer_date_utc": "2026-10-28T13:42:10Z",
+      "committer_date_jst": "2026-10-28 22:42:10 +09:00",
+      "original_subject": "fix(v6): keep read-only archive access and discard stale interview responses",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 保存済み報告の読取専用参照と古い応答の扱いを修正",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T22:07:50+09:00",
+      "original_committer_date": "2026-10-28T22:42:10+09:00"
+    },
+    {
+      "sequence": 471,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "49fc2d826d55306bfe0987b196f60ffe598c2b0f",
+      "parent_shas": [
+        "e65f0d51cf4220a9cc4f587f3b573873d2958930"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T12:56:07Z",
+      "author_date_jst": "2026-10-28 21:56:07 +09:00",
+      "committer_date_utc": "2026-10-28T13:42:10Z",
+      "committer_date_jst": "2026-10-28 22:42:10 +09:00",
+      "original_subject": "test(v6): add batch-08 independent review cases for report backend and archive",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 報告書処理と保存に関する第8回の独立レビュー項目を追加",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T21:56:07+09:00",
+      "original_committer_date": "2026-10-28T22:42:10+09:00"
+    },
+    {
+      "sequence": 472,
+      "source_list": "v6v7-b10-e-isolation-fixes-20261029",
+      "sha": "923aaed1e821c62c8632ccdaf85a080b3330c370",
+      "parent_shas": [
+        "22d70f77d32d998b63d2a66b81a0dcc32dee0da5"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T14:14:17Z",
+      "author_date_jst": "2026-10-28 23:14:17 +09:00",
+      "committer_date_utc": "2026-10-28T14:14:17Z",
+      "committer_date_jst": "2026-10-28 23:14:17 +09:00",
+      "original_subject": "docs(v6): harden the batch-08 isolation package and add model-off acceptance",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b10-e-isolation-fixes-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 第8回の隔離検証用パッケージを強化し、モデルを呼ばない受入確認を追加",
+      "version": "V6",
+      "development_status": "作業・検証分岐の記録（候補版への取込未確認）",
+      "verification_note": "隔離検証の準備・構成確認・候補版の記録。最新の構成一覧は未統合・未配備で環境受入がブロック中と記載。オフライン確認と実環境での受入を区別する。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T23:14:17+09:00",
+      "original_committer_date": "2026-10-28T23:14:17+09:00"
+    },
+    {
+      "sequence": 473,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "6d4f0345596fbc4f60d912611c2ab4cd1bd991dd",
+      "parent_shas": [
+        "14343a320a5ea9f8e6f98dd672b632b37e4b9014"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T02:42:19Z",
+      "author_date_jst": "2026-10-29 11:42:19 +09:00",
+      "committer_date_utc": "2026-10-29T02:42:19Z",
+      "committer_date_jst": "2026-10-29 11:42:19 +09:00",
+      "original_subject": "fix(v6): freeze reviewed suggestions into the sales archive and version it on re-review",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 確認済み提案を営業側の保存内容に反映し、再レビュー時に版管理",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-29T11:42:19+09:00",
+      "original_committer_date": "2026-10-29T11:42:19+09:00"
+    },
+    {
+      "sequence": 474,
+      "source_list": "v6-b10-b-archive-review-20261029 / v6-b10-c-source-review-20261029 / v6-b10-d-archive-flow-20261029 / v6v7-b10-a-integration-20261029 / v6v7-b10-g-capability-audit-20261029 / v7-b10-f-business-evidence-20261029",
+      "sha": "a97e3b6f61e63db29b50d4859512b60bf9cf02cb",
+      "parent_shas": [
+        "6d4f0345596fbc4f60d912611c2ab4cd1bd991dd"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T02:48:03Z",
+      "author_date_jst": "2026-10-29 11:48:03 +09:00",
+      "committer_date_utc": "2026-10-29T02:48:03Z",
+      "committer_date_jst": "2026-10-29 11:48:03 +09:00",
+      "original_subject": "docs(v6): point HANDOFF section 19 at the exact batch-09 A report file",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029",
+        "v6-b10-c-source-review-20261029",
+        "v6-b10-d-archive-flow-20261029",
+        "v6v7-b10-a-integration-20261029",
+        "v6v7-b10-g-capability-audit-20261029",
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 引継ぎ第19節の参照先を第9回の正確な報告書へ修正",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は仕様・検証状況の記録。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-29T11:48:03+09:00",
+      "original_committer_date": "2026-10-29T11:48:03+09:00"
+    },
+    {
+      "sequence": 475,
+      "source_list": "v6-b10-b-archive-review-20261029",
+      "sha": "f6d4dbee3cc20698de333869d09405ce741b7c28",
+      "parent_shas": [
+        "a97e3b6f61e63db29b50d4859512b60bf9cf02cb"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T13:50:38Z",
+      "author_date_jst": "2026-10-28 22:50:38 +09:00",
+      "committer_date_utc": "2026-10-29T04:04:26Z",
+      "committer_date_jst": "2026-10-29 13:04:26 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 出典参照時の重複確認と処理量の制御を改善（詳細非公開）",
+      "version": "V6",
+      "development_status": "作業・検証分岐の記録（候補版への取込未確認）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T22:50:38+09:00",
+      "original_committer_date": "2026-10-29T13:04:26+09:00"
+    },
+    {
+      "sequence": 476,
+      "source_list": "v6-b10-c-source-review-20261029",
+      "sha": "ce71776a930e16fbb6b06af0e0209dcdc73cd983",
+      "parent_shas": [
+        "a97e3b6f61e63db29b50d4859512b60bf9cf02cb"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T13:50:38Z",
+      "author_date_jst": "2026-10-28 22:50:38 +09:00",
+      "committer_date_utc": "2026-10-29T04:05:07Z",
+      "committer_date_jst": "2026-10-29 13:05:07 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-c-source-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 出典参照時の重複確認と処理量の制御を改善（詳細非公開）",
+      "version": "V6",
+      "development_status": "作業・検証分岐の記録（候補版への取込未確認）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T22:50:38+09:00",
+      "original_committer_date": "2026-10-29T13:05:07+09:00"
+    },
+    {
+      "sequence": 477,
+      "source_list": "v7-b10-f-business-evidence-20261029",
+      "sha": "53b51157873290bec342a9c4a12222e48151b78b",
+      "parent_shas": [
+        "a97e3b6f61e63db29b50d4859512b60bf9cf02cb"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T13:50:38Z",
+      "author_date_jst": "2026-10-28 22:50:38 +09:00",
+      "committer_date_utc": "2026-10-29T04:05:27Z",
+      "committer_date_jst": "2026-10-29 13:05:27 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 出典参照時の重複確認と処理量の制御を改善（詳細非公開）",
+      "version": "V6",
+      "development_status": "作業・検証分岐の記録（候補版への取込未確認）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T22:50:38+09:00",
+      "original_committer_date": "2026-10-29T13:05:27+09:00"
+    },
+    {
+      "sequence": 478,
+      "source_list": "v6v7-b10-a-integration-20261029",
+      "sha": "3a3e3add6c1b0f7911de8eac0a7480ca25fd920c",
+      "parent_shas": [
+        "7fa4397f55292b0883fc797ce9ca1d1605920c65"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T13:50:38Z",
+      "author_date_jst": "2026-10-28 22:50:38 +09:00",
+      "committer_date_utc": "2026-10-29T04:05:33Z",
+      "committer_date_jst": "2026-10-29 13:05:33 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b10-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 出典参照時の重複確認と処理量の制御を改善（詳細非公開）",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T22:50:38+09:00",
+      "original_committer_date": "2026-10-29T13:05:33+09:00"
+    },
+    {
+      "sequence": 479,
+      "source_list": "v6v7-b10-a-integration-20261029",
+      "sha": "7fa4397f55292b0883fc797ce9ca1d1605920c65",
+      "parent_shas": [
+        "dc51ff36eac195c4269eaf7fee64b08aa2740832"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T13:55:02Z",
+      "author_date_jst": "2026-10-28 22:55:02 +09:00",
+      "committer_date_utc": "2026-10-29T04:05:33Z",
+      "committer_date_jst": "2026-10-29 13:05:33 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b10-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 承認関連の配備条件とインターフェースの互換性を記録",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は仕様・検証状況の記録。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T22:55:02+09:00",
+      "original_committer_date": "2026-10-29T13:05:33+09:00"
+    },
+    {
+      "sequence": 480,
+      "source_list": "v6v7-b10-a-integration-20261029",
+      "sha": "dc51ff36eac195c4269eaf7fee64b08aa2740832",
+      "parent_shas": [
+        "a97e3b6f61e63db29b50d4859512b60bf9cf02cb"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T13:54:53Z",
+      "author_date_jst": "2026-10-28 22:54:53 +09:00",
+      "committer_date_utc": "2026-10-29T04:05:33Z",
+      "committer_date_jst": "2026-10-29 13:05:33 +09:00",
+      "original_subject": "test(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b10-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): 承認検証用データを現在の参加状態の仕様に合わせて修正",
+      "version": "V7",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T22:54:53+09:00",
+      "original_committer_date": "2026-10-29T13:05:33+09:00"
+    },
+    {
+      "sequence": 481,
+      "source_list": "v6v7-b10-a-integration-20261029",
+      "sha": "59f21e25c736a691fd5edc62555e50a204943243",
+      "parent_shas": [
+        "ec194adc108462d03c7958bf29c50b802400b886"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T14:05:50Z",
+      "author_date_jst": "2026-10-28 23:05:50 +09:00",
+      "committer_date_utc": "2026-10-29T04:05:39Z",
+      "committer_date_jst": "2026-10-29 13:05:39 +09:00",
+      "original_subject": "test(v6): mount real Vue components for report, review and shared-reading flows",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b10-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 実際のVue部品を使い、報告・レビュー・共有閲覧の画面操作を検証",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T23:05:50+09:00",
+      "original_committer_date": "2026-10-29T13:05:39+09:00"
+    },
+    {
+      "sequence": 482,
+      "source_list": "v6v7-b10-a-integration-20261029",
+      "sha": "ec194adc108462d03c7958bf29c50b802400b886",
+      "parent_shas": [
+        "3a3e3add6c1b0f7911de8eac0a7480ca25fd920c"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T14:05:43Z",
+      "author_date_jst": "2026-10-28 23:05:43 +09:00",
+      "committer_date_utc": "2026-10-29T04:05:39Z",
+      "committer_date_jst": "2026-10-29 13:05:39 +09:00",
+      "original_subject": "fix(v6): stop duplicate review dialogs and stale review results",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b10-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): レビューダイアログの重複と古い結果の表示を修正",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T23:05:43+09:00",
+      "original_committer_date": "2026-10-29T13:05:39+09:00"
+    },
+    {
+      "sequence": 483,
+      "source_list": "v6v7-b10-a-integration-20261029",
+      "sha": "8889dbd9a75bd153de3bab96f68456c565d70692",
+      "parent_shas": [
+        "59f21e25c736a691fd5edc62555e50a204943243"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T03:07:03Z",
+      "author_date_jst": "2026-10-29 12:07:03 +09:00",
+      "committer_date_utc": "2026-10-29T04:05:40Z",
+      "committer_date_jst": "2026-10-29 13:05:40 +09:00",
+      "original_subject": "style(v6): apply prettier formatting to shared-reports spec",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b10-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "style(v6): 共有報告の検証コードにPrettierの整形を適用",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は書式の整理。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-29T12:07:03+09:00",
+      "original_committer_date": "2026-10-29T13:05:40+09:00"
+    },
+    {
+      "sequence": 484,
+      "source_list": "v6v7-b10-a-integration-20261029",
+      "sha": "c784f9423a87c109048778f79ef289c95879110c",
+      "parent_shas": [
+        "e27eb139fbdbb476ef0b01f3aa71f7efa109f4a4"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T14:14:17Z",
+      "author_date_jst": "2026-10-28 23:14:17 +09:00",
+      "committer_date_utc": "2026-10-29T04:05:46Z",
+      "committer_date_jst": "2026-10-29 13:05:46 +09:00",
+      "original_subject": "docs(v6): harden the batch-08 isolation package and add model-off acceptance",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b10-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 第8回の隔離検証用パッケージを強化し、モデルを呼ばない受入確認を追加",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "隔離検証の準備・構成確認・候補版の記録。最新の構成一覧は未統合・未配備で環境受入がブロック中と記載。オフライン確認と実環境での受入を区別する。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T23:14:17+09:00",
+      "original_committer_date": "2026-10-29T13:05:46+09:00"
+    },
+    {
+      "sequence": 485,
+      "source_list": "v6v7-b10-a-integration-20261029",
+      "sha": "e27eb139fbdbb476ef0b01f3aa71f7efa109f4a4",
+      "parent_shas": [
+        "7d726723ccffe7755e6d683988702a300756f0d0"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T13:18:09Z",
+      "author_date_jst": "2026-10-28 22:18:09 +09:00",
+      "committer_date_utc": "2026-10-29T04:05:46Z",
+      "committer_date_jst": "2026-10-29 13:05:46 +09:00",
+      "original_subject": "docs(v6): bind the batch-08 A candidate 55ea81d in the isolation package",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b10-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 隔離検証用パッケージを第8回の候補版55ea81dに対応付け",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "隔離検証の準備・構成確認・候補版の記録。最新の構成一覧は未統合・未配備で環境受入がブロック中と記載。オフライン確認と実環境での受入を区別する。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T22:18:09+09:00",
+      "original_committer_date": "2026-10-29T13:05:46+09:00"
+    },
+    {
+      "sequence": 486,
+      "source_list": "v6v7-b10-a-integration-20261029",
+      "sha": "7d726723ccffe7755e6d683988702a300756f0d0",
+      "parent_shas": [
+        "8889dbd9a75bd153de3bab96f68456c565d70692"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T13:13:39Z",
+      "author_date_jst": "2026-10-28 22:13:39 +09:00",
+      "committer_date_utc": "2026-10-29T04:05:46Z",
+      "committer_date_jst": "2026-10-29 13:05:46 +09:00",
+      "original_subject": "docs(v6): prepare the batch-08 isolation DB/API acceptance package",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b10-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 第8回の隔離DB・API受入確認用パッケージを準備",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "隔離検証の準備・構成確認・候補版の記録。最新の構成一覧は未統合・未配備で環境受入がブロック中と記載。オフライン確認と実環境での受入を区別する。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T22:13:39+09:00",
+      "original_committer_date": "2026-10-29T13:05:46+09:00"
+    },
+    {
+      "sequence": 487,
+      "source_list": "v6v7-b10-g-capability-audit-20261029",
+      "sha": "0b3a0c0abe001d26cc2cfcca69e1dca46cd5f9c5",
+      "parent_shas": [
+        "a97e3b6f61e63db29b50d4859512b60bf9cf02cb"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T13:50:38Z",
+      "author_date_jst": "2026-10-28 22:50:38 +09:00",
+      "committer_date_utc": "2026-10-29T04:05:51Z",
+      "committer_date_jst": "2026-10-29 13:05:51 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b10-g-capability-audit-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 出典参照時の重複確認と処理量の制御を改善（詳細非公開）",
+      "version": "V6",
+      "development_status": "作業・検証分岐の記録（候補版への取込未確認）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T22:50:38+09:00",
+      "original_committer_date": "2026-10-29T13:05:51+09:00"
+    },
+    {
+      "sequence": 488,
+      "source_list": "v6-b10-d-archive-flow-20261029",
+      "sha": "aa7b8dcda6d5406033ad67031ef0278f3da09d51",
+      "parent_shas": [
+        "e3eb1481fffb2aaef7bf61a271844f6f0bd86497"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T03:07:03Z",
+      "author_date_jst": "2026-10-29 12:07:03 +09:00",
+      "committer_date_utc": "2026-10-29T04:06:00Z",
+      "committer_date_jst": "2026-10-29 13:06:00 +09:00",
+      "original_subject": "style(v6): apply prettier formatting to shared-reports spec",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-d-archive-flow-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "style(v6): 共有報告の検証コードにPrettierの整形を適用",
+      "version": "V6",
+      "development_status": "作業・検証分岐の記録（候補版への取込未確認）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は書式の整理。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-29T12:07:03+09:00",
+      "original_committer_date": "2026-10-29T13:06:00+09:00"
+    },
+    {
+      "sequence": 489,
+      "source_list": "v6-b10-d-archive-flow-20261029",
+      "sha": "e3eb1481fffb2aaef7bf61a271844f6f0bd86497",
+      "parent_shas": [
+        "7d81f24d732235c048357adcfe5e42ca358141f5"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T14:05:50Z",
+      "author_date_jst": "2026-10-28 23:05:50 +09:00",
+      "committer_date_utc": "2026-10-29T04:06:00Z",
+      "committer_date_jst": "2026-10-29 13:06:00 +09:00",
+      "original_subject": "test(v6): mount real Vue components for report, review and shared-reading flows",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-d-archive-flow-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 実際のVue部品を使い、報告・レビュー・共有閲覧の画面操作を検証",
+      "version": "V6",
+      "development_status": "作業・検証分岐の記録（候補版への取込未確認）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T23:05:50+09:00",
+      "original_committer_date": "2026-10-29T13:06:00+09:00"
+    },
+    {
+      "sequence": 490,
+      "source_list": "v6-b10-d-archive-flow-20261029",
+      "sha": "7d81f24d732235c048357adcfe5e42ca358141f5",
+      "parent_shas": [
+        "a97e3b6f61e63db29b50d4859512b60bf9cf02cb"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-28T14:05:43Z",
+      "author_date_jst": "2026-10-28 23:05:43 +09:00",
+      "committer_date_utc": "2026-10-29T04:06:00Z",
+      "committer_date_jst": "2026-10-29 13:06:00 +09:00",
+      "original_subject": "fix(v6): stop duplicate review dialogs and stale review results",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-d-archive-flow-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): レビューダイアログの重複と古い結果の表示を修正",
+      "version": "V6",
+      "development_status": "作業・検証分岐の記録（候補版への取込未確認）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-28T23:05:43+09:00",
+      "original_committer_date": "2026-10-29T13:06:00+09:00"
+    },
+    {
+      "sequence": 491,
+      "source_list": "v6v7-b10-a-integration-20261029",
+      "sha": "f69eae1e1ffc5b02e52b5d8116d8f9cd4b2c3a62",
+      "parent_shas": [
+        "c784f9423a87c109048778f79ef289c95879110c"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T04:15:25Z",
+      "author_date_jst": "2026-10-29 13:15:25 +09:00",
+      "committer_date_utc": "2026-10-29T04:15:25Z",
+      "committer_date_jst": "2026-10-29 13:15:25 +09:00",
+      "original_subject": "test(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b10-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 第8回の挙動確認を第9回の出典参照修正に合わせて更新",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-29T13:15:25+09:00",
+      "original_committer_date": "2026-10-29T13:15:25+09:00"
+    },
+    {
+      "sequence": 492,
+      "source_list": "v6v7-b10-g-capability-audit-20261029",
+      "sha": "ce1d6707c303904bdb51013a0155d919a9f688ba",
+      "parent_shas": [
+        "0b3a0c0abe001d26cc2cfcca69e1dca46cd5f9c5"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T04:19:52Z",
+      "author_date_jst": "2026-10-29 13:19:52 +09:00",
+      "committer_date_utc": "2026-10-29T04:19:52Z",
+      "committer_date_jst": "2026-10-29 13:19:52 +09:00",
+      "original_subject": "docs(v6): audit every V6/V7 endpoint for read/edit/generate/egress capability",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b10-g-capability-audit-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): V6・V7の各入口を参照・編集・生成・外部送信の観点で点検",
+      "version": "V6",
+      "development_status": "作業・検証分岐の記録（候補版への取込未確認）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は仕様・検証状況の記録。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-29T13:19:52+09:00",
+      "original_committer_date": "2026-10-29T13:19:52+09:00"
+    },
+    {
+      "sequence": 493,
+      "source_list": "v7-b10-f-business-evidence-20261029",
+      "sha": "39ec166aa4c8cbaaf564ec4a0b20070b16fe7a8f",
+      "parent_shas": [
+        "53b51157873290bec342a9c4a12222e48151b78b"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T04:22:08Z",
+      "author_date_jst": "2026-10-29 13:22:08 +09:00",
+      "committer_date_utc": "2026-10-29T04:22:08Z",
+      "committer_date_jst": "2026-10-29 13:22:08 +09:00",
+      "original_subject": "test(v7): add batch-10 F evidence-consistency matrix for Agent R",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v7-b10-f-business-evidence-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): 第10回のAgent R向け根拠整合性の検証表を追加",
+      "version": "V7",
+      "development_status": "作業・検証分岐の記録（候補版への取込未確認）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は検証コードの追加・修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-29T13:22:08+09:00",
+      "original_committer_date": "2026-10-29T13:22:08+09:00"
+    },
+    {
+      "sequence": 494,
+      "source_list": "v6v7-b10-a-integration-20261029",
+      "sha": "d8c97de56e9e3b7c0403ebc732e3ad803a369fc2",
+      "parent_shas": [
+        "f69eae1e1ffc5b02e52b5d8116d8f9cd4b2c3a62"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T04:24:33Z",
+      "author_date_jst": "2026-10-29 13:24:33 +09:00",
+      "committer_date_utc": "2026-10-29T04:24:33Z",
+      "committer_date_jst": "2026-10-29 13:24:33 +09:00",
+      "original_subject": "docs(v6): record the batch-10 A unified candidate manifest and handoff",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b10-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 第10回の統合候補版の構成一覧と引継ぎを記録",
+      "version": "V6",
+      "development_status": "統合候補版の記録（正式統合・受入未完了）",
+      "verification_note": "隔離検証の準備・構成確認・候補版の記録。最新の構成一覧は未統合・未配備で環境受入がブロック中と記載。オフライン確認と実環境での受入を区別する。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-29T13:24:33+09:00",
+      "original_committer_date": "2026-10-29T13:24:33+09:00"
+    },
+    {
+      "sequence": 495,
+      "source_list": "v6-b10-c-source-review-20261029",
+      "sha": "a310e703cc0867f8356d301f5c57b23a0cc05093",
+      "parent_shas": [
+        "ce71776a930e16fbb6b06af0e0209dcdc73cd983"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T04:27:42Z",
+      "author_date_jst": "2026-10-29 13:27:42 +09:00",
+      "committer_date_utc": "2026-10-29T04:27:42Z",
+      "committer_date_jst": "2026-10-29 13:27:42 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-c-source-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 出典参照の処理量と返却内容の制御を修正（詳細非公開）",
+      "version": "V6",
+      "development_status": "作業・検証分岐の記録（候補版への取込未確認）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-29T13:27:42+09:00",
+      "original_committer_date": "2026-10-29T13:27:42+09:00"
+    },
+    {
+      "sequence": 496,
+      "source_list": "v6-b10-d-archive-flow-20261029",
+      "sha": "51b0a09c284aab4535d913f90ac20f466ea8d681",
+      "parent_shas": [
+        "aa7b8dcda6d5406033ad67031ef0278f3da09d51"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T04:31:37Z",
+      "author_date_jst": "2026-10-29 13:31:37 +09:00",
+      "committer_date_utc": "2026-10-29T04:31:37Z",
+      "committer_date_jst": "2026-10-29 13:31:37 +09:00",
+      "original_subject": "feat(v6): surface archive reuse/stale semantics and cover batch-09 acceptance",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-d-archive-flow-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v6): 保存済み報告の再利用・更新状態を表示し、第9回の受入確認を追加",
+      "version": "V6",
+      "development_status": "作業・検証分岐の記録（候補版への取込未確認）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は実装の追加。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-29T13:31:37+09:00",
+      "original_committer_date": "2026-10-29T13:31:37+09:00"
+    },
+    {
+      "sequence": 497,
+      "source_list": "v6-b10-b-archive-review-20261029",
+      "sha": "ad5b33807e1576d62948dfb9b1033c14f8dec05e",
+      "parent_shas": [
+        "f6d4dbee3cc20698de333869d09405ce741b7c28"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T04:33:41Z",
+      "author_date_jst": "2026-10-29 13:33:41 +09:00",
+      "committer_date_utc": "2026-10-29T04:33:41Z",
+      "committer_date_jst": "2026-10-29 13:33:41 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b10-b-archive-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 保存済み報告の読み取り整合性を修正（詳細非公開）",
+      "version": "V6",
+      "development_status": "作業・検証分岐の記録（候補版への取込未確認）",
+      "verification_note": "元の件名とGitメタデータを照合。コミットの種類は問題の修正。この書き出し時に業務テストは再実行しておらず、実モデル・実DBでの受入完了を示さない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-29",
+      "original_author_date": "2026-10-29T13:33:41+09:00",
+      "original_committer_date": "2026-10-29T13:33:41+09:00"
     }
   ],
-  "extension_note": "旧376件の各レコードは変更していない。新規レコードのみversion、development_status、verification_noteを追加。注記は当時の資料との照合であり件名・本文の翻訳と区別。業務テストは今回再実行していない。"
+  "extension_note": "旧413件の各レコードは不変。追加84件のsource_originはlocal_git。実日時とSHAを保持し、未コミット・stash・古い試作分岐は含めない。同一変更を別分岐へ適用した異なるSHAを含む。今回業務テストの再実行は行っていない。"
 }
