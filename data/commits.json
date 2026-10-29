@@ -1,13 +1,13 @@
 {
   "format_version": 1,
-  "exported_on": "2026-10-29",
+  "exported_on": "2026-10-30",
   "repository": {
     "id": 1377397480,
     "full_name": "miaowutat-stack/ses-ai-business-platform",
     "visibility": "private"
   },
-  "record_count": 497,
-  "scope": "旧413件を保持し、10/29照合のローカルGitから最新統合候補版・作業分岐の84件を追記。正式統合・開発元GitHubへの反映・本番配備の完了は示さない。",
+  "record_count": 598,
+  "scope": "旧497件を保持し、10/30照合のローカルGitからV6・V7の候補・作業分岐とV8初期設計分岐の101件を追記。正式統合・開発元GitHubへの反映・本番配備の完了は示さない。",
   "field_selection": "件名と識別・日時のメタデータを抽出。詳細本文、差分、ソースファイル、メールアドレスは含まない。",
   "translation_note": "original_subject は機密箇所のみ伏字。japanese_translation はその件名の翻訳であり、元のGit記録を書き換えたものではない。",
   "records": [
@@ -12498,7 +12498,3189 @@
       "snapshot_date_jst": "2026-10-29",
       "original_author_date": "2026-10-29T13:33:41+09:00",
       "original_committer_date": "2026-10-29T13:33:41+09:00"
+    },
+    {
+      "sequence": 498,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "a2c5170255b1609ead71c305639f80918fb4e541",
+      "parent_shas": [
+        "d8c97de56e9e3b7c0403ebc732e3ad803a369fc2"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T04:33:41Z",
+      "author_date_jst": "2026-10-29 13:33:41 +09:00",
+      "committer_date_utc": "2026-10-29T09:29:37Z",
+      "committer_date_jst": "2026-10-29 18:29:37 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 保存済み報告の読み取り整合性を修正（詳細非公開）",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T13:33:41+09:00",
+      "original_committer_date": "2026-10-29T18:29:37+09:00"
+    },
+    {
+      "sequence": 499,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "c74334144cbf1d5c1e9eb10ed6633f2eeab87fe5",
+      "parent_shas": [
+        "a2c5170255b1609ead71c305639f80918fb4e541"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T04:27:42Z",
+      "author_date_jst": "2026-10-29 13:27:42 +09:00",
+      "committer_date_utc": "2026-10-29T09:30:12Z",
+      "committer_date_jst": "2026-10-29 18:30:12 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 出典参照時の処理量と返却内容の制御を修正（詳細非公開）",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T13:27:42+09:00",
+      "original_committer_date": "2026-10-29T18:30:12+09:00"
+    },
+    {
+      "sequence": 500,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "6905a92709fe5f6ab94179b4d7f5dc27de8a2e9f",
+      "parent_shas": [
+        "c74334144cbf1d5c1e9eb10ed6633f2eeab87fe5"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T04:31:37Z",
+      "author_date_jst": "2026-10-29 13:31:37 +09:00",
+      "committer_date_utc": "2026-10-29T09:30:19Z",
+      "committer_date_jst": "2026-10-29 18:30:19 +09:00",
+      "original_subject": "feat(v6): surface archive reuse/stale semantics and cover batch-09 acceptance",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v6): 保存済み報告の再利用・更新状態を表示し、受入確認を追加",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T13:31:37+09:00",
+      "original_committer_date": "2026-10-29T18:30:19+09:00"
+    },
+    {
+      "sequence": 501,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "67436a9fd21f942a91d216348798a2adf27ab183",
+      "parent_shas": [
+        "6905a92709fe5f6ab94179b4d7f5dc27de8a2e9f"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T04:19:52Z",
+      "author_date_jst": "2026-10-29 13:19:52 +09:00",
+      "committer_date_utc": "2026-10-29T09:30:25Z",
+      "committer_date_jst": "2026-10-29 18:30:25 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): V6・V7の参照・編集・生成・外部送信の入口を点検",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T13:19:52+09:00",
+      "original_committer_date": "2026-10-29T18:30:25+09:00"
+    },
+    {
+      "sequence": 502,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "b693cb6a7df4c84464f783966b6025f4de26aa91",
+      "parent_shas": [
+        "67436a9fd21f942a91d216348798a2adf27ab183"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T09:44:07Z",
+      "author_date_jst": "2026-10-29 18:44:07 +09:00",
+      "committer_date_utc": "2026-10-29T09:44:07Z",
+      "committer_date_jst": "2026-10-29 18:44:07 +09:00",
+      "original_subject": "docs(v6): record the batch-11 A unified candidate manifest and handoff",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 第11回の統合候補版の構成一覧と引継ぎを記録",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T18:44:07+09:00",
+      "original_committer_date": "2026-10-29T18:44:07+09:00"
+    },
+    {
+      "sequence": 503,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "6fe9cd68b356b01bc35c26f32fafa52cff8c73cd",
+      "parent_shas": [
+        "891796585c9de9dd235e33a6755e59482bb44c57"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T09:46:29Z",
+      "author_date_jst": "2026-10-29 18:46:29 +09:00",
+      "committer_date_utc": "2026-10-29T10:39:01Z",
+      "committer_date_jst": "2026-10-29 19:39:01 +09:00",
+      "original_subject": "test(v6v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6v7): 操作別の権限確認を各入口から検証する証跡を追加",
+      "version": "V6・V7共通",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T18:46:29+09:00",
+      "original_committer_date": "2026-10-29T19:39:01+09:00"
+    },
+    {
+      "sequence": 504,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "891796585c9de9dd235e33a6755e59482bb44c57",
+      "parent_shas": [
+        "b693cb6a7df4c84464f783966b6025f4de26aa91"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T09:51:50Z",
+      "author_date_jst": "2026-10-29 18:51:50 +09:00",
+      "committer_date_utc": "2026-10-29T10:39:01Z",
+      "committer_date_jst": "2026-10-29 19:39:01 +09:00",
+      "original_subject": "test(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 報告書保存の処理境界に関する独立レビューを追加",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T18:51:50+09:00",
+      "original_committer_date": "2026-10-29T19:39:01+09:00"
+    },
+    {
+      "sequence": 505,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "8d325e3af35d1b16624d426f47768801e4a82570",
+      "parent_shas": [
+        "6fe9cd68b356b01bc35c26f32fafa52cff8c73cd"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T09:46:39Z",
+      "author_date_jst": "2026-10-29 18:46:39 +09:00",
+      "committer_date_utc": "2026-10-29T10:39:01Z",
+      "committer_date_jst": "2026-10-29 19:39:01 +09:00",
+      "original_subject": "docs(v6v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6v7): 第11回の権限確認の証跡と対応状況レビューを記録",
+      "version": "V6・V7共通",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T18:46:39+09:00",
+      "original_committer_date": "2026-10-29T19:39:01+09:00"
+    },
+    {
+      "sequence": 506,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "8bd885344c07b13af3bd87188f5a3bf433af6802",
+      "parent_shas": [
+        "8d325e3af35d1b16624d426f47768801e4a82570"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T11:09:29Z",
+      "author_date_jst": "2026-10-29 20:09:29 +09:00",
+      "committer_date_utc": "2026-10-29T11:09:29Z",
+      "committer_date_jst": "2026-10-29 20:09:29 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 保存処理の整合性制御を修正（詳細非公開）",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T20:09:29+09:00",
+      "original_committer_date": "2026-10-29T20:09:29+09:00"
+    },
+    {
+      "sequence": 507,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "8e61e32ad7218b134f8ff54f37d03d35bcff4ee9",
+      "parent_shas": [
+        "8bd885344c07b13af3bd87188f5a3bf433af6802"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T11:10:56Z",
+      "author_date_jst": "2026-10-29 20:10:56 +09:00",
+      "committer_date_utc": "2026-10-29T11:10:56Z",
+      "committer_date_jst": "2026-10-29 20:10:56 +09:00",
+      "original_subject": "feat(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v6): 参照範囲に応じた技術者資料の取り扱いを追加",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T20:10:56+09:00",
+      "original_committer_date": "2026-10-29T20:10:56+09:00"
+    },
+    {
+      "sequence": 508,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "38304769b246f3afd302af954c1bb2f85910852f",
+      "parent_shas": [
+        "8e61e32ad7218b134f8ff54f37d03d35bcff4ee9"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T11:12:56Z",
+      "author_date_jst": "2026-10-29 20:12:56 +09:00",
+      "committer_date_utc": "2026-10-29T11:12:56Z",
+      "committer_date_jst": "2026-10-29 20:12:56 +09:00",
+      "original_subject": "feat(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v6): 参照範囲に応じて保存済み営業報告の表示を制限",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T20:12:56+09:00",
+      "original_committer_date": "2026-10-29T20:12:56+09:00"
+    },
+    {
+      "sequence": 509,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "351dbf2a69d2b9e9e2d765b99b0781d16646429d",
+      "parent_shas": [
+        "38304769b246f3afd302af954c1bb2f85910852f"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T10:54:37Z",
+      "author_date_jst": "2026-10-29 19:54:37 +09:00",
+      "committer_date_utc": "2026-10-29T11:38:50Z",
+      "committer_date_jst": "2026-10-29 20:38:50 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 古い草案の誤利用を防ぐ選択処理を修正（詳細非公開）",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T19:54:37+09:00",
+      "original_committer_date": "2026-10-29T20:38:50+09:00"
+    },
+    {
+      "sequence": 510,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "dbdda1020569b0cc73e377c6220b1c3a248afba0",
+      "parent_shas": [
+        "351dbf2a69d2b9e9e2d765b99b0781d16646429d"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T10:54:55Z",
+      "author_date_jst": "2026-10-29 19:54:55 +09:00",
+      "committer_date_utc": "2026-10-29T11:38:50Z",
+      "committer_date_jst": "2026-10-29 20:38:50 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 総合報告で利用する草案の選択仕様を追記（詳細非公開）",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T19:54:55+09:00",
+      "original_committer_date": "2026-10-29T20:38:50+09:00"
+    },
+    {
+      "sequence": 511,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "016a6a17be458ea00c9da362f053a4e198029ec7",
+      "parent_shas": [
+        "cd039cef81a4bcfdb666254c9827e34ae659c77e"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T09:36:51Z",
+      "author_date_jst": "2026-10-29 18:36:51 +09:00",
+      "committer_date_utc": "2026-10-29T11:39:03Z",
+      "committer_date_jst": "2026-10-29 20:39:03 +09:00",
+      "original_subject": "fix(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v7): プレビュー受信側の入口確認を修正（詳細非公開）",
+      "version": "V7",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T18:36:51+09:00",
+      "original_committer_date": "2026-10-29T20:39:03+09:00"
+    },
+    {
+      "sequence": 512,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "11792c8ebc45ab94250cb49b2e1d916a6e26c23d",
+      "parent_shas": [
+        "dbdda1020569b0cc73e377c6220b1c3a248afba0"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T04:22:08Z",
+      "author_date_jst": "2026-10-29 13:22:08 +09:00",
+      "committer_date_utc": "2026-10-29T11:39:03Z",
+      "committer_date_jst": "2026-10-29 20:39:03 +09:00",
+      "original_subject": "test(v7): add batch-10 F evidence-consistency matrix for Agent R",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): Agent R向けに第10回の根拠整合性の検証表を追加",
+      "version": "V7",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T13:22:08+09:00",
+      "original_committer_date": "2026-10-29T20:39:03+09:00"
+    },
+    {
+      "sequence": 513,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "2e672020a67a37ab6e1b97c8343b5a5a61d641ec",
+      "parent_shas": [
+        "aa4d02c920a2c4a8d8780b6b68104ba6ad2d003e"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T10:58:38Z",
+      "author_date_jst": "2026-10-29 19:58:38 +09:00",
+      "committer_date_utc": "2026-10-29T11:39:03Z",
+      "committer_date_jst": "2026-10-29 20:39:03 +09:00",
+      "original_subject": "test(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): 草案検証と異なる実装間の整合性を独立レビュー",
+      "version": "V7",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T19:58:38+09:00",
+      "original_committer_date": "2026-10-29T20:39:03+09:00"
+    },
+    {
+      "sequence": 514,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "57534b6da629f94072a8d56e218288a2c0f7e92d",
+      "parent_shas": [
+        "11792c8ebc45ab94250cb49b2e1d916a6e26c23d"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T09:39:34Z",
+      "author_date_jst": "2026-10-29 18:39:34 +09:00",
+      "committer_date_utc": "2026-10-29T11:39:03Z",
+      "committer_date_jst": "2026-10-29 20:39:03 +09:00",
+      "original_subject": "fix(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v7): 文脈に応じた表現確認と、根拠に対応する主張の扱いを修正",
+      "version": "V7",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T18:39:34+09:00",
+      "original_committer_date": "2026-10-29T20:39:03+09:00"
+    },
+    {
+      "sequence": 515,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "aa4d02c920a2c4a8d8780b6b68104ba6ad2d003e",
+      "parent_shas": [
+        "016a6a17be458ea00c9da362f053a4e198029ec7"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T10:58:28Z",
+      "author_date_jst": "2026-10-29 19:58:28 +09:00",
+      "committer_date_utc": "2026-10-29T11:39:03Z",
+      "committer_date_jst": "2026-10-29 20:39:03 +09:00",
+      "original_subject": "fix(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v7): 否定表現と全角表記の検出を改善（詳細非公開）",
+      "version": "V7",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T19:58:28+09:00",
+      "original_committer_date": "2026-10-29T20:39:03+09:00"
+    },
+    {
+      "sequence": 516,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "cd039cef81a4bcfdb666254c9827e34ae659c77e",
+      "parent_shas": [
+        "57534b6da629f94072a8d56e218288a2c0f7e92d"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T09:39:39Z",
+      "author_date_jst": "2026-10-29 18:39:39 +09:00",
+      "committer_date_utc": "2026-10-29T11:39:03Z",
+      "committer_date_jst": "2026-10-29 20:39:03 +09:00",
+      "original_subject": "test(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): 草案検証の回帰項目とリスク根拠の期待結果を修正",
+      "version": "V7",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T18:39:39+09:00",
+      "original_committer_date": "2026-10-29T20:39:03+09:00"
+    },
+    {
+      "sequence": 517,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "ea6595f4f410fdeb33de6febc4be538651053397",
+      "parent_shas": [
+        "fb3376fde6fe4cbed734e80a7a780730f4fb5b9a"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T10:07:03Z",
+      "author_date_jst": "2026-10-29 19:07:03 +09:00",
+      "committer_date_utc": "2026-10-29T11:39:10Z",
+      "committer_date_jst": "2026-10-29 20:39:10 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 隔離検証用パッケージの指摘対応を記録",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T19:07:03+09:00",
+      "original_committer_date": "2026-10-29T20:39:10+09:00"
+    },
+    {
+      "sequence": 518,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "fb3376fde6fe4cbed734e80a7a780730f4fb5b9a",
+      "parent_shas": [
+        "2e672020a67a37ab6e1b97c8343b5a5a61d641ec"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T09:43:09Z",
+      "author_date_jst": "2026-10-29 18:43:09 +09:00",
+      "committer_date_utc": "2026-10-29T11:39:10Z",
+      "committer_date_jst": "2026-10-29 20:39:10 +09:00",
+      "original_subject": "test(v6): verify batch-10 source-traversal bounds independently",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 出典参照の処理制限を独立検証（詳細非公開）",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T18:43:09+09:00",
+      "original_committer_date": "2026-10-29T20:39:10+09:00"
+    },
+    {
+      "sequence": 519,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "90f097e36ddc2db05ab1d213fcd1c419317545ee",
+      "parent_shas": [
+        "ea6595f4f410fdeb33de6febc4be538651053397"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T11:02:02Z",
+      "author_date_jst": "2026-10-29 20:02:02 +09:00",
+      "committer_date_utc": "2026-10-29T11:39:11Z",
+      "committer_date_jst": "2026-10-29 20:39:11 +09:00",
+      "original_subject": "fix(v6): harden batch-08 isolation package build and package binding (batch-12 D)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 隔離検証用パッケージのビルドと構成照合を強化",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T20:02:02+09:00",
+      "original_committer_date": "2026-10-29T20:39:11+09:00"
+    },
+    {
+      "sequence": 520,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "a8bfa20fdb596ec8767f4c0c00542129d5d06938",
+      "parent_shas": [
+        "90f097e36ddc2db05ab1d213fcd1c419317545ee"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T11:07:30Z",
+      "author_date_jst": "2026-10-29 20:07:30 +09:00",
+      "committer_date_utc": "2026-10-29T11:39:11Z",
+      "committer_date_jst": "2026-10-29 20:39:11 +09:00",
+      "original_subject": "test(v6): cover the pre-Maven build environment scrub (batch-12 D)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): ビルド前の環境確認に関する検証を追加（詳細非公開）",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T20:07:30+09:00",
+      "original_committer_date": "2026-10-29T20:39:11+09:00"
+    },
+    {
+      "sequence": 521,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "c97edec92e5208bfad7ac7410df46e68bc47e9c7",
+      "parent_shas": [
+        "e4e4e40ef5502d0239896d0cabb39cfc0032929b"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T10:55:42Z",
+      "author_date_jst": "2026-10-29 19:55:42 +09:00",
+      "committer_date_utc": "2026-10-29T11:39:15Z",
+      "committer_date_jst": "2026-10-29 20:39:15 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 保存結果が不明な場合の表示を修正し、受入確認を強化",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T19:55:42+09:00",
+      "original_committer_date": "2026-10-29T20:39:15+09:00"
+    },
+    {
+      "sequence": 522,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "cee8e5dc9718945972e3d534ea64affddf104c7f",
+      "parent_shas": [
+        "c97edec92e5208bfad7ac7410df46e68bc47e9c7"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T11:08:17Z",
+      "author_date_jst": "2026-10-29 20:08:17 +09:00",
+      "committer_date_utc": "2026-10-29T11:39:15Z",
+      "committer_date_jst": "2026-10-29 20:39:15 +09:00",
+      "original_subject": "test(v6): prepare default-disabled isolated DB acceptance for batch 12 F",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 既定では実行しない隔離DB受入確認を準備",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T20:08:17+09:00",
+      "original_committer_date": "2026-10-29T20:39:15+09:00"
+    },
+    {
+      "sequence": 523,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "e4e4e40ef5502d0239896d0cabb39cfc0032929b",
+      "parent_shas": [
+        "a8bfa20fdb596ec8767f4c0c00542129d5d06938"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T09:43:22Z",
+      "author_date_jst": "2026-10-29 18:43:22 +09:00",
+      "committer_date_utc": "2026-10-29T11:39:15Z",
+      "committer_date_jst": "2026-10-29 20:39:15 +09:00",
+      "original_subject": "test(v6): independently verify the batch-10 archive UI and tighten K-series strictness",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 保存画面を独立検証し、受入判定を厳格化",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T18:43:22+09:00",
+      "original_committer_date": "2026-10-29T20:39:15+09:00"
+    },
+    {
+      "sequence": 524,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "3dabc5e7a119951dab37088a098ba9a28de1553f",
+      "parent_shas": [
+        "cee8e5dc9718945972e3d534ea64affddf104c7f"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T10:56:03Z",
+      "author_date_jst": "2026-10-29 19:56:03 +09:00",
+      "committer_date_utc": "2026-10-29T11:39:16Z",
+      "committer_date_jst": "2026-10-29 20:39:16 +09:00",
+      "original_subject": "docs(v6v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6v7): 権限仕様と移行・復旧に関する補足を追加",
+      "version": "V6・V7共通",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T19:56:03+09:00",
+      "original_committer_date": "2026-10-29T20:39:16+09:00"
+    },
+    {
+      "sequence": 525,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "4d6f1b2784243d0360b5de4d6e42892ed5ae39a4",
+      "parent_shas": [
+        "3dabc5e7a119951dab37088a098ba9a28de1553f"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T10:56:33Z",
+      "author_date_jst": "2026-10-29 19:56:33 +09:00",
+      "committer_date_utc": "2026-10-29T11:39:16Z",
+      "committer_date_jst": "2026-10-29 20:39:16 +09:00",
+      "original_subject": "docs(v6v7): record the missing-column deployment case in the batch-12 acceptance matrix",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6v7): 配備時の不足状態を受入確認表へ追記",
+      "version": "V6・V7共通",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T19:56:33+09:00",
+      "original_committer_date": "2026-10-29T20:39:16+09:00"
+    },
+    {
+      "sequence": 526,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029 / v7-b15-b-capability-review-20261029",
+      "sha": "8a813570d6bba171525c9784aa3f0d6f58400038",
+      "parent_shas": [
+        "4d6f1b2784243d0360b5de4d6e42892ed5ae39a4"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T11:51:54Z",
+      "author_date_jst": "2026-10-29 20:51:54 +09:00",
+      "committer_date_utc": "2026-10-29T11:51:54Z",
+      "committer_date_jst": "2026-10-29 20:51:54 +09:00",
+      "original_subject": "docs(v6): record the batch-13 A unified candidate manifest and handoff",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029",
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 第13回の統合候補版の構成一覧と引継ぎを記録",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T20:51:54+09:00",
+      "original_committer_date": "2026-10-29T20:51:54+09:00"
+    },
+    {
+      "sequence": 527,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029",
+      "sha": "f902115812f1880245f4c2ce3b0e891acb6a329c",
+      "parent_shas": [
+        "8a813570d6bba171525c9784aa3f0d6f58400038"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T11:53:52Z",
+      "author_date_jst": "2026-10-29 20:53:52 +09:00",
+      "committer_date_utc": "2026-10-29T12:50:10Z",
+      "committer_date_jst": "2026-10-29 21:50:10 +09:00",
+      "original_subject": "test(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 保存の処理境界と参照範囲を独立レビュー（詳細非公開）",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T20:53:52+09:00",
+      "original_committer_date": "2026-10-29T21:50:10+09:00"
+    },
+    {
+      "sequence": 528,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029",
+      "sha": "4e18d16e83c9ffd57eaf27963f5cacaf64d109c6",
+      "parent_shas": [
+        "f902115812f1880245f4c2ce3b0e891acb6a329c"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T11:56:28Z",
+      "author_date_jst": "2026-10-29 20:56:28 +09:00",
+      "committer_date_utc": "2026-10-29T12:50:15Z",
+      "committer_date_jst": "2026-10-29 21:50:15 +09:00",
+      "original_subject": "test(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 古い草案の選択と処理の再利用を独立レビュー",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T20:56:28+09:00",
+      "original_committer_date": "2026-10-29T21:50:15+09:00"
+    },
+    {
+      "sequence": 529,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029",
+      "sha": "1824c362194562c96a06db03d63422f260dcbb8b",
+      "parent_shas": [
+        "4e18d16e83c9ffd57eaf27963f5cacaf64d109c6"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T12:08:37Z",
+      "author_date_jst": "2026-10-29 21:08:37 +09:00",
+      "committer_date_utc": "2026-10-29T12:50:19Z",
+      "committer_date_jst": "2026-10-29 21:50:19 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 隔離検証用パッケージのGit参照を安定化（詳細非公開）",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T21:08:37+09:00",
+      "original_committer_date": "2026-10-29T21:50:19+09:00"
+    },
+    {
+      "sequence": 530,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029",
+      "sha": "5aa62594ae189d781cc8df4cf2b8a6afffab681d",
+      "parent_shas": [
+        "1824c362194562c96a06db03d63422f260dcbb8b"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T11:53:47Z",
+      "author_date_jst": "2026-10-29 20:53:47 +09:00",
+      "committer_date_utc": "2026-10-29T12:50:23Z",
+      "committer_date_jst": "2026-10-29 21:50:23 +09:00",
+      "original_subject": "fix(v6): keep unknown archive results retryable and label stored-content hashes (batch-13 E)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 保存結果が不明な場合の再試行と、保存内容の照合表示を改善",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T20:53:47+09:00",
+      "original_committer_date": "2026-10-29T21:50:23+09:00"
+    },
+    {
+      "sequence": 531,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029",
+      "sha": "ee51108b18b91a042f0e3358d9054bd5061ba8a9",
+      "parent_shas": [
+        "5aa62594ae189d781cc8df4cf2b8a6afffab681d"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T12:00:23Z",
+      "author_date_jst": "2026-10-29 21:00:23 +09:00",
+      "committer_date_utc": "2026-10-29T12:50:28Z",
+      "committer_date_jst": "2026-10-29 21:50:28 +09:00",
+      "original_subject": "test(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): 第13回の草案検証と実装間の整合性を独立レビュー",
+      "version": "V7",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T21:00:23+09:00",
+      "original_committer_date": "2026-10-29T21:50:28+09:00"
+    },
+    {
+      "sequence": 532,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029",
+      "sha": "d1596bdbfa71f07289733b9dbc2cb16d20b4b9cc",
+      "parent_shas": [
+        "ef9582daa982093023678fef13f232a3876dcd00"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T12:02:25Z",
+      "author_date_jst": "2026-10-29 21:02:25 +09:00",
+      "committer_date_utc": "2026-10-29T12:50:33Z",
+      "committer_date_jst": "2026-10-29 21:50:33 +09:00",
+      "original_subject": "test(v7): record the remaining over-block boundaries of the negation list",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): 否定表現の確認で残る過剰検出を記録（詳細非公開）",
+      "version": "V7",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "独立検証で過剰な検出が残ることを記録。後続の修正・再確認の記録と分けて保持し、完全解消とは扱わない。具体的な検出条件は非公開。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T21:02:25+09:00",
+      "original_committer_date": "2026-10-29T21:50:33+09:00"
+    },
+    {
+      "sequence": 533,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029",
+      "sha": "ef9582daa982093023678fef13f232a3876dcd00",
+      "parent_shas": [
+        "ee51108b18b91a042f0e3358d9054bd5061ba8a9"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T12:00:33Z",
+      "author_date_jst": "2026-10-29 21:00:33 +09:00",
+      "committer_date_utc": "2026-10-29T12:50:33Z",
+      "committer_date_jst": "2026-10-29 21:50:33 +09:00",
+      "original_subject": "fix(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v7): 日本語の文脈による過剰な検出を修正（詳細非公開）",
+      "version": "V7",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T21:00:33+09:00",
+      "original_committer_date": "2026-10-29T21:50:33+09:00"
+    },
+    {
+      "sequence": 534,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029",
+      "sha": "5e69eca636fe308b1277b9dd1afa24e42bb56878",
+      "parent_shas": [
+        "d1596bdbfa71f07289733b9dbc2cb16d20b4b9cc"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T12:06:49Z",
+      "author_date_jst": "2026-10-29 21:06:49 +09:00",
+      "committer_date_utc": "2026-10-29T12:50:38Z",
+      "committer_date_jst": "2026-10-29 21:50:38 +09:00",
+      "original_subject": "test(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 隔離受入確認を更新後の決定事項に合わせて修正",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T21:06:49+09:00",
+      "original_committer_date": "2026-10-29T21:50:38+09:00"
+    },
+    {
+      "sequence": 535,
+      "source_list": "v6-b15-c-capability-wiring-20261029 / v7-b15-e-member-capability-api-20261029 / v7-b15-d-agent-voice-capabilities-20261029 / v6-b15-g-privacy-correction-review-20261029 / v6v7-b15-f-capability-ui-20261029 / v6v7-b15-h-spring-capability-wiring-20261029 / v6v7-b15-a-integration-20261029",
+      "sha": "e4ead641e6a3aabeb22de0e55304ac61daa02b42",
+      "parent_shas": [
+        "5e69eca636fe308b1277b9dd1afa24e42bb56878"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:03:11Z",
+      "author_date_jst": "2026-10-29 22:03:11 +09:00",
+      "committer_date_utc": "2026-10-29T13:03:11Z",
+      "committer_date_jst": "2026-10-29 22:03:11 +09:00",
+      "original_subject": "docs(v6): record the batch-14 A unified candidate manifest and handoff",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029",
+        "v7-b15-e-member-capability-api-20261029",
+        "v7-b15-d-agent-voice-capabilities-20261029",
+        "v6-b15-g-privacy-correction-review-20261029",
+        "v6v7-b15-f-capability-ui-20261029",
+        "v6v7-b15-h-spring-capability-wiring-20261029",
+        "v6v7-b15-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 第14回の統合候補版の構成一覧と引継ぎを記録",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:03:11+09:00",
+      "original_committer_date": "2026-10-29T22:03:11+09:00"
+    },
+    {
+      "sequence": 536,
+      "source_list": "v7-b15-b-capability-review-20261029",
+      "sha": "a7559000b059bb9e36b4728d29636a050fcc88ee",
+      "parent_shas": [
+        "8a813570d6bba171525c9784aa3f0d6f58400038"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:11:07Z",
+      "author_date_jst": "2026-10-29 22:11:07 +09:00",
+      "committer_date_utc": "2026-10-29T13:11:07Z",
+      "committer_date_jst": "2026-10-29 22:11:07 +09:00",
+      "original_subject": "feat(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v7): 操作別の権限確認と変更履歴を扱う基盤処理を追加",
+      "version": "V7",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:11:07+09:00",
+      "original_committer_date": "2026-10-29T22:11:07+09:00"
+    },
+    {
+      "sequence": 537,
+      "source_list": "v8-platform-control",
+      "sha": "6615d066ed3d195c13554fdeb4e6c2d052bb6ef2",
+      "parent_shas": [
+        "167dc849a683050c4a1000e16181852acb92945a"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:04:27Z",
+      "author_date_jst": "2026-10-29 23:04:27 +09:00",
+      "committer_date_utc": "2026-10-29T14:04:27Z",
+      "committer_date_jst": "2026-10-29 23:04:27 +09:00",
+      "original_subject": "feat(v8-b01): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-platform-control"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v8-b01): 共通仕様・担当範囲・既存機能の調査を整理",
+      "version": "V8",
+      "development_status": "設計・基礎型・検証準備（業務受入未実施）",
+      "verification_note": "初期設計・共通データ型・検証準備の段階。詳細仕様、担当分担表、Skill、プロンプト、判定ルール、検証手順の本文は非公開。準備状態の確認やコンパイル確認を業務環境での受入完了に置き換えない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:04:27+09:00",
+      "original_committer_date": "2026-10-29T23:04:27+09:00"
+    },
+    {
+      "sequence": 538,
+      "source_list": "v8-platform-control",
+      "sha": "ef63be804098cf1a642bd68fdfded21232c8c286",
+      "parent_shas": [
+        "6615d066ed3d195c13554fdeb4e6c2d052bb6ef2"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:07:44Z",
+      "author_date_jst": "2026-10-29 23:07:44 +09:00",
+      "committer_date_utc": "2026-10-29T14:07:44Z",
+      "committer_date_jst": "2026-10-29 23:07:44 +09:00",
+      "original_subject": "fix(v8-b01): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-platform-control"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v8-b01): 検証起動用の状態表示を修正し、進行管理資料を追加",
+      "version": "V8",
+      "development_status": "設計・基礎型・検証準備（業務受入未実施）",
+      "verification_note": "初期設計・共通データ型・検証準備の段階。詳細仕様、担当分担表、Skill、プロンプト、判定ルール、検証手順の本文は非公開。準備状態の確認やコンパイル確認を業務環境での受入完了に置き換えない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:07:44+09:00",
+      "original_committer_date": "2026-10-29T23:07:44+09:00"
+    },
+    {
+      "sequence": 539,
+      "source_list": "v8-platform-control",
+      "sha": "c9a391b9270f300028e696e9bba2646a67d193be",
+      "parent_shas": [
+        "ef63be804098cf1a642bd68fdfded21232c8c286"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:07:49Z",
+      "author_date_jst": "2026-10-29 23:07:49 +09:00",
+      "committer_date_utc": "2026-10-29T14:07:49Z",
+      "committer_date_jst": "2026-10-29 23:07:49 +09:00",
+      "original_subject": "docs(v8-b01): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-platform-control"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v8-b01): 進行管理資料の基準コミットを記録",
+      "version": "V8",
+      "development_status": "設計・基礎型・検証準備（業務受入未実施）",
+      "verification_note": "初期設計・共通データ型・検証準備の段階。詳細仕様、担当分担表、Skill、プロンプト、判定ルール、検証手順の本文は非公開。準備状態の確認やコンパイル確認を業務環境での受入完了に置き換えない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:07:49+09:00",
+      "original_committer_date": "2026-10-29T23:07:49+09:00"
+    },
+    {
+      "sequence": 540,
+      "source_list": "v8-platform-control",
+      "sha": "8d13b483f88d4a4f2453391ab9b4f3c6c4ebe971",
+      "parent_shas": [
+        "c9a391b9270f300028e696e9bba2646a67d193be"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:09:01Z",
+      "author_date_jst": "2026-10-29 23:09:01 +09:00",
+      "committer_date_utc": "2026-10-29T14:09:01Z",
+      "committer_date_jst": "2026-10-29 23:09:01 +09:00",
+      "original_subject": "docs(v8-b01): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-platform-control"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v8-b01): 引継ぎ先の基準点と分岐の来歴を明確化",
+      "version": "V8",
+      "development_status": "設計・基礎型・検証準備（業務受入未実施）",
+      "verification_note": "初期設計・共通データ型・検証準備の段階。詳細仕様、担当分担表、Skill、プロンプト、判定ルール、検証手順の本文は非公開。準備状態の確認やコンパイル確認を業務環境での受入完了に置き換えない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:09:01+09:00",
+      "original_committer_date": "2026-10-29T23:09:01+09:00"
+    },
+    {
+      "sequence": 541,
+      "source_list": "v8-platform-control",
+      "sha": "623af6ad09958948d929ea4b81a9d1b1beec5aca",
+      "parent_shas": [
+        "8d13b483f88d4a4f2453391ab9b4f3c6c4ebe971"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:09:29Z",
+      "author_date_jst": "2026-10-29 23:09:29 +09:00",
+      "committer_date_utc": "2026-10-29T14:09:29Z",
+      "committer_date_jst": "2026-10-29 23:09:29 +09:00",
+      "original_subject": "docs(v8-b01): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-platform-control"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v8-b01): レビュー用の資料を追加",
+      "version": "V8",
+      "development_status": "設計・基礎型・検証準備（業務受入未実施）",
+      "verification_note": "初期設計・共通データ型・検証準備の段階。詳細仕様、担当分担表、Skill、プロンプト、判定ルール、検証手順の本文は非公開。準備状態の確認やコンパイル確認を業務環境での受入完了に置き換えない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:09:29+09:00",
+      "original_committer_date": "2026-10-29T23:09:29+09:00"
+    },
+    {
+      "sequence": 542,
+      "source_list": "v7-b15-b-capability-review-20261029",
+      "sha": "0692dd6ca4cd6d920e37cb3584bf573361361121",
+      "parent_shas": [
+        "db242b34e293155433362e3ce9b5428fe8495a1c"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:09:07Z",
+      "author_date_jst": "2026-10-29 22:09:07 +09:00",
+      "committer_date_utc": "2026-10-29T14:11:43Z",
+      "committer_date_jst": "2026-10-29 23:11:43 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 操作別の権限仕様の第2版を整理",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:09:07+09:00",
+      "original_committer_date": "2026-10-29T23:11:43+09:00"
+    },
+    {
+      "sequence": 543,
+      "source_list": "v7-b15-b-capability-review-20261029",
+      "sha": "3f122d2579744823606835a96fa343e11083dfdc",
+      "parent_shas": [
+        "0692dd6ca4cd6d920e37cb3584bf573361361121"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:10:28Z",
+      "author_date_jst": "2026-10-29 22:10:28 +09:00",
+      "committer_date_utc": "2026-10-29T14:11:43Z",
+      "committer_date_jst": "2026-10-29 23:11:43 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 仕様資料のコード参照先を訂正",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:10:28+09:00",
+      "original_committer_date": "2026-10-29T23:11:43+09:00"
+    },
+    {
+      "sequence": 544,
+      "source_list": "v7-b15-b-capability-review-20261029",
+      "sha": "db242b34e293155433362e3ce9b5428fe8495a1c",
+      "parent_shas": [
+        "a7559000b059bb9e36b4728d29636a050fcc88ee"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T12:56:06Z",
+      "author_date_jst": "2026-10-29 21:56:06 +09:00",
+      "committer_date_utc": "2026-10-29T14:11:43Z",
+      "committer_date_jst": "2026-10-29 23:11:43 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 過去の権限レビューを原文のまま保管",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T21:56:06+09:00",
+      "original_committer_date": "2026-10-29T23:11:43+09:00"
+    },
+    {
+      "sequence": 545,
+      "source_list": "v7-b15-e-member-capability-api-20261029",
+      "sha": "39342b6521fb7ae829b983c296962e2a940d0864",
+      "parent_shas": [
+        "e4ead641e6a3aabeb22de0e55304ac61daa02b42"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:11:07Z",
+      "author_date_jst": "2026-10-29 22:11:07 +09:00",
+      "committer_date_utc": "2026-10-29T14:12:58Z",
+      "committer_date_jst": "2026-10-29 23:12:58 +09:00",
+      "original_subject": "feat(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v7-b15-e-member-capability-api-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v7): 操作別の権限確認と変更履歴を扱う基盤処理を追加",
+      "version": "V7",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:11:07+09:00",
+      "original_committer_date": "2026-10-29T23:12:58+09:00"
+    },
+    {
+      "sequence": 546,
+      "source_list": "v6v7-b15-f-capability-ui-20261029",
+      "sha": "3b76b92926b2d0edaced1e095454b48bfdb59269",
+      "parent_shas": [
+        "e4ead641e6a3aabeb22de0e55304ac61daa02b42"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T12:56:06Z",
+      "author_date_jst": "2026-10-29 21:56:06 +09:00",
+      "committer_date_utc": "2026-10-29T14:13:00Z",
+      "committer_date_jst": "2026-10-29 23:13:00 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b15-f-capability-ui-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 過去の権限レビューを原文のまま保管",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T21:56:06+09:00",
+      "original_committer_date": "2026-10-29T23:13:00+09:00"
+    },
+    {
+      "sequence": 547,
+      "source_list": "v6v7-b15-f-capability-ui-20261029",
+      "sha": "68b12c681947e7703bca95488066c4ff3348e0b0",
+      "parent_shas": [
+        "3b76b92926b2d0edaced1e095454b48bfdb59269"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:09:07Z",
+      "author_date_jst": "2026-10-29 22:09:07 +09:00",
+      "committer_date_utc": "2026-10-29T14:13:00Z",
+      "committer_date_jst": "2026-10-29 23:13:00 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b15-f-capability-ui-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 操作別の権限仕様の第2版を整理",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:09:07+09:00",
+      "original_committer_date": "2026-10-29T23:13:00+09:00"
+    },
+    {
+      "sequence": 548,
+      "source_list": "v6v7-b15-f-capability-ui-20261029",
+      "sha": "6b5546e85c57a5eab19c3af28f4e4a5ea4eba4f4",
+      "parent_shas": [
+        "68b12c681947e7703bca95488066c4ff3348e0b0"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:10:28Z",
+      "author_date_jst": "2026-10-29 22:10:28 +09:00",
+      "committer_date_utc": "2026-10-29T14:13:00Z",
+      "committer_date_jst": "2026-10-29 23:13:00 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b15-f-capability-ui-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 仕様資料のコード参照先を訂正",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:10:28+09:00",
+      "original_committer_date": "2026-10-29T23:13:00+09:00"
+    },
+    {
+      "sequence": 549,
+      "source_list": "v6-b15-c-capability-wiring-20261029",
+      "sha": "e1e2e302e3a6cdd0ff1baa7f49e955af03815acc",
+      "parent_shas": [
+        "e4ead641e6a3aabeb22de0e55304ac61daa02b42"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:11:07Z",
+      "author_date_jst": "2026-10-29 22:11:07 +09:00",
+      "committer_date_utc": "2026-10-29T14:13:00Z",
+      "committer_date_jst": "2026-10-29 23:13:00 +09:00",
+      "original_subject": "feat(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v7): 操作別の権限確認と変更履歴を扱う基盤処理を追加",
+      "version": "V7",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:11:07+09:00",
+      "original_committer_date": "2026-10-29T23:13:00+09:00"
+    },
+    {
+      "sequence": 550,
+      "source_list": "v6v7-b15-a-integration-20261029",
+      "sha": "8dcb845cb0ca9d8ceeaa8d06c30328397831681c",
+      "parent_shas": [
+        "e4ead641e6a3aabeb22de0e55304ac61daa02b42"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:12:32Z",
+      "author_date_jst": "2026-10-29 22:12:32 +09:00",
+      "committer_date_utc": "2026-10-29T14:13:02Z",
+      "committer_date_jst": "2026-10-29 23:13:02 +09:00",
+      "original_subject": "fix(v6): project technician-derived content on read and pick the true newest (batch-14 B)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b15-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 技術者由来の内容の表示範囲と最新版の選択を修正（詳細非公開）",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:12:32+09:00",
+      "original_committer_date": "2026-10-29T23:13:02+09:00"
+    },
+    {
+      "sequence": 551,
+      "source_list": "v7-b15-e-member-capability-api-20261029",
+      "sha": "63568ecb9615dce445d2144f862ad7278aad4143",
+      "parent_shas": [
+        "39342b6521fb7ae829b983c296962e2a940d0864"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T12:56:06Z",
+      "author_date_jst": "2026-10-29 21:56:06 +09:00",
+      "committer_date_utc": "2026-10-29T14:13:04Z",
+      "committer_date_jst": "2026-10-29 23:13:04 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v7-b15-e-member-capability-api-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 過去の権限レビューを原文のまま保管",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T21:56:06+09:00",
+      "original_committer_date": "2026-10-29T23:13:04+09:00"
+    },
+    {
+      "sequence": 552,
+      "source_list": "v7-b15-e-member-capability-api-20261029",
+      "sha": "2b0e5da55ca458243072e3aeddb4e90cff28fc20",
+      "parent_shas": [
+        "63568ecb9615dce445d2144f862ad7278aad4143"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:09:07Z",
+      "author_date_jst": "2026-10-29 22:09:07 +09:00",
+      "committer_date_utc": "2026-10-29T14:13:05Z",
+      "committer_date_jst": "2026-10-29 23:13:05 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v7-b15-e-member-capability-api-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 操作別の権限仕様の第2版を整理",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:09:07+09:00",
+      "original_committer_date": "2026-10-29T23:13:05+09:00"
+    },
+    {
+      "sequence": 553,
+      "source_list": "v7-b15-e-member-capability-api-20261029",
+      "sha": "c8f26f0fa843d3d1f1b1ef9d41715b8cfb3a5459",
+      "parent_shas": [
+        "2b0e5da55ca458243072e3aeddb4e90cff28fc20"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:10:28Z",
+      "author_date_jst": "2026-10-29 22:10:28 +09:00",
+      "committer_date_utc": "2026-10-29T14:13:05Z",
+      "committer_date_jst": "2026-10-29 23:13:05 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v7-b15-e-member-capability-api-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 仕様資料のコード参照先を訂正",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:10:28+09:00",
+      "original_committer_date": "2026-10-29T23:13:05+09:00"
+    },
+    {
+      "sequence": 554,
+      "source_list": "v6-b15-c-capability-wiring-20261029",
+      "sha": "db7bded88a10ea86b16018a838d98e7ed8d207ab",
+      "parent_shas": [
+        "e1e2e302e3a6cdd0ff1baa7f49e955af03815acc"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:12:32Z",
+      "author_date_jst": "2026-10-29 22:12:32 +09:00",
+      "committer_date_utc": "2026-10-29T14:13:07Z",
+      "committer_date_jst": "2026-10-29 23:13:07 +09:00",
+      "original_subject": "fix(v6): project technician-derived content on read and pick the true newest (batch-14 B)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 技術者由来の内容の表示範囲と最新版の選択を修正（詳細非公開）",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:12:32+09:00",
+      "original_committer_date": "2026-10-29T23:13:07+09:00"
+    },
+    {
+      "sequence": 555,
+      "source_list": "v6v7-b15-a-integration-20261029",
+      "sha": "a09dc8320ab1addd33ed860b500831316f5e1187",
+      "parent_shas": [
+        "eaa359ac9139445efdfbe0e1eb4995e771c9f33a"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:03:54Z",
+      "author_date_jst": "2026-10-29 22:03:54 +09:00",
+      "committer_date_utc": "2026-10-29T14:13:09Z",
+      "committer_date_jst": "2026-10-29 23:13:09 +09:00",
+      "original_subject": "test(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b15-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): 日本語表現の検出修正を独立して受入確認",
+      "version": "V7",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:03:54+09:00",
+      "original_committer_date": "2026-10-29T23:13:09+09:00"
+    },
+    {
+      "sequence": 556,
+      "source_list": "v6v7-b15-a-integration-20261029",
+      "sha": "eaa359ac9139445efdfbe0e1eb4995e771c9f33a",
+      "parent_shas": [
+        "8dcb845cb0ca9d8ceeaa8d06c30328397831681c"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:27:22Z",
+      "author_date_jst": "2026-10-29 22:27:22 +09:00",
+      "committer_date_utc": "2026-10-29T14:13:09Z",
+      "committer_date_jst": "2026-10-29 23:13:09 +09:00",
+      "original_subject": "@",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b15-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "（原文の件名：@）",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名は「@」のまま保持。非公開本文は隔離検証用ツールの確認処理を強化した記録。実際の件名を補正せず、内部条件・手順・本文は公開しない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:27:22+09:00",
+      "original_committer_date": "2026-10-29T23:13:09+09:00"
+    },
+    {
+      "sequence": 557,
+      "source_list": "v6-b15-c-capability-wiring-20261029",
+      "sha": "0d474b9242b4eba7c88ee342c2b4574eb43897d8",
+      "parent_shas": [
+        "db7bded88a10ea86b16018a838d98e7ed8d207ab"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T12:56:06Z",
+      "author_date_jst": "2026-10-29 21:56:06 +09:00",
+      "committer_date_utc": "2026-10-29T14:13:15Z",
+      "committer_date_jst": "2026-10-29 23:13:15 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 過去の権限レビューを原文のまま保管",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T21:56:06+09:00",
+      "original_committer_date": "2026-10-29T23:13:15+09:00"
+    },
+    {
+      "sequence": 558,
+      "source_list": "v6-b15-c-capability-wiring-20261029",
+      "sha": "3be3f1c73defc353a1f1c178ab6bd91def852cc4",
+      "parent_shas": [
+        "75be6ffc3551e925310da5bcab7291f2eb92ae54"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:10:28Z",
+      "author_date_jst": "2026-10-29 22:10:28 +09:00",
+      "committer_date_utc": "2026-10-29T14:13:15Z",
+      "committer_date_jst": "2026-10-29 23:13:15 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 仕様資料のコード参照先を訂正",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:10:28+09:00",
+      "original_committer_date": "2026-10-29T23:13:15+09:00"
+    },
+    {
+      "sequence": 559,
+      "source_list": "v6v7-b15-a-integration-20261029",
+      "sha": "4050a23b60aca064c16a2a56c4085b73ae3c2974",
+      "parent_shas": [
+        "5ed1b7a090c2c74d2cabb3e037cfe94a36081a5f"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:10:28Z",
+      "author_date_jst": "2026-10-29 22:10:28 +09:00",
+      "committer_date_utc": "2026-10-29T14:13:15Z",
+      "committer_date_jst": "2026-10-29 23:13:15 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b15-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 仕様資料のコード参照先を訂正",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:10:28+09:00",
+      "original_committer_date": "2026-10-29T23:13:15+09:00"
+    },
+    {
+      "sequence": 560,
+      "source_list": "v6v7-b15-a-integration-20261029",
+      "sha": "5ed1b7a090c2c74d2cabb3e037cfe94a36081a5f",
+      "parent_shas": [
+        "d2725fc0bedaae22f46085c30254f6627dd23e07"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:09:07Z",
+      "author_date_jst": "2026-10-29 22:09:07 +09:00",
+      "committer_date_utc": "2026-10-29T14:13:15Z",
+      "committer_date_jst": "2026-10-29 23:13:15 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b15-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 操作別の権限仕様の第2版を整理",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:09:07+09:00",
+      "original_committer_date": "2026-10-29T23:13:15+09:00"
+    },
+    {
+      "sequence": 561,
+      "source_list": "v6-b15-c-capability-wiring-20261029",
+      "sha": "75be6ffc3551e925310da5bcab7291f2eb92ae54",
+      "parent_shas": [
+        "0d474b9242b4eba7c88ee342c2b4574eb43897d8"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:09:07Z",
+      "author_date_jst": "2026-10-29 22:09:07 +09:00",
+      "committer_date_utc": "2026-10-29T14:13:15Z",
+      "committer_date_jst": "2026-10-29 23:13:15 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 操作別の権限仕様の第2版を整理",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:09:07+09:00",
+      "original_committer_date": "2026-10-29T23:13:15+09:00"
+    },
+    {
+      "sequence": 562,
+      "source_list": "v6v7-b15-a-integration-20261029",
+      "sha": "d2725fc0bedaae22f46085c30254f6627dd23e07",
+      "parent_shas": [
+        "a09dc8320ab1addd33ed860b500831316f5e1187"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T12:56:06Z",
+      "author_date_jst": "2026-10-29 21:56:06 +09:00",
+      "committer_date_utc": "2026-10-29T14:13:15Z",
+      "committer_date_jst": "2026-10-29 23:13:15 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b15-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 過去の権限レビューを原文のまま保管",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T21:56:06+09:00",
+      "original_committer_date": "2026-10-29T23:13:15+09:00"
+    },
+    {
+      "sequence": 563,
+      "source_list": "v6v7-b15-a-integration-20261029",
+      "sha": "30af7b200eabfd5bd8b463b9f2457bf4a61807b5",
+      "parent_shas": [
+        "4050a23b60aca064c16a2a56c4085b73ae3c2974"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:11:07Z",
+      "author_date_jst": "2026-10-29 22:11:07 +09:00",
+      "committer_date_utc": "2026-10-29T14:13:16Z",
+      "committer_date_jst": "2026-10-29 23:13:16 +09:00",
+      "original_subject": "feat(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b15-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v7): 操作別の権限確認と変更履歴を扱う基盤処理を追加",
+      "version": "V7",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:11:07+09:00",
+      "original_committer_date": "2026-10-29T23:13:16+09:00"
+    },
+    {
+      "sequence": 564,
+      "source_list": "v6v7-b15-f-capability-ui-20261029",
+      "sha": "5c64453161ea6c17af46c897d817c678198e1832",
+      "parent_shas": [
+        "6b5546e85c57a5eab19c3af28f4e4a5ea4eba4f4"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:13:34Z",
+      "author_date_jst": "2026-10-29 23:13:34 +09:00",
+      "committer_date_utc": "2026-10-29T14:13:34Z",
+      "committer_date_jst": "2026-10-29 23:13:34 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b15-f-capability-ui-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 保存内容の整合性に関する修正と検証を保管",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:13:34+09:00",
+      "original_committer_date": "2026-10-29T23:13:34+09:00"
+    },
+    {
+      "sequence": 565,
+      "source_list": "v6-b15-c-capability-wiring-20261029",
+      "sha": "239ce45d74eed83a4fa26f955b799eeb9177ebf8",
+      "parent_shas": [
+        "3be3f1c73defc353a1f1c178ab6bd91def852cc4"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:13:51Z",
+      "author_date_jst": "2026-10-29 23:13:51 +09:00",
+      "committer_date_utc": "2026-10-29T14:13:51Z",
+      "committer_date_jst": "2026-10-29 23:13:51 +09:00",
+      "original_subject": "fix(v6): record the batch-14 C correction closure deliverables",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 訂正入力の対応結果を記録",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:13:51+09:00",
+      "original_committer_date": "2026-10-29T23:13:51+09:00"
+    },
+    {
+      "sequence": 566,
+      "source_list": "v6v7-b15-a-integration-20261029",
+      "sha": "04a3f7177d8c21f5dd258754f355a6d54ba17aff",
+      "parent_shas": [
+        "30af7b200eabfd5bd8b463b9f2457bf4a61807b5"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:14:20Z",
+      "author_date_jst": "2026-10-29 23:14:20 +09:00",
+      "committer_date_utc": "2026-10-29T14:14:20Z",
+      "committer_date_jst": "2026-10-29 23:14:20 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b15-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 訂正入力の対応時点をスナップショットとして保存",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:14:20+09:00",
+      "original_committer_date": "2026-10-29T23:14:20+09:00"
+    },
+    {
+      "sequence": 567,
+      "source_list": "v6v7-b15-a-integration-20261029",
+      "sha": "2cc96d4ef593f551eced26fbaf6a76a89af0c88d",
+      "parent_shas": [
+        "04a3f7177d8c21f5dd258754f355a6d54ba17aff"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:14:20Z",
+      "author_date_jst": "2026-10-29 23:14:20 +09:00",
+      "committer_date_utc": "2026-10-29T14:14:20Z",
+      "committer_date_jst": "2026-10-29 23:14:20 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b15-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 保存内容の整合性レビューの時点を記録",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:14:20+09:00",
+      "original_committer_date": "2026-10-29T23:14:20+09:00"
+    },
+    {
+      "sequence": 568,
+      "source_list": "v6-b15-g-privacy-correction-review-20261029",
+      "sha": "f61f7ae9ee90ae55b4083c97a9da661bb3cc2a37",
+      "parent_shas": [
+        "e4ead641e6a3aabeb22de0e55304ac61daa02b42"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:12:32Z",
+      "author_date_jst": "2026-10-29 22:12:32 +09:00",
+      "committer_date_utc": "2026-10-29T14:14:46Z",
+      "committer_date_jst": "2026-10-29 23:14:46 +09:00",
+      "original_subject": "fix(v6): project technician-derived content on read and pick the true newest (batch-14 B)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-g-privacy-correction-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 技術者由来の内容の表示範囲と最新版の選択を修正（詳細非公開）",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:12:32+09:00",
+      "original_committer_date": "2026-10-29T23:14:46+09:00"
+    },
+    {
+      "sequence": 569,
+      "source_list": "v7-b15-d-agent-voice-capabilities-20261029",
+      "sha": "5506dca9445e8679934de70012917d6a260fad2b",
+      "parent_shas": [
+        "b4a5ae02883ee6be909eb3c7cf67c67372c38f94"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:12:32Z",
+      "author_date_jst": "2026-10-29 22:12:32 +09:00",
+      "committer_date_utc": "2026-10-29T14:14:55Z",
+      "committer_date_jst": "2026-10-29 23:14:55 +09:00",
+      "original_subject": "fix(v6): project technician-derived content on read and pick the true newest (batch-14 B)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v7-b15-d-agent-voice-capabilities-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 技術者由来の内容の表示範囲と最新版の選択を修正（詳細非公開）",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:12:32+09:00",
+      "original_committer_date": "2026-10-29T23:14:55+09:00"
+    },
+    {
+      "sequence": 570,
+      "source_list": "v7-b15-d-agent-voice-capabilities-20261029",
+      "sha": "b4a5ae02883ee6be909eb3c7cf67c67372c38f94",
+      "parent_shas": [
+        "e4ead641e6a3aabeb22de0e55304ac61daa02b42"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:11:07Z",
+      "author_date_jst": "2026-10-29 22:11:07 +09:00",
+      "committer_date_utc": "2026-10-29T14:14:55Z",
+      "committer_date_jst": "2026-10-29 23:14:55 +09:00",
+      "original_subject": "feat(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v7-b15-d-agent-voice-capabilities-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v7): 操作別の権限確認と変更履歴を扱う基盤処理を追加",
+      "version": "V7",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:11:07+09:00",
+      "original_committer_date": "2026-10-29T23:14:55+09:00"
+    },
+    {
+      "sequence": 571,
+      "source_list": "v7-b15-d-agent-voice-capabilities-20261029",
+      "sha": "bc1f5387e668f6799b6148868c88b3344a85a703",
+      "parent_shas": [
+        "5506dca9445e8679934de70012917d6a260fad2b"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T12:56:06Z",
+      "author_date_jst": "2026-10-29 21:56:06 +09:00",
+      "committer_date_utc": "2026-10-29T14:14:55Z",
+      "committer_date_jst": "2026-10-29 23:14:55 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v7-b15-d-agent-voice-capabilities-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 過去の権限レビューを原文のまま保管",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T21:56:06+09:00",
+      "original_committer_date": "2026-10-29T23:14:55+09:00"
+    },
+    {
+      "sequence": 572,
+      "source_list": "v7-b15-d-agent-voice-capabilities-20261029",
+      "sha": "2509c9509e538e598de61c8ee20cf90ce68b4ecd",
+      "parent_shas": [
+        "5399a0b0dc96e75ee8a498a5fb873d3c98fbb848"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:10:28Z",
+      "author_date_jst": "2026-10-29 22:10:28 +09:00",
+      "committer_date_utc": "2026-10-29T14:14:56Z",
+      "committer_date_jst": "2026-10-29 23:14:56 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v7-b15-d-agent-voice-capabilities-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 仕様資料のコード参照先を訂正",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:10:28+09:00",
+      "original_committer_date": "2026-10-29T23:14:56+09:00"
+    },
+    {
+      "sequence": 573,
+      "source_list": "v7-b15-d-agent-voice-capabilities-20261029",
+      "sha": "5399a0b0dc96e75ee8a498a5fb873d3c98fbb848",
+      "parent_shas": [
+        "bc1f5387e668f6799b6148868c88b3344a85a703"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:09:07Z",
+      "author_date_jst": "2026-10-29 22:09:07 +09:00",
+      "committer_date_utc": "2026-10-29T14:14:56Z",
+      "committer_date_jst": "2026-10-29 23:14:56 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v7-b15-d-agent-voice-capabilities-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 操作別の権限仕様の第2版を整理",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:09:07+09:00",
+      "original_committer_date": "2026-10-29T23:14:56+09:00"
+    },
+    {
+      "sequence": 574,
+      "source_list": "v6-b15-g-privacy-correction-review-20261029",
+      "sha": "56567202e6761a192d3c6243eb2b571377f96dfc",
+      "parent_shas": [
+        "f61f7ae9ee90ae55b4083c97a9da661bb3cc2a37"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:15:55Z",
+      "author_date_jst": "2026-10-29 23:15:55 +09:00",
+      "committer_date_utc": "2026-10-29T14:15:55Z",
+      "committer_date_jst": "2026-10-29 23:15:55 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-g-privacy-correction-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 訂正入力の確認済み対応を取り込み",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:15:55+09:00",
+      "original_committer_date": "2026-10-29T23:15:55+09:00"
+    },
+    {
+      "sequence": 575,
+      "source_list": "v6v7-b15-h-spring-capability-wiring-20261029",
+      "sha": "c5c6493ebdb6c762b11c944f562b324bcad0125d",
+      "parent_shas": [
+        "e4ead641e6a3aabeb22de0e55304ac61daa02b42"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:11:07Z",
+      "author_date_jst": "2026-10-29 22:11:07 +09:00",
+      "committer_date_utc": "2026-10-29T14:17:31Z",
+      "committer_date_jst": "2026-10-29 23:17:31 +09:00",
+      "original_subject": "feat(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b15-h-spring-capability-wiring-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v7): 操作別の権限確認と変更履歴を扱う基盤処理を追加",
+      "version": "V7",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:11:07+09:00",
+      "original_committer_date": "2026-10-29T23:17:31+09:00"
+    },
+    {
+      "sequence": 576,
+      "source_list": "v6v7-b15-h-spring-capability-wiring-20261029",
+      "sha": "57b7a788571af18b5b4346ee9ac8968578f769fa",
+      "parent_shas": [
+        "ba64ce9ed880f9b7fc938ad5928d78f499da5ea2"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:09:07Z",
+      "author_date_jst": "2026-10-29 22:09:07 +09:00",
+      "committer_date_utc": "2026-10-29T14:17:38Z",
+      "committer_date_jst": "2026-10-29 23:17:38 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b15-h-spring-capability-wiring-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 操作別の権限仕様の第2版を整理",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:09:07+09:00",
+      "original_committer_date": "2026-10-29T23:17:38+09:00"
+    },
+    {
+      "sequence": 577,
+      "source_list": "v6v7-b15-h-spring-capability-wiring-20261029",
+      "sha": "95728f02f0641d4a2e197e6d5d2ecfb1810408d2",
+      "parent_shas": [
+        "57b7a788571af18b5b4346ee9ac8968578f769fa"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T13:10:28Z",
+      "author_date_jst": "2026-10-29 22:10:28 +09:00",
+      "committer_date_utc": "2026-10-29T14:17:38Z",
+      "committer_date_jst": "2026-10-29 23:17:38 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b15-h-spring-capability-wiring-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 仕様資料のコード参照先を訂正",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T22:10:28+09:00",
+      "original_committer_date": "2026-10-29T23:17:38+09:00"
+    },
+    {
+      "sequence": 578,
+      "source_list": "v6v7-b15-h-spring-capability-wiring-20261029",
+      "sha": "ba64ce9ed880f9b7fc938ad5928d78f499da5ea2",
+      "parent_shas": [
+        "c5c6493ebdb6c762b11c944f562b324bcad0125d"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T12:56:06Z",
+      "author_date_jst": "2026-10-29 21:56:06 +09:00",
+      "committer_date_utc": "2026-10-29T14:17:38Z",
+      "committer_date_jst": "2026-10-29 23:17:38 +09:00",
+      "original_subject": "docs(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b15-h-spring-capability-wiring-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 過去の権限レビューを原文のまま保管",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T21:56:06+09:00",
+      "original_committer_date": "2026-10-29T23:17:38+09:00"
+    },
+    {
+      "sequence": 579,
+      "source_list": "v6v7-b15-h-spring-capability-wiring-20261029",
+      "sha": "af52c691478c3a32328033a51c421cf93ff4d9e0",
+      "parent_shas": [
+        "95728f02f0641d4a2e197e6d5d2ecfb1810408d2"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:17:57Z",
+      "author_date_jst": "2026-10-29 23:17:57 +09:00",
+      "committer_date_utc": "2026-10-29T14:17:57Z",
+      "committer_date_jst": "2026-10-29 23:17:57 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [],
+      "branches": [
+        "v6v7-b15-h-spring-capability-wiring-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 訂正入力への対応時点を保管",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:17:57+09:00",
+      "original_committer_date": "2026-10-29T23:17:57+09:00"
+    },
+    {
+      "sequence": 580,
+      "source_list": "v6v7-b15-h-spring-capability-wiring-20261029",
+      "sha": "88d8e3f7a36813ca5b99daf3e18205035643462d",
+      "parent_shas": [
+        "af52c691478c3a32328033a51c421cf93ff4d9e0"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:18:11Z",
+      "author_date_jst": "2026-10-29 23:18:11 +09:00",
+      "committer_date_utc": "2026-10-29T14:18:11Z",
+      "committer_date_jst": "2026-10-29 23:18:11 +09:00",
+      "original_subject": "fix(v6): preserve the batch-14 E archive stale-label snapshot",
+      "coauthors": [],
+      "branches": [
+        "v6v7-b15-h-spring-capability-wiring-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 保存内容の更新状態表示を保管",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:18:11+09:00",
+      "original_committer_date": "2026-10-29T23:18:11+09:00"
+    },
+    {
+      "sequence": 581,
+      "source_list": "v7-b15-b-capability-review-20261029",
+      "sha": "d54d3c22be89e43b523a1a6d1568761082c51816",
+      "parent_shas": [
+        "3f122d2579744823606835a96fa343e11083dfdc"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:32:07Z",
+      "author_date_jst": "2026-10-29 23:32:07 +09:00",
+      "committer_date_utc": "2026-10-29T14:32:07Z",
+      "committer_date_jst": "2026-10-29 23:32:07 +09:00",
+      "original_subject": "fix(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v7): 既存権限方針の表記と仕様の不一致を修正（詳細非公開）",
+      "version": "V7",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:32:07+09:00",
+      "original_committer_date": "2026-10-29T23:32:07+09:00"
+    },
+    {
+      "sequence": 582,
+      "source_list": "v7-b15-b-capability-review-20261029",
+      "sha": "e3be28ff0dacb2854574b9947fd47174247cf41b",
+      "parent_shas": [
+        "d54d3c22be89e43b523a1a6d1568761082c51816"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:32:33Z",
+      "author_date_jst": "2026-10-29 23:32:33 +09:00",
+      "committer_date_utc": "2026-10-29T14:32:33Z",
+      "committer_date_jst": "2026-10-29 23:32:33 +09:00",
+      "original_subject": "test(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): 権限確認の優先関係に関する回帰検証を追加（詳細非公開）",
+      "version": "V7",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:32:33+09:00",
+      "original_committer_date": "2026-10-29T23:32:33+09:00"
+    },
+    {
+      "sequence": 583,
+      "source_list": "v7-b15-b-capability-review-20261029",
+      "sha": "7ff57aa5144c46178163f658ee4dfc3c1bce5144",
+      "parent_shas": [
+        "e3be28ff0dacb2854574b9947fd47174247cf41b"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:32:51Z",
+      "author_date_jst": "2026-10-29 23:32:51 +09:00",
+      "committer_date_utc": "2026-10-29T14:32:51Z",
+      "committer_date_jst": "2026-10-29 23:32:51 +09:00",
+      "original_subject": "docs(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v7-b15-b-capability-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v7): 第15回の操作別権限確認に関する基盤レビューを追加",
+      "version": "V7",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:32:51+09:00",
+      "original_committer_date": "2026-10-29T23:32:51+09:00"
+    },
+    {
+      "sequence": 584,
+      "source_list": "v6v7-b15-a-integration-20261029",
+      "sha": "57f2f2a49debb52b2764b7800294ca6314e977cd",
+      "parent_shas": [
+        "2cc96d4ef593f551eced26fbaf6a76a89af0c88d"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:33:15Z",
+      "author_date_jst": "2026-10-29 23:33:15 +09:00",
+      "committer_date_utc": "2026-10-29T14:33:15Z",
+      "committer_date_jst": "2026-10-29 23:33:15 +09:00",
+      "original_subject": "docs(v6): record the batch-15 A unified candidate, status index and handoff",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b15-a-integration-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 第15回の統合候補版・状態一覧・引継ぎを記録",
+      "version": "V6",
+      "development_status": "ローカル統合候補版（正式統合・受入未完了）",
+      "verification_note": "状態一覧で過去の判定や未完了項目を整理。一部の改善案の不採用・差戻しを保持。候補版の構成照合には未解消事項があり、実環境での受入・本番配備は未完了。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:33:15+09:00",
+      "original_committer_date": "2026-10-29T23:33:15+09:00"
+    },
+    {
+      "sequence": 585,
+      "source_list": "v6-b15-g-privacy-correction-review-20261029",
+      "sha": "6df7102a54a6fde4b5cf5b40829a74789de2a7d2",
+      "parent_shas": [
+        "56567202e6761a192d3c6243eb2b571377f96dfc"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:43:04Z",
+      "author_date_jst": "2026-10-29 23:43:04 +09:00",
+      "committer_date_utc": "2026-10-29T14:43:04Z",
+      "committer_date_jst": "2026-10-29 23:43:04 +09:00",
+      "original_subject": "test(v6): add the batch-15 G independent reviews (privacy, correction, cross-analysis)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-g-privacy-correction-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 情報保護・訂正入力・横断分析の独立レビューを追加",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:43:04+09:00",
+      "original_committer_date": "2026-10-29T23:43:04+09:00"
+    },
+    {
+      "sequence": 586,
+      "source_list": "v6-b15-g-privacy-correction-review-20261029",
+      "sha": "b7e1b62c4971a8e846083a28e232a303eccc02e9",
+      "parent_shas": [
+        "6df7102a54a6fde4b5cf5b40829a74789de2a7d2"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:43:13Z",
+      "author_date_jst": "2026-10-29 23:43:13 +09:00",
+      "committer_date_utc": "2026-10-29T14:43:13Z",
+      "committer_date_jst": "2026-10-29 23:43:13 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-g-privacy-correction-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 技術者由来の情報保護と出典別の保存状態を修正（詳細非公開）",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:43:13+09:00",
+      "original_committer_date": "2026-10-29T23:43:13+09:00"
+    },
+    {
+      "sequence": 587,
+      "source_list": "v6v7-b15-h-spring-capability-wiring-20261029",
+      "sha": "34aa85a51fa2b19755b6f11424610fe87c2d80a3",
+      "parent_shas": [
+        "88d8e3f7a36813ca5b99daf3e18205035643462d"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:44:08Z",
+      "author_date_jst": "2026-10-29 23:44:08 +09:00",
+      "committer_date_utc": "2026-10-29T14:44:08Z",
+      "committer_date_jst": "2026-10-29 23:44:08 +09:00",
+      "original_subject": "feat(v6v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b15-h-spring-capability-wiring-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v6v7): 操作別の権限確認をSpring側の処理へ接続",
+      "version": "V6・V7共通",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:44:08+09:00",
+      "original_committer_date": "2026-10-29T23:44:08+09:00"
+    },
+    {
+      "sequence": 588,
+      "source_list": "v6v7-b15-f-capability-ui-20261029",
+      "sha": "befb646b9703d5a627769e648f034230debc7ab6",
+      "parent_shas": [
+        "5c64453161ea6c17af46c897d817c678198e1832"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:46:08Z",
+      "author_date_jst": "2026-10-29 23:46:08 +09:00",
+      "committer_date_utc": "2026-10-29T14:46:08Z",
+      "committer_date_jst": "2026-10-29 23:46:08 +09:00",
+      "original_subject": "feat(v6v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-b15-f-capability-ui-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v6v7): 案件の操作権限をメンバー表示と操作入口へ接続",
+      "version": "V6・V7共通",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:46:08+09:00",
+      "original_committer_date": "2026-10-29T23:46:08+09:00"
+    },
+    {
+      "sequence": 589,
+      "source_list": "v8-platform-control",
+      "sha": "a2df5cc24a71a929d39ee22c08f17781f20a95a3",
+      "parent_shas": [
+        "623af6ad09958948d929ea4b81a9d1b1beec5aca"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:53:14Z",
+      "author_date_jst": "2026-10-29 23:53:14 +09:00",
+      "committer_date_utc": "2026-10-29T14:53:14Z",
+      "committer_date_jst": "2026-10-29 23:53:14 +09:00",
+      "original_subject": "feat(v8-b01): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-platform-control"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v8-b01): 同期復旧・監査・状態表示の共通仕様を改訂",
+      "version": "V8",
+      "development_status": "設計・基礎型・検証準備（業務受入未実施）",
+      "verification_note": "初期設計・共通データ型・検証準備の段階。詳細仕様、担当分担表、Skill、プロンプト、判定ルール、検証手順の本文は非公開。準備状態の確認やコンパイル確認を業務環境での受入完了に置き換えない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:53:14+09:00",
+      "original_committer_date": "2026-10-29T23:53:14+09:00"
+    },
+    {
+      "sequence": 590,
+      "source_list": "v6-b15-g-privacy-correction-review-20261029",
+      "sha": "a6b281aa8a6d8193177c66e0fd53e0f44f49f118",
+      "parent_shas": [
+        "b7e1b62c4971a8e846083a28e232a303eccc02e9"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:54:31Z",
+      "author_date_jst": "2026-10-29 23:54:31 +09:00",
+      "committer_date_utc": "2026-10-29T14:54:31Z",
+      "committer_date_jst": "2026-10-29 23:54:31 +09:00",
+      "original_subject": "test(v6): extend the batch-15 G privacy review to old/corrupt shapes (batch-15 G)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-g-privacy-correction-review-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 情報保護レビューを過去形式・不整合データにも拡張",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:54:31+09:00",
+      "original_committer_date": "2026-10-29T23:54:31+09:00"
+    },
+    {
+      "sequence": 591,
+      "source_list": "v7-b15-d-agent-voice-capabilities-20261029",
+      "sha": "27b165383b889976d14c152e17bfe408bde9e751",
+      "parent_shas": [
+        "2509c9509e538e598de61c8ee20cf90ce68b4ecd"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:55:22Z",
+      "author_date_jst": "2026-10-29 23:55:22 +09:00",
+      "committer_date_utc": "2026-10-29T14:55:22Z",
+      "committer_date_jst": "2026-10-29 23:55:22 +09:00",
+      "original_subject": "feat(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v7-b15-d-agent-voice-capabilities-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v7): Agent Rと音声処理に操作別の権限確認を接続",
+      "version": "V7",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:55:22+09:00",
+      "original_committer_date": "2026-10-29T23:55:22+09:00"
+    },
+    {
+      "sequence": 592,
+      "source_list": "v8-platform-control",
+      "sha": "a439e09bd358366d179057da014b236b3b2d5558",
+      "parent_shas": [
+        "a2df5cc24a71a929d39ee22c08f17781f20a95a3"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:55:25Z",
+      "author_date_jst": "2026-10-29 23:55:25 +09:00",
+      "committer_date_utc": "2026-10-29T14:55:25Z",
+      "committer_date_jst": "2026-10-29 23:55:25 +09:00",
+      "original_subject": "docs(v8-b01): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-platform-control"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v8-b01): 共通仕様第2版の基準情報と検証入口を整理",
+      "version": "V8",
+      "development_status": "設計・基礎型・検証準備（業務受入未実施）",
+      "verification_note": "初期設計・共通データ型・検証準備の段階。詳細仕様、担当分担表、Skill、プロンプト、判定ルール、検証手順の本文は非公開。準備状態の確認やコンパイル確認を業務環境での受入完了に置き換えない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:55:25+09:00",
+      "original_committer_date": "2026-10-29T23:55:25+09:00"
+    },
+    {
+      "sequence": 593,
+      "source_list": "v7-b15-e-member-capability-api-20261029",
+      "sha": "01166d9245c191a2ca6a6f8e9b14e4ea0ecc9dea",
+      "parent_shas": [
+        "c8f26f0fa843d3d1f1b1ef9d41715b8cfb3a5459"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:55:26Z",
+      "author_date_jst": "2026-10-29 23:55:26 +09:00",
+      "committer_date_utc": "2026-10-29T14:55:26Z",
+      "committer_date_jst": "2026-10-29 23:55:26 +09:00",
+      "original_subject": "feat(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v7-b15-e-member-capability-api-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v7): 操作権限の承認と参加状態の変更を接続",
+      "version": "V7",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:55:26+09:00",
+      "original_committer_date": "2026-10-29T23:55:26+09:00"
+    },
+    {
+      "sequence": 594,
+      "source_list": "v8-platform-control",
+      "sha": "4e47a3e4a8f9676999726febead9945e2d1efa6e",
+      "parent_shas": [
+        "a439e09bd358366d179057da014b236b3b2d5558"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:56:46Z",
+      "author_date_jst": "2026-10-29 23:56:46 +09:00",
+      "committer_date_utc": "2026-10-29T14:56:46Z",
+      "committer_date_jst": "2026-10-29 23:56:46 +09:00",
+      "original_subject": "docs(v8-b01): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-platform-control"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v8-b01): 構成一覧の参照先を確定した仕様の時点に合わせて修正",
+      "version": "V8",
+      "development_status": "設計・基礎型・検証準備（業務受入未実施）",
+      "verification_note": "初期設計・共通データ型・検証準備の段階。詳細仕様、担当分担表、Skill、プロンプト、判定ルール、検証手順の本文は非公開。準備状態の確認やコンパイル確認を業務環境での受入完了に置き換えない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:56:46+09:00",
+      "original_committer_date": "2026-10-29T23:56:46+09:00"
+    },
+    {
+      "sequence": 595,
+      "source_list": "v8-platform-control",
+      "sha": "fa04ca29c2e4e05363d8ec547084e2a2e4be8cc4",
+      "parent_shas": [
+        "4e47a3e4a8f9676999726febead9945e2d1efa6e"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:57:29Z",
+      "author_date_jst": "2026-10-29 23:57:29 +09:00",
+      "committer_date_utc": "2026-10-29T14:57:29Z",
+      "committer_date_jst": "2026-10-29 23:57:29 +09:00",
+      "original_subject": "docs(v8-b01): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-platform-control"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v8-b01): 各担当の照合結果と実際の準備状態を記録",
+      "version": "V8",
+      "development_status": "設計・基礎型・検証準備（業務受入未実施）",
+      "verification_note": "初期設計・共通データ型・検証準備の段階。詳細仕様、担当分担表、Skill、プロンプト、判定ルール、検証手順の本文は非公開。準備状態の確認やコンパイル確認を業務環境での受入完了に置き換えない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:57:29+09:00",
+      "original_committer_date": "2026-10-29T23:57:29+09:00"
+    },
+    {
+      "sequence": 596,
+      "source_list": "v6-b15-c-capability-wiring-20261029",
+      "sha": "81d6910cd071ddbe726ddc90a503d8bbcdd407e5",
+      "parent_shas": [
+        "239ce45d74eed83a4fa26f955b799eeb9177ebf8"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:57:59Z",
+      "author_date_jst": "2026-10-29 23:57:59 +09:00",
+      "committer_date_utc": "2026-10-29T14:57:59Z",
+      "committer_date_jst": "2026-10-29 23:57:59 +09:00",
+      "original_subject": "feat(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6-b15-c-capability-wiring-20261029"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v6): 操作別の権限確認を各入口へ接続し、草案に最新の訂正を反映",
+      "version": "V6",
+      "development_status": "ローカル作業・検証分岐（候補版への取込未確認）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。実装・修正・検証資料の分岐上の記録で、正式統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:57:59+09:00",
+      "original_committer_date": "2026-10-29T23:57:59+09:00"
+    },
+    {
+      "sequence": 597,
+      "source_list": "v8-platform-control",
+      "sha": "dc26c9ba6fa6bc01cd2a154c692ff94e9dd78af2",
+      "parent_shas": [
+        "fa04ca29c2e4e05363d8ec547084e2a2e4be8cc4"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:57:59Z",
+      "author_date_jst": "2026-10-29 23:57:59 +09:00",
+      "committer_date_utc": "2026-10-29T14:57:59Z",
+      "committer_date_jst": "2026-10-29 23:57:59 +09:00",
+      "original_subject": "docs(v8-b01): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-platform-control"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v8-b01): 引継ぎ先の基準コミットで照合結果を更新",
+      "version": "V8",
+      "development_status": "設計・基礎型・検証準備（業務受入未実施）",
+      "verification_note": "初期設計・共通データ型・検証準備の段階。詳細仕様、担当分担表、Skill、プロンプト、判定ルール、検証手順の本文は非公開。準備状態の確認やコンパイル確認を業務環境での受入完了に置き換えない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:57:59+09:00",
+      "original_committer_date": "2026-10-29T23:57:59+09:00"
+    },
+    {
+      "sequence": 598,
+      "source_list": "v8-platform-control",
+      "sha": "ac938b730fa26313a9171c9d3c1982c658546e3f",
+      "parent_shas": [
+        "dc26c9ba6fa6bc01cd2a154c692ff94e9dd78af2"
+      ],
+      "author_alias": "作者01",
+      "author_date_utc": "2026-10-29T14:58:14Z",
+      "author_date_jst": "2026-10-29 23:58:14 +09:00",
+      "committer_date_utc": "2026-10-29T14:58:14Z",
+      "committer_date_jst": "2026-10-29 23:58:14 +09:00",
+      "original_subject": "docs(v8-b01): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-platform-control"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v8-b01): 共通仕様第2版のレビュー資料を整理",
+      "version": "V8",
+      "development_status": "設計・基礎型・検証準備（業務受入未実施）",
+      "verification_note": "レビュー資料の版表記・参照先・記録整理の誤りを訂正した記録。以前の説明と実物を区別して保持。内部仕様やSkillの本文・版番号・配置の詳細は公開しない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-10-30",
+      "original_author_date": "2026-10-29T23:58:14+09:00",
+      "original_committer_date": "2026-10-29T23:58:14+09:00"
     }
   ],
-  "extension_note": "旧413件の各レコードは不変。追加84件のsource_originはlocal_git。実日時とSHAを保持し、未コミット・stash・古い試作分岐は含めない。同一変更を別分岐へ適用した異なるSHAを含む。今回業務テストの再実行は行っていない。"
+  "extension_note": "旧497レコードは不変。追加101件はlocal_git。実日時、SHA、親子関係、AI共同作成者を保持し、件名の機密箇所のみ伏字。V8は設計・基礎型・検証準備。今回業務テストは再実行していない。"
 }
