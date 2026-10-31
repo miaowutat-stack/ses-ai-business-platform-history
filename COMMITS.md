@@ -1,6 +1,6 @@
 # 全598件のコミット記録（元の番号を保持・追加分を末尾に収録）
 
-[トップに戻る](README.md)　／　[日付順で見る](BY_DATE.md)　／　[V2](versions/V2.md)　／　[V3](versions/V3.md)　／　[V4](versions/V4.md)
+[トップに戻る](README.md)　／　[日付順で見る](BY_DATE.md)　／　[V2](versions/V2.md)　／　[V3](versions/V3.md)　／　[V4](versions/V4.md)　／　[V5](versions/V5.md)　／　[V6](versions/V6.md)　／　[V7](versions/V7.md)　／　[V8](versions/V8.md)
 
 旧376件の番号・順序は維持しています。追加分はV5 6件、V6 25件、V7固有5件、V4追加保守1件の順です。[全体の時系列](BY_DATE.md)と[V5](versions/V5.md)・[V6](versions/V6.md)・[V7](versions/V7.md)からも閲覧できます。
 
