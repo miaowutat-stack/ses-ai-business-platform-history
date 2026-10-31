@@ -15,15 +15,25 @@ SES営業では、社員の経歴、案件の条件、提案や面談の経緯�
 このシステムでは、人事・案件・営業活動の情報を一つの基盤で管理します。AIは根拠を添えて情報を整理し、最終的な判断は人が行う形を目指しています。V1〜V8は別々のアプリではなく、同じ業務データと認証・権限の基盤に、段階的に機能を追加・統合してきたものです。
 
 ```mermaid
-flowchart LR
-  V1["V1 人事管理"] --> V2["V2 職務経歴書"] --> V3["V3 案件・営業"] --> V4["V4 RAG営業支援"]
-  V4 --> V5["V5 AIアシスタント"]
-  V4 --> V6["V6 面談分析"]
-  V4 --> V7["V7 提案支援"]
-  V6 --> V7
-  V8["V8 統合データ基盤"] -.- V4
-  V8 -.- V6
-  V8 -.- V7
+%%{init: {"theme": "default", "flowchart": {"nodeSpacing": 24, "rankSpacing": 36, "padding": 10}}}%%
+flowchart TB
+  subgraph frame[" "]
+    direction TB
+    subgraph core["主要機能"]
+      direction LR
+      V1["V1<br>人事管理"] --> V2["V2<br>職務経歴書"] --> V3["V3<br>案件・営業"] --> V4["V4<br>RAG営業支援"]
+    end
+    subgraph ext["拡張機能"]
+      direction LR
+      V5["V5<br>AIアシスタント"] ~~~ V6["V6<br>面談分析"] ~~~ V7["V7<br>提案支援"]
+    end
+    subgraph base["共通基盤"]
+      V8["V8<br>統合データ基盤"]
+    end
+    core --> ext
+    ext ~~~ base
+  end
+  style frame fill:#ffffff,stroke:#ffffff
 ```
 
 V5〜V7はV4を土台に並行して開発しています。V8は、これらが共通で利用するデータ基盤として設計を進めています。
