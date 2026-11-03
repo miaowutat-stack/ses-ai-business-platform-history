@@ -1,13 +1,13 @@
 {
   "format_version": 1,
-  "exported_on": "2026-10-30",
+  "exported_on": "2026-11-04",
   "repository": {
     "id": 1377397480,
     "full_name": "miaowutat-stack/ses-ai-business-platform",
     "visibility": "private"
   },
-  "record_count": 598,
-  "scope": "旧497件を保持し、10/30照合のローカルGitからV6・V7の候補・作業分岐とV8初期設計分岐の101件を追記。正式統合・開発元GitHubへの反映・本番配備の完了は示さない。",
+  "record_count": 702,
+  "scope": "旧598件を保持し、11/04照合のローカルGitからV5・V6・V7の統合ブランチとV8開発分岐の104件を追記。正式統合・本番配備・実環境での受入完了は示さない。",
   "field_selection": "件名と識別・日時のメタデータを抽出。詳細本文、差分、ソースファイル、メールアドレスは含まない。",
   "translation_note": "original_subject は機密箇所のみ伏字。japanese_translation はその件名の翻訳であり、元のGit記録を書き換えたものではない。",
   "records": [
@@ -16278,8 +16278,3190 @@
       "snapshot_date_jst": "2026-10-30",
       "original_author_date": "2026-10-29T23:58:14+09:00",
       "original_committer_date": "2026-10-29T23:58:14+09:00"
+    },
+    {
+      "sequence": 599,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "497a76dc45bfdc0e202a56e94b904317e7c0d40d",
+      "parent_shas": [
+        "57f2f2a49debb52b2764b7800294ca6314e977cd"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-29T14:32:07Z",
+      "author_date_jst": "2026-10-29 23:32:07 +09:00",
+      "committer_date_utc": "2026-10-30T03:28:19Z",
+      "committer_date_jst": "2026-10-30 12:28:19 +09:00",
+      "original_subject": "fix(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v7): 旧ポリシーに対する仕様上の表記を受け付けるよう修正（詳細非公開）",
+      "version": "V7",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "件名の機密箇所（内部仕様・保護制御の詳細）は伏字にし、高水準の変更内容のみを日本語訳に記載。元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-29T23:32:07+09:00",
+      "original_committer_date": "2026-10-30T12:28:19+09:00"
+    },
+    {
+      "sequence": 600,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "def9b523ba765bfe691bbe43ffbc4e76e971638a",
+      "parent_shas": [
+        "497a76dc45bfdc0e202a56e94b904317e7c0d40d"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-29T14:32:33Z",
+      "author_date_jst": "2026-10-29 23:32:33 +09:00",
+      "committer_date_utc": "2026-10-30T03:28:19Z",
+      "committer_date_jst": "2026-10-30 12:28:19 +09:00",
+      "original_subject": "test(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): 所有者の権限と記録上の不整合が重なる場合の優先順位を検証（詳細非公開）",
+      "version": "V7",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "件名の機密箇所（内部仕様・保護制御の詳細）は伏字にし、高水準の変更内容のみを日本語訳に記載。元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-29T23:32:33+09:00",
+      "original_committer_date": "2026-10-30T12:28:19+09:00"
+    },
+    {
+      "sequence": 601,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "c5ca907b5bac7df945aee5f2c3345976daf1cbf9",
+      "parent_shas": [
+        "def9b523ba765bfe691bbe43ffbc4e76e971638a"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-29T14:32:51Z",
+      "author_date_jst": "2026-10-29 23:32:51 +09:00",
+      "committer_date_utc": "2026-10-30T03:28:19Z",
+      "committer_date_jst": "2026-10-30 12:28:19 +09:00",
+      "original_subject": "docs(v7): add the batch-15 B four-capability core review",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v7): 第15回B担当の4種の操作権限に関する中核レビューを追加",
+      "version": "V7",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-29T23:32:51+09:00",
+      "original_committer_date": "2026-10-30T12:28:19+09:00"
+    },
+    {
+      "sequence": 602,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "962c8e157b47a569360913c7c5225a44f61c4655",
+      "parent_shas": [
+        "c5ca907b5bac7df945aee5f2c3345976daf1cbf9"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-29T14:57:59Z",
+      "author_date_jst": "2026-10-29 23:57:59 +09:00",
+      "committer_date_utc": "2026-10-30T03:28:26Z",
+      "committer_date_jst": "2026-10-30 12:28:26 +09:00",
+      "original_subject": "feat(v6): wire the four-capability facade into the V6 entries and use the latest correction in drafts",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v6): V6の各入口に4種の操作権限の共通窓口を接続し、草案に最新の訂正を反映",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-29T23:57:59+09:00",
+      "original_committer_date": "2026-10-30T12:28:26+09:00"
+    },
+    {
+      "sequence": 603,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "1bc4d6c1ad79b8e471601aa3d0bc0521a696f6f5",
+      "parent_shas": [
+        "962c8e157b47a569360913c7c5225a44f61c4655"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-29T14:55:22Z",
+      "author_date_jst": "2026-10-29 23:55:22 +09:00",
+      "committer_date_utc": "2026-10-30T03:28:31Z",
+      "committer_date_jst": "2026-10-30 12:28:31 +09:00",
+      "original_subject": "feat(v7): gate Agent R and voice on four capabilities (batch-15 D)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v7): Agent Rと音声機能に4種の操作権限の確認を適用（第15回D）",
+      "version": "V7",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-29T23:55:22+09:00",
+      "original_committer_date": "2026-10-30T12:28:31+09:00"
+    },
+    {
+      "sequence": 604,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "8019d386eac807d6a99514566b7993a48c624fa1",
+      "parent_shas": [
+        "1bc4d6c1ad79b8e471601aa3d0bc0521a696f6f5"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-29T14:55:26Z",
+      "author_date_jst": "2026-10-29 23:55:26 +09:00",
+      "committer_date_utc": "2026-10-30T03:28:38Z",
+      "committer_date_jst": "2026-10-30 12:28:38 +09:00",
+      "original_subject": "feat(v7): wire explicit capability approvals and membership lifecycle",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v7): 権限の明示的な承認とメンバーの参加・離脱の管理を接続",
+      "version": "V7",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-29T23:55:26+09:00",
+      "original_committer_date": "2026-10-30T12:28:38+09:00"
+    },
+    {
+      "sequence": 605,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "2a4579769e4f0463a01519d47056381c15de628d",
+      "parent_shas": [
+        "8019d386eac807d6a99514566b7993a48c624fa1"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-29T14:46:08Z",
+      "author_date_jst": "2026-10-29 23:46:08 +09:00",
+      "committer_date_utc": "2026-10-30T03:28:48Z",
+      "committer_date_jst": "2026-10-30 12:28:48 +09:00",
+      "original_subject": "feat(v6v7): wire explicit case capabilities into the members block and action entries",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v6v7): 案件ごとの明示的な権限をメンバー表示と操作入口に接続",
+      "version": "V6・V7共通",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-29T23:46:08+09:00",
+      "original_committer_date": "2026-10-30T12:28:48+09:00"
+    },
+    {
+      "sequence": 606,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "75dc8f14fb5e1601884d91d91e550128fe01f25e",
+      "parent_shas": [
+        "2a4579769e4f0463a01519d47056381c15de628d"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-29T14:43:04Z",
+      "author_date_jst": "2026-10-29 23:43:04 +09:00",
+      "committer_date_utc": "2026-10-30T03:28:55Z",
+      "committer_date_jst": "2026-10-30 12:28:55 +09:00",
+      "original_subject": "test(v6): add the batch-15 G independent reviews (privacy, correction, cross-analysis)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 情報保護・訂正入力・横断分析の独立レビューを追加",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-29T23:43:04+09:00",
+      "original_committer_date": "2026-10-30T12:28:55+09:00"
+    },
+    {
+      "sequence": 607,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "e78ce3712a587d2974f68581d97aeb138771c6f3",
+      "parent_shas": [
+        "75dc8f14fb5e1601884d91d91e550128fe01f25e"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-29T14:43:13Z",
+      "author_date_jst": "2026-10-29 23:43:13 +09:00",
+      "committer_date_utc": "2026-10-30T03:28:55Z",
+      "committer_date_jst": "2026-10-30 12:28:55 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 技術者由来の情報の表示範囲と保存単位を修正（詳細非公開）",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "件名の機密箇所（内部仕様・保護制御の詳細）は伏字にし、高水準の変更内容のみを日本語訳に記載。元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-29T23:43:13+09:00",
+      "original_committer_date": "2026-10-30T12:28:55+09:00"
+    },
+    {
+      "sequence": 608,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "f4d8da894385e4b73a1e5d5cce37a4c2e0799acf",
+      "parent_shas": [
+        "e78ce3712a587d2974f68581d97aeb138771c6f3"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-29T14:54:31Z",
+      "author_date_jst": "2026-10-29 23:54:31 +09:00",
+      "committer_date_utc": "2026-10-30T03:28:55Z",
+      "committer_date_jst": "2026-10-30 12:28:55 +09:00",
+      "original_subject": "test(v6): extend the batch-15 G privacy review to old/corrupt shapes (batch-15 G)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 情報保護レビューを過去形式・不整合データにも拡張",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-29T23:54:31+09:00",
+      "original_committer_date": "2026-10-30T12:28:55+09:00"
+    },
+    {
+      "sequence": 609,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "045a4adadf54a7914131d16e40e8d54c9bab3e6d",
+      "parent_shas": [
+        "f4d8da894385e4b73a1e5d5cce37a4c2e0799acf"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-29T14:44:08Z",
+      "author_date_jst": "2026-10-29 23:44:08 +09:00",
+      "committer_date_utc": "2026-10-30T03:28:59Z",
+      "committer_date_jst": "2026-10-30 12:28:59 +09:00",
+      "original_subject": "feat(v6v7): wire the four-capability facade to a transactional Spring bean",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v6v7): 4種の操作権限の共通窓口をトランザクション管理下のSpring部品に接続",
+      "version": "V6・V7共通",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-29T23:44:08+09:00",
+      "original_committer_date": "2026-10-30T12:28:59+09:00"
+    },
+    {
+      "sequence": 610,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "b1cdac7df6a92df93b4224da690a8d73d12fef39",
+      "parent_shas": [
+        "045a4adadf54a7914131d16e40e8d54c9bab3e6d"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T03:47:58Z",
+      "author_date_jst": "2026-10-30 12:47:58 +09:00",
+      "committer_date_utc": "2026-10-30T03:47:58Z",
+      "committer_date_jst": "2026-10-30 12:47:58 +09:00",
+      "original_subject": "docs(v6v7): record the batch-16 A four-capability integration candidate and handoff",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6v7): 第16回の操作権限の統合候補版と引継ぎを記録",
+      "version": "V6・V7共通",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T12:47:58+09:00",
+      "original_committer_date": "2026-10-30T12:47:58+09:00"
+    },
+    {
+      "sequence": 611,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "40965f180b0d0e355440532642027b68264c97da",
+      "parent_shas": [
+        "b1cdac7df6a92df93b4224da690a8d73d12fef39"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T03:53:36Z",
+      "author_date_jst": "2026-10-30 12:53:36 +09:00",
+      "committer_date_utc": "2026-10-30T03:53:36Z",
+      "committer_date_jst": "2026-10-30 12:53:36 +09:00",
+      "original_subject": "docs(v6v7): correct allowlist composition and blob-count wording (batch-16 A)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6v7): 許可リストの構成とファイル数の記載を訂正（第16回A）",
+      "version": "V6・V7共通",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T12:53:36+09:00",
+      "original_committer_date": "2026-10-30T12:53:36+09:00"
+    },
+    {
+      "sequence": 612,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "1f689ac12563d5a3faa7cc1b84504fa39c6b30db",
+      "parent_shas": [
+        "40965f180b0d0e355440532642027b68264c97da"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T03:53:59Z",
+      "author_date_jst": "2026-10-30 12:53:59 +09:00",
+      "committer_date_utc": "2026-10-30T10:19:06Z",
+      "committer_date_jst": "2026-10-30 19:19:06 +09:00",
+      "original_subject": "fix(v6v7): refuse an ambiguous capability transaction manager",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6v7): 権限処理のトランザクション管理先を特定できない場合は処理を拒否するよう修正",
+      "version": "V6・V7共通",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T12:53:59+09:00",
+      "original_committer_date": "2026-10-30T19:19:06+09:00"
+    },
+    {
+      "sequence": 613,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "d5d2cd2b806c7270b461b86dc7315bb7bb3e96d1",
+      "parent_shas": [
+        "1f689ac12563d5a3faa7cc1b84504fa39c6b30db"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T03:54:05Z",
+      "author_date_jst": "2026-10-30 12:54:05 +09:00",
+      "committer_date_utc": "2026-10-30T10:19:10Z",
+      "committer_date_jst": "2026-10-30 19:19:10 +09:00",
+      "original_subject": "test(v7): add the batch-16 B independent wiring review",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): 第16回B担当の接続に関する独立レビューを追加",
+      "version": "V7",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T12:54:05+09:00",
+      "original_committer_date": "2026-10-30T19:19:10+09:00"
+    },
+    {
+      "sequence": 614,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "7a64c8e8838a34c322d0c20aa39ee4ea310e24be",
+      "parent_shas": [
+        "d5d2cd2b806c7270b461b86dc7315bb7bb3e96d1"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T04:42:57Z",
+      "author_date_jst": "2026-10-30 13:42:57 +09:00",
+      "committer_date_utc": "2026-10-30T10:19:14Z",
+      "committer_date_jst": "2026-10-30 19:19:14 +09:00",
+      "original_subject": "fix(v6): gate owner edit/generate/egress through the capability facade",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 所有者による編集・生成・外部送信を、権限の共通窓口で確認するよう修正",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T13:42:57+09:00",
+      "original_committer_date": "2026-10-30T19:19:14+09:00"
+    },
+    {
+      "sequence": 615,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "6960474dab9be6e961e6f82352ae8f5515b6351b",
+      "parent_shas": [
+        "7a64c8e8838a34c322d0c20aa39ee4ea310e24be"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T05:38:46Z",
+      "author_date_jst": "2026-10-30 14:38:46 +09:00",
+      "committer_date_utc": "2026-10-30T10:20:41Z",
+      "committer_date_jst": "2026-10-30 19:20:41 +09:00",
+      "original_subject": "fix(v7): close Agent R and voice on the single controlled capability facade",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v7): Agent Rと音声機能の権限確認を単一の共通窓口に統一",
+      "version": "V7",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T14:38:46+09:00",
+      "original_committer_date": "2026-10-30T19:20:41+09:00"
+    },
+    {
+      "sequence": 616,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "8c0a915e4f6300a76ce363fe95531a810274964b",
+      "parent_shas": [
+        "6960474dab9be6e961e6f82352ae8f5515b6351b"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T03:52:46Z",
+      "author_date_jst": "2026-10-30 12:52:46 +09:00",
+      "committer_date_utc": "2026-10-30T10:20:45Z",
+      "committer_date_jst": "2026-10-30 19:20:45 +09:00",
+      "original_subject": "fix(v7): route member activity capabilities through the controlled facade",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v7): メンバー活動の権限確認を共通窓口経由に変更",
+      "version": "V7",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T12:52:46+09:00",
+      "original_committer_date": "2026-10-30T19:20:45+09:00"
+    },
+    {
+      "sequence": 617,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "9f25a749c7a2a5575ca2892f05d5d2e61eead874",
+      "parent_shas": [
+        "8c0a915e4f6300a76ce363fe95531a810274964b"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T03:51:09Z",
+      "author_date_jst": "2026-10-30 12:51:09 +09:00",
+      "committer_date_utc": "2026-10-30T10:20:50Z",
+      "committer_date_jst": "2026-10-30 19:20:50 +09:00",
+      "original_subject": "fix(v6v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6v7): メンバーの権限操作の実行条件と、古い案件応答の扱いを修正（詳細非公開）",
+      "version": "V6・V7共通",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "件名の機密箇所（内部仕様・保護制御の詳細）は伏字にし、高水準の変更内容のみを日本語訳に記載。元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T12:51:09+09:00",
+      "original_committer_date": "2026-10-30T19:20:50+09:00"
+    },
+    {
+      "sequence": 618,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "f49a0fe300518139f1b460bb2490603e5429354c",
+      "parent_shas": [
+        "9f25a749c7a2a5575ca2892f05d5d2e61eead874"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T03:57:42Z",
+      "author_date_jst": "2026-10-30 12:57:42 +09:00",
+      "committer_date_utc": "2026-10-30T10:20:51Z",
+      "committer_date_jst": "2026-10-30 19:20:51 +09:00",
+      "original_subject": "style(v6v7): format the batch-16 F contract spec",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "style(v6v7): 第16回F担当の仕様書の書式を整形",
+      "version": "V6・V7共通",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T12:57:42+09:00",
+      "original_committer_date": "2026-10-30T19:20:51+09:00"
+    },
+    {
+      "sequence": 619,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "13a283bea79662840cf39a04814b469760391ab2",
+      "parent_shas": [
+        "f49a0fe300518139f1b460bb2490603e5429354c"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T03:59:12Z",
+      "author_date_jst": "2026-10-30 12:59:12 +09:00",
+      "committer_date_utc": "2026-10-30T10:20:55Z",
+      "committer_date_jst": "2026-10-30 19:20:55 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 技術者由来の内容を分割する際の表示項目を制限（詳細非公開）",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "件名の機密箇所（内部仕様・保護制御の詳細）は伏字にし、高水準の変更内容のみを日本語訳に記載。元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T12:59:12+09:00",
+      "original_committer_date": "2026-10-30T19:20:55+09:00"
+    },
+    {
+      "sequence": 620,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "5bbac68dc530c04c3dd3731a5efbaadc1bc0af4c",
+      "parent_shas": [
+        "13a283bea79662840cf39a04814b469760391ab2"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T03:59:12Z",
+      "author_date_jst": "2026-10-30 12:59:12 +09:00",
+      "committer_date_utc": "2026-10-30T10:20:55Z",
+      "committer_date_jst": "2026-10-30 19:20:55 +09:00",
+      "original_subject": "test(v6): add the batch-16 G independent privacy and correction downstream reviews",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 第16回G担当の情報保護と訂正の後続処理に関する独立レビューを追加",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T12:59:12+09:00",
+      "original_committer_date": "2026-10-30T19:20:55+09:00"
+    },
+    {
+      "sequence": 621,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "9a55e2e5accde23a5b3da1a50d9c36fee8bc5ee3",
+      "parent_shas": [
+        "5bbac68dc530c04c3dd3731a5efbaadc1bc0af4c"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T03:50:15Z",
+      "author_date_jst": "2026-10-30 12:50:15 +09:00",
+      "committer_date_utc": "2026-10-30T10:20:59Z",
+      "committer_date_jst": "2026-10-30 19:20:59 +09:00",
+      "original_subject": "docs(v6): add the batch-16 H isolation acceptance package (unbound, not executed)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 第16回H担当の隔離環境での受入確認パッケージを追加（候補版への対応付け前・未実行）",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T12:50:15+09:00",
+      "original_committer_date": "2026-10-30T19:20:59+09:00"
+    },
+    {
+      "sequence": 622,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "59c290d0260c2394aec391b9ffdd79000475da82",
+      "parent_shas": [
+        "9a55e2e5accde23a5b3da1a50d9c36fee8bc5ee3"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T11:02:18Z",
+      "author_date_jst": "2026-10-30 20:02:18 +09:00",
+      "committer_date_utc": "2026-10-30T11:02:18Z",
+      "committer_date_jst": "2026-10-30 20:02:18 +09:00",
+      "original_subject": "test(v6v7): adapt capability fixtures to the batch-16 wiring checks",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6v7): 権限関連のテストデータを第16回の接続確認に合わせて調整",
+      "version": "V6・V7共通",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T20:02:18+09:00",
+      "original_committer_date": "2026-10-30T20:02:18+09:00"
+    },
+    {
+      "sequence": 623,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "e99c3f6f47df9bebdb18bda47143d0e9c55271f9",
+      "parent_shas": [
+        "59c290d0260c2394aec391b9ffdd79000475da82"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T11:13:03Z",
+      "author_date_jst": "2026-10-30 20:13:03 +09:00",
+      "committer_date_utc": "2026-10-30T11:13:03Z",
+      "committer_date_jst": "2026-10-30 20:13:03 +09:00",
+      "original_subject": "docs(v6): record the batch-17 A batch-16 integration candidate and handoff",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 第16回の統合候補版と引継ぎを記録（第17回A）",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T20:13:03+09:00",
+      "original_committer_date": "2026-10-30T20:13:03+09:00"
+    },
+    {
+      "sequence": 624,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "56e476d4b5209fe2989c8aadec5654bc286af1b2",
+      "parent_shas": [
+        "e99c3f6f47df9bebdb18bda47143d0e9c55271f9"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T05:41:08Z",
+      "author_date_jst": "2026-10-30 14:41:08 +09:00",
+      "committer_date_utc": "2026-10-30T11:40:39Z",
+      "committer_date_jst": "2026-10-30 20:40:39 +09:00",
+      "original_subject": "test(v6): add the batch-16 Opus S2 superseded-answer guard review",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 第16回の旧回答の誤用防止に関する独立レビューを追加",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T14:41:08+09:00",
+      "original_committer_date": "2026-10-30T20:40:39+09:00"
+    },
+    {
+      "sequence": 625,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "9d0a8a3be99716c97e98e4edee10030f05bad3a8",
+      "parent_shas": [
+        "56e476d4b5209fe2989c8aadec5654bc286af1b2"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T10:43:48Z",
+      "author_date_jst": "2026-10-30 19:43:48 +09:00",
+      "committer_date_utc": "2026-10-30T11:40:45Z",
+      "committer_date_jst": "2026-10-30 20:40:45 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 旧回答の誤用防止処理を、マスキングや出典参照と整合させて接続（詳細非公開）",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "件名の機密箇所（内部仕様・保護制御の詳細）は伏字にし、高水準の変更内容のみを日本語訳に記載。元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T19:43:48+09:00",
+      "original_committer_date": "2026-10-30T20:40:45+09:00"
+    },
+    {
+      "sequence": 626,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "88578e7c445e3fa5fc8f89855451fd7d2479b101",
+      "parent_shas": [
+        "9d0a8a3be99716c97e98e4edee10030f05bad3a8"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T10:31:13Z",
+      "author_date_jst": "2026-10-30 19:31:13 +09:00",
+      "committer_date_utc": "2026-10-30T11:41:30Z",
+      "committer_date_jst": "2026-10-30 20:41:30 +09:00",
+      "original_subject": "fix(v7): derive the Agent R draft flag from the capability check (batch-17 C)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v7): Agent Rの草案可否を権限確認の結果から判定するよう修正（第17回C）",
+      "version": "V7",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T19:31:13+09:00",
+      "original_committer_date": "2026-10-30T20:41:30+09:00"
+    },
+    {
+      "sequence": 627,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "fdc146bf474b1cc68f7bfd40e00ce0caf0bef1da",
+      "parent_shas": [
+        "88578e7c445e3fa5fc8f89855451fd7d2479b101"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T10:37:45Z",
+      "author_date_jst": "2026-10-30 19:37:45 +09:00",
+      "committer_date_utc": "2026-10-30T11:41:35Z",
+      "committer_date_jst": "2026-10-30 20:41:35 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 隔離受入パッケージの対応付けの来歴・範囲・移行の整合性を強化（詳細非公開）",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "件名の機密箇所（内部仕様・保護制御の詳細）は伏字にし、高水準の変更内容のみを日本語訳に記載。元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T19:37:45+09:00",
+      "original_committer_date": "2026-10-30T20:41:35+09:00"
+    },
+    {
+      "sequence": 628,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "57ecd47891cd4980cf89fdcdbb08b0c28588370c",
+      "parent_shas": [
+        "fdc146bf474b1cc68f7bfd40e00ce0caf0bef1da"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T11:09:52Z",
+      "author_date_jst": "2026-10-30 20:09:52 +09:00",
+      "committer_date_utc": "2026-10-30T11:41:41Z",
+      "committer_date_jst": "2026-10-30 20:41:41 +09:00",
+      "original_subject": "@",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "（原文の件名：@）",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名は「@」のまま保持。非公開本文は、隔離環境での受入確認パッケージについて承認・構成・計画の確認不足を補う修正を記録している。具体的な条件・内部項目・本文は公開しない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T20:09:52+09:00",
+      "original_committer_date": "2026-10-30T20:41:41+09:00"
+    },
+    {
+      "sequence": 629,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "426d400a8fd2c3844775722656b1bf5a085ea7e4",
+      "parent_shas": [
+        "ac938b730fa26313a9171c9d3c1982c658546e3f"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T11:20:15Z",
+      "author_date_jst": "2026-10-30 20:20:15 +09:00",
+      "committer_date_utc": "2026-10-30T11:56:04Z",
+      "committer_date_jst": "2026-10-30 20:56:04 +09:00",
+      "original_subject": "feat(v8-b01-b): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v8-b01-b): 最小限の操作監査と権限取消の検証を追加（詳細非公開）",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "件名の機密箇所（内部仕様・保護制御の詳細）は伏字にし、高水準の変更内容のみを日本語訳に記載。V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T20:20:15+09:00",
+      "original_committer_date": "2026-10-30T20:56:04+09:00"
+    },
+    {
+      "sequence": 630,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "fd99ebc8cb1f9654095dbf8cee1fcf59d7e61778",
+      "parent_shas": [
+        "426d400a8fd2c3844775722656b1bf5a085ea7e4"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T11:21:35Z",
+      "author_date_jst": "2026-10-30 20:21:35 +09:00",
+      "committer_date_utc": "2026-10-30T11:56:04Z",
+      "committer_date_jst": "2026-10-30 20:56:04 +09:00",
+      "original_subject": "docs(v8-b01-b): B review packet with hashes, tests, gaps and stop declaration",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v8-b01-b): B担当のレビュー資料（照合値・テスト・未解決事項・停止宣言）を追加",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T20:21:35+09:00",
+      "original_committer_date": "2026-10-30T20:56:04+09:00"
+    },
+    {
+      "sequence": 631,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "e1e9418dee2ad35c0a01c5f900835b2b89a43fc8",
+      "parent_shas": [
+        "fd99ebc8cb1f9654095dbf8cee1fcf59d7e61778"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T11:22:20Z",
+      "author_date_jst": "2026-10-30 20:22:20 +09:00",
+      "committer_date_utc": "2026-10-30T11:56:14Z",
+      "committer_date_jst": "2026-10-30 20:56:14 +09:00",
+      "original_subject": "@",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "（原文の件名：@）",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "元の件名は「@」のまま保持。非公開本文は、運用状況の概要と同期処理の復旧状況を参照する読み取り処理の追加を記録している。具体的な仕様・内部項目・本文は公開しない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T20:22:20+09:00",
+      "original_committer_date": "2026-10-30T20:56:14+09:00"
+    },
+    {
+      "sequence": 632,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "cb0c6f0bced7c2ba621d8b5bf227acd623344572",
+      "parent_shas": [
+        "e1e9418dee2ad35c0a01c5f900835b2b89a43fc8"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T11:24:25Z",
+      "author_date_jst": "2026-10-30 20:24:25 +09:00",
+      "committer_date_utc": "2026-10-30T11:56:14Z",
+      "committer_date_jst": "2026-10-30 20:56:14 +09:00",
+      "original_subject": "@",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "（原文の件名：@）",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "元の件名は「@」のまま保持。非公開本文は、上記の読み取り処理のレビュー資料（テスト結果と実装中に見つかった仕様上の不足）を記録している。内部の照合値や本文は公開しない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T20:24:25+09:00",
+      "original_committer_date": "2026-10-30T20:56:14+09:00"
+    },
+    {
+      "sequence": 633,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "f42797836e400c407c44a5e8dc97e5e16ca87d94",
+      "parent_shas": [
+        "cb0c6f0bced7c2ba621d8b5bf227acd623344572"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T11:18:58Z",
+      "author_date_jst": "2026-10-30 20:18:58 +09:00",
+      "committer_date_utc": "2026-10-30T11:56:27Z",
+      "committer_date_jst": "2026-10-30 20:56:27 +09:00",
+      "original_subject": "feat(v8-b01-d): 四入口前端与组件自测",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v8-b01-d): 4つの入口画面のフロントエンドと部品の自己テストを追加",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T20:18:58+09:00",
+      "original_committer_date": "2026-10-30T20:56:27+09:00"
+    },
+    {
+      "sequence": 634,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "98942862db880fdcfa210483ed23ba0a6dd5952a",
+      "parent_shas": [
+        "f42797836e400c407c44a5e8dc97e5e16ca87d94"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T11:20:55Z",
+      "author_date_jst": "2026-10-30 20:20:55 +09:00",
+      "committer_date_utc": "2026-10-30T11:56:27Z",
+      "committer_date_jst": "2026-10-30 20:56:27 +09:00",
+      "original_subject": "docs(v8-b01-d): REVIEW_PACKET と生ログ（.log.txt）",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v8-b01-d): レビュー資料と実行ログを追加",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T20:20:55+09:00",
+      "original_committer_date": "2026-10-30T20:56:27+09:00"
+    },
+    {
+      "sequence": 635,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "2202fd316020347f468db2840d676814ad06925b",
+      "parent_shas": [
+        "98942862db880fdcfa210483ed23ba0a6dd5952a"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T11:23:08Z",
+      "author_date_jst": "2026-10-30 20:23:08 +09:00",
+      "committer_date_utc": "2026-10-30T11:56:27Z",
+      "committer_date_jst": "2026-10-30 20:56:27 +09:00",
+      "original_subject": "docs(v8-b01-d): 初次失败ログと修正経緯を REVIEW_PACKET に追加",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v8-b01-d): 初回の失敗ログと修正の経緯をレビュー資料に追加",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T20:23:08+09:00",
+      "original_committer_date": "2026-10-30T20:56:27+09:00"
+    },
+    {
+      "sequence": 636,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "070f130c4157a43ea063e4146caeea81376b0d86",
+      "parent_shas": [
+        "57ecd47891cd4980cf89fdcdbb08b0c28588370c"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T11:57:13Z",
+      "author_date_jst": "2026-10-30 20:57:13 +09:00",
+      "committer_date_utc": "2026-10-30T11:57:13Z",
+      "committer_date_jst": "2026-10-30 20:57:13 +09:00",
+      "original_subject": "docs(v6): record the batch-18 A batch-17 integration candidate and handoff",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 第17回の統合候補版と引継ぎを記録（第18回A）",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T20:57:13+09:00",
+      "original_committer_date": "2026-10-30T20:57:13+09:00"
+    },
+    {
+      "sequence": 637,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "9efb88383a9a1aedfb2bc27ccf99ff271e1a885f",
+      "parent_shas": [
+        "2202fd316020347f468db2840d676814ad06925b"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T12:13:34Z",
+      "author_date_jst": "2026-10-30 21:13:34 +09:00",
+      "committer_date_utc": "2026-10-30T12:13:34Z",
+      "committer_date_jst": "2026-10-30 21:13:34 +09:00",
+      "original_subject": "fix(v8-b01): contract v3 and cross-module audit/sync corrections",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v8-b01): 共通仕様第3版と、モジュール横断の監査・同期の訂正",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T21:13:34+09:00",
+      "original_committer_date": "2026-10-30T21:13:34+09:00"
+    },
+    {
+      "sequence": 638,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "0bf552537d09c872f1f0d8b044882038b604816c",
+      "parent_shas": [
+        "9efb88383a9a1aedfb2bc27ccf99ff271e1a885f"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T12:14:00Z",
+      "author_date_jst": "2026-10-30 21:14:00 +09:00",
+      "committer_date_utc": "2026-10-30T12:14:00Z",
+      "committer_date_jst": "2026-10-30 21:14:00 +09:00",
+      "original_subject": "chore(v8-b01): verify tool emits contract v3 manifests",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "chore(v8-b01): 検証ツールが共通仕様第3版の構成一覧を出力するよう対応",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T21:14:00+09:00",
+      "original_committer_date": "2026-10-30T21:14:00+09:00"
+    },
+    {
+      "sequence": 639,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "f3ee30cc29b4d10f89229dd1fd721d0fef56d97b",
+      "parent_shas": [
+        "0bf552537d09c872f1f0d8b044882038b604816c"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T12:17:20Z",
+      "author_date_jst": "2026-10-30 21:17:20 +09:00",
+      "committer_date_utc": "2026-10-30T12:17:20Z",
+      "committer_date_jst": "2026-10-30 21:17:20 +09:00",
+      "original_subject": "docs(v8-b01): fix the round-3 candidate - contract v3 metadata and manifest",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v8-b01): 第3回の候補版を確定（共通仕様第3版の付随情報と構成一覧）",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T21:17:20+09:00",
+      "original_committer_date": "2026-10-30T21:17:20+09:00"
+    },
+    {
+      "sequence": 640,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "5297a7848719695484c2ea3a86110599a304500b",
+      "parent_shas": [
+        "070f130c4157a43ea063e4146caeea81376b0d86"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T12:01:47Z",
+      "author_date_jst": "2026-10-30 21:01:47 +09:00",
+      "committer_date_utc": "2026-10-30T12:37:02Z",
+      "committer_date_jst": "2026-10-30 21:37:02 +09:00",
+      "original_subject": "test(v6): add the batch-18 Opus B independent review of the correction guard",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 第18回の訂正防止処理に関する独立レビューを追加",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T21:01:47+09:00",
+      "original_committer_date": "2026-10-30T21:37:02+09:00"
+    },
+    {
+      "sequence": 641,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "90b10fb4929f6ddf411b2ddb9a371f412d7e3146",
+      "parent_shas": [
+        "5297a7848719695484c2ea3a86110599a304500b"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T11:58:12Z",
+      "author_date_jst": "2026-10-30 20:58:12 +09:00",
+      "committer_date_utc": "2026-10-30T12:38:55Z",
+      "committer_date_jst": "2026-10-30 21:38:55 +09:00",
+      "original_subject": "feat(v6): version the correction-validation cache (［内部識別子］) and stop reusing old verdicts",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v6): 訂正内容の検証結果のキャッシュに版を付け、古い判定を再利用しないよう変更",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "件名の機密箇所（内部仕様・保護制御の詳細）は伏字にし、高水準の変更内容のみを日本語訳に記載。元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T20:58:12+09:00",
+      "original_committer_date": "2026-10-30T21:38:55+09:00"
+    },
+    {
+      "sequence": 642,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "b5c936ee0ffde7448666315aa597cfb375c90ed4",
+      "parent_shas": [
+        "90b10fb4929f6ddf411b2ddb9a371f412d7e3146"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T12:15:58Z",
+      "author_date_jst": "2026-10-30 21:15:58 +09:00",
+      "committer_date_utc": "2026-10-30T12:41:00Z",
+      "committer_date_jst": "2026-10-30 21:41:00 +09:00",
+      "original_subject": "fix(v6): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 隔離受入パッケージの対応付け・承認の照合とGit情報の読み取りを強化（詳細非公開）",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "件名の機密箇所（内部仕様・保護制御の詳細）は伏字にし、高水準の変更内容のみを日本語訳に記載。元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T21:15:58+09:00",
+      "original_committer_date": "2026-10-30T21:41:00+09:00"
+    },
+    {
+      "sequence": 643,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "3de08aef128eacf76f1e316688fbd357a9acf27e",
+      "parent_shas": [
+        "b5c936ee0ffde7448666315aa597cfb375c90ed4"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T12:10:10Z",
+      "author_date_jst": "2026-10-30 21:10:10 +09:00",
+      "committer_date_utc": "2026-10-30T12:41:07Z",
+      "committer_date_jst": "2026-10-30 21:41:07 +09:00",
+      "original_subject": "test(v7): independent acceptance for Agent R sourcing and egress recheck (batch-18 E)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): Agent Rの情報取得と外部送信前の再確認に関する独立した受入確認（第18回E）",
+      "version": "V7",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T21:10:10+09:00",
+      "original_committer_date": "2026-10-30T21:41:07+09:00"
+    },
+    {
+      "sequence": 644,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "8ac5a5bb9dd864bfe664856d173f47b92d507647",
+      "parent_shas": [
+        "3de08aef128eacf76f1e316688fbd357a9acf27e"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T12:51:06Z",
+      "author_date_jst": "2026-10-30 21:51:06 +09:00",
+      "committer_date_utc": "2026-10-30T12:51:06Z",
+      "committer_date_jst": "2026-10-30 21:51:06 +09:00",
+      "original_subject": "@",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "（原文の件名：@）",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名は「@」のまま保持。非公開本文は、第18回の統合候補版と引継ぎの記録（第19回A）である。実際の件名を補正・創作していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T21:51:06+09:00",
+      "original_committer_date": "2026-10-30T21:51:06+09:00"
+    },
+    {
+      "sequence": 645,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "b45ffa095ed94034c2ac6401b70d43c767694ab2",
+      "parent_shas": [
+        "8ac5a5bb9dd864bfe664856d173f47b92d507647"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T12:47:12Z",
+      "author_date_jst": "2026-10-30 21:47:12 +09:00",
+      "committer_date_utc": "2026-10-30T13:24:16Z",
+      "committer_date_jst": "2026-10-30 22:24:16 +09:00",
+      "original_subject": "fix(v6): catch folded variants of superseded answers",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 表記揺れのある旧回答も検出できるよう修正",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T21:47:12+09:00",
+      "original_committer_date": "2026-10-30T22:24:16+09:00"
+    },
+    {
+      "sequence": 646,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "85bafa9d7cb8c1c0ef6225fd0489344a9c728718",
+      "parent_shas": [
+        "b45ffa095ed94034c2ac6401b70d43c767694ab2"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T12:50:42Z",
+      "author_date_jst": "2026-10-30 21:50:42 +09:00",
+      "committer_date_utc": "2026-10-30T13:24:22Z",
+      "committer_date_jst": "2026-10-30 22:24:22 +09:00",
+      "original_subject": "fix(v7): isolate per-member capability resolution failures in the activity view (batch-19 C)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v7): 活動一覧で、メンバーごとの権限判定の失敗が全体に影響しないよう修正（第19回C）",
+      "version": "V7",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T21:50:42+09:00",
+      "original_committer_date": "2026-10-30T22:24:22+09:00"
+    },
+    {
+      "sequence": 647,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "29fe0de52b164d93dcd65dd8f73636db23ae34ee",
+      "parent_shas": [
+        "85bafa9d7cb8c1c0ef6225fd0489344a9c728718"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T12:58:03Z",
+      "author_date_jst": "2026-10-30 21:58:03 +09:00",
+      "committer_date_utc": "2026-10-30T13:24:28Z",
+      "committer_date_jst": "2026-10-30 22:24:28 +09:00",
+      "original_subject": "fix(v6): surface validation-version regeneration for interview artifacts",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 面談の成果物で、検証版の更新に伴う再生成を表示",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T21:58:03+09:00",
+      "original_committer_date": "2026-10-30T22:24:28+09:00"
+    },
+    {
+      "sequence": 648,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "cdace5c2bd2d94ac6de39f59691d75408597256b",
+      "parent_shas": [
+        "29fe0de52b164d93dcd65dd8f73636db23ae34ee"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T13:43:06Z",
+      "author_date_jst": "2026-10-30 22:43:06 +09:00",
+      "committer_date_utc": "2026-10-30T13:43:06Z",
+      "committer_date_jst": "2026-10-30 22:43:06 +09:00",
+      "original_subject": "docs(v6): record the batch-20 A batch-19 integration candidate and handoff",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 第19回の統合候補版と引継ぎを記録（第20回A）",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T22:43:06+09:00",
+      "original_committer_date": "2026-10-30T22:43:06+09:00"
+    },
+    {
+      "sequence": 649,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "a2a12b5312ab45cef3f68b1ebe3c181880ef2d24",
+      "parent_shas": [
+        "cdace5c2bd2d94ac6de39f59691d75408597256b"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T13:31:54Z",
+      "author_date_jst": "2026-10-30 22:31:54 +09:00",
+      "committer_date_utc": "2026-10-30T23:22:13Z",
+      "committer_date_jst": "2026-10-31 08:22:13 +09:00",
+      "original_subject": "test(v6): align B18 6-1 cache test with the C18 SUMMARY refusal contract",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): キャッシュのテストを要約生成の拒否仕様に合わせて調整",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T22:31:54+09:00",
+      "original_committer_date": "2026-10-31T08:22:13+09:00"
+    },
+    {
+      "sequence": 650,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "e50100c96e622e6b884064d9cc4d985d32e245b8",
+      "parent_shas": [
+        "a2a12b5312ab45cef3f68b1ebe3c181880ef2d24"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T13:42:23Z",
+      "author_date_jst": "2026-10-30 22:42:23 +09:00",
+      "committer_date_utc": "2026-10-30T23:22:17Z",
+      "committer_date_jst": "2026-10-31 08:22:17 +09:00",
+      "original_subject": "test(v6): assert zero total AI calls on the B18 6-1 refusal path",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v6): 拒否される処理でAIの呼び出しが一度も発生しないことを検証",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T22:42:23+09:00",
+      "original_committer_date": "2026-10-31T08:22:17+09:00"
+    },
+    {
+      "sequence": 651,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "d96c41db3192ed2da152aca48cd4c461502beeee",
+      "parent_shas": [
+        "e50100c96e622e6b884064d9cc4d985d32e245b8"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T13:43:46Z",
+      "author_date_jst": "2026-10-30 22:43:46 +09:00",
+      "committer_date_utc": "2026-10-30T23:22:20Z",
+      "committer_date_jst": "2026-10-31 08:22:20 +09:00",
+      "original_subject": "fix(v7): show per-member capability resolution failures in the activity view (batch-20 C)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v7): 活動一覧で、メンバーごとの権限判定の失敗を表示（第20回C）",
+      "version": "V7",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T22:43:46+09:00",
+      "original_committer_date": "2026-10-31T08:22:20+09:00"
+    },
+    {
+      "sequence": 652,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "9ecee12a7fe40afc46c090acde6e3c0ea44e14d2",
+      "parent_shas": [
+        "d96c41db3192ed2da152aca48cd4c461502beeee"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T13:30:44Z",
+      "author_date_jst": "2026-10-30 22:30:44 +09:00",
+      "committer_date_utc": "2026-10-30T23:22:26Z",
+      "committer_date_jst": "2026-10-31 08:22:26 +09:00",
+      "original_subject": "fix(v6): fail closed when copying invalidated interview reports",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): 無効化された面談報告を複製する際は、安全側で処理を止めるよう修正",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T22:30:44+09:00",
+      "original_committer_date": "2026-10-31T08:22:26+09:00"
+    },
+    {
+      "sequence": 653,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "2df024c83a2d018a37124dca287fc1818c0aac85",
+      "parent_shas": [
+        "9ecee12a7fe40afc46c090acde6e3c0ea44e14d2"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T23:30:33Z",
+      "author_date_jst": "2026-10-31 08:30:33 +09:00",
+      "committer_date_utc": "2026-10-30T23:30:33Z",
+      "committer_date_jst": "2026-10-31 08:30:33 +09:00",
+      "original_subject": "docs(v6): record the batch-21 A batch-20 integration candidate and handoff",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6): 第20回の統合候補版と引継ぎを記録（第21回A）",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T08:30:33+09:00",
+      "original_committer_date": "2026-10-31T08:30:33+09:00"
+    },
+    {
+      "sequence": 654,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "a403689e681d7e72583391c4e6d3091ac71703a3",
+      "parent_shas": [
+        "94c5ddd42d11be9c622dfaac6a11c6a69351514b"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T13:32:38Z",
+      "author_date_jst": "2026-10-30 22:32:38 +09:00",
+      "committer_date_utc": "2026-10-30T23:34:26Z",
+      "committer_date_jst": "2026-10-31 08:34:26 +09:00",
+      "original_subject": "fix(v8-b01-r04-b): keep retry acceptance across refresh failures",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v8-b01-r04-b): 画面の更新に失敗しても、再試行の受付状態を保持するよう修正",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T22:32:38+09:00",
+      "original_committer_date": "2026-10-31T08:34:26+09:00"
+    },
+    {
+      "sequence": 655,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "94c5ddd42d11be9c622dfaac6a11c6a69351514b",
+      "parent_shas": [
+        "f3ee30cc29b4d10f89229dd1fd721d0fef56d97b"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T13:41:25Z",
+      "author_date_jst": "2026-10-30 22:41:25 +09:00",
+      "committer_date_utc": "2026-10-30T23:34:26Z",
+      "committer_date_jst": "2026-10-31 08:34:26 +09:00",
+      "original_subject": "fix(v8-b01-r04-a): correct overview stale time and unavailable states",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v8-b01-r04-a): 概要画面の更新時刻と利用不可状態の表示を修正",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T22:41:25+09:00",
+      "original_committer_date": "2026-10-31T08:34:26+09:00"
+    },
+    {
+      "sequence": 656,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "3035a1bff250a6eab3a46337c7095e7b1659f77c",
+      "parent_shas": [
+        "a403689e681d7e72583391c4e6d3091ac71703a3"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T13:48:23Z",
+      "author_date_jst": "2026-10-30 22:48:23 +09:00",
+      "committer_date_utc": "2026-10-30T23:34:26Z",
+      "committer_date_jst": "2026-10-31 08:34:26 +09:00",
+      "original_subject": "fix(v8-b01-r04): bound probe body reads and stop inferring FastAPI ok",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v8-b01-r04): 稼働確認の応答の読み取り量を制限し、FastAPIの正常状態を推測で判定しないよう修正",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-30T22:48:23+09:00",
+      "original_committer_date": "2026-10-31T08:34:26+09:00"
+    },
+    {
+      "sequence": 657,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "41bc798e6348e1416eda669347b67e289838b23b",
+      "parent_shas": [
+        "2df024c83a2d018a37124dca287fc1818c0aac85"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T23:38:47Z",
+      "author_date_jst": "2026-10-31 08:38:47 +09:00",
+      "committer_date_utc": "2026-10-30T23:55:51Z",
+      "committer_date_jst": "2026-10-31 08:55:51 +09:00",
+      "original_subject": "docs(v7): prepare the Agent R proposal demo story line (batch-21 C)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v7): Agent Rによる提案のデモシナリオを準備（第21回C）",
+      "version": "V7",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T08:38:47+09:00",
+      "original_committer_date": "2026-10-31T08:55:51+09:00"
+    },
+    {
+      "sequence": 658,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "9264db1d01573651d15416ef487bf957fe72b7fb",
+      "parent_shas": [
+        "41bc798e6348e1416eda669347b67e289838b23b"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T23:43:44Z",
+      "author_date_jst": "2026-10-31 08:43:44 +09:00",
+      "committer_date_utc": "2026-10-30T23:55:55Z",
+      "committer_date_jst": "2026-10-31 08:55:55 +09:00",
+      "original_subject": "docs(v7): correct the activity list endpoint in the demo status matrix",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v7): デモ状態表に記載した活動一覧の接続先を訂正",
+      "version": "V7",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T08:43:44+09:00",
+      "original_committer_date": "2026-10-31T08:55:55+09:00"
+    },
+    {
+      "sequence": 659,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "76f0f35be24626001b9a33e31659ebb306d8da81",
+      "parent_shas": [
+        "3035a1bff250a6eab3a46337c7095e7b1659f77c"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T23:39:27Z",
+      "author_date_jst": "2026-10-31 08:39:27 +09:00",
+      "committer_date_utc": "2026-10-30T23:57:37Z",
+      "committer_date_jst": "2026-10-31 08:57:37 +09:00",
+      "original_subject": "feat(v8-b01-r05-b): seed platform menu and view permissions for demo access",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v8-b01-r05-b): デモ利用向けに、運用画面のメニューと閲覧権限の初期データを追加",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T08:39:27+09:00",
+      "original_committer_date": "2026-10-31T08:57:37+09:00"
+    },
+    {
+      "sequence": 660,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "415ebc62174a17b866e67e288ded5ff360727f92",
+      "parent_shas": [
+        "76f0f35be24626001b9a33e31659ebb306d8da81"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T23:44:29Z",
+      "author_date_jst": "2026-10-31 08:44:29 +09:00",
+      "committer_date_utc": "2026-10-30T23:57:37Z",
+      "committer_date_jst": "2026-10-31 08:57:37 +09:00",
+      "original_subject": "feat(v8-b01-r05-c): add read-only demo pre-check and Japanese runbook",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v8-b01-r05-c): 読み取り専用のデモ事前確認と日本語の手順書を追加",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T08:44:29+09:00",
+      "original_committer_date": "2026-10-31T08:57:37+09:00"
+    },
+    {
+      "sequence": 661,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "9a4d3bc3be3dc371514ef61d5c53df6f70c01719",
+      "parent_shas": [
+        "415ebc62174a17b866e67e288ded5ff360727f92"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T23:45:59Z",
+      "author_date_jst": "2026-10-31 08:45:59 +09:00",
+      "committer_date_utc": "2026-10-30T23:57:37Z",
+      "committer_date_jst": "2026-10-31 08:57:37 +09:00",
+      "original_subject": "docs(v8-b01-r05-c): cite the exact permission seed commit",
+      "coauthors": [],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v8-b01-r05-c): 権限の初期データを追加したコミットを正確に記載",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T08:45:59+09:00",
+      "original_committer_date": "2026-10-31T08:57:37+09:00"
+    },
+    {
+      "sequence": 662,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "82981621faba8b07ce1b85adf33621196990df12",
+      "parent_shas": [
+        "9264db1d01573651d15416ef487bf957fe72b7fb"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T23:58:40Z",
+      "author_date_jst": "2026-10-31 08:58:40 +09:00",
+      "committer_date_utc": "2026-10-30T23:58:40Z",
+      "committer_date_jst": "2026-10-31 08:58:40 +09:00",
+      "original_subject": "docs(v7): scope the Agent R demo package to option A",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v7): Agent Rのデモ資料の範囲を案Aに限定",
+      "version": "V7",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T08:58:40+09:00",
+      "original_committer_date": "2026-10-31T08:58:40+09:00"
+    },
+    {
+      "sequence": 663,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "351c3bc3f31b92c826f6a8b06bb523364b1d1f8f",
+      "parent_shas": [
+        "82981621faba8b07ce1b85adf33621196990df12"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-30T23:59:11Z",
+      "author_date_jst": "2026-10-31 08:59:11 +09:00",
+      "committer_date_utc": "2026-10-30T23:59:11Z",
+      "committer_date_jst": "2026-10-31 08:59:11 +09:00",
+      "original_subject": "docs(v7): disambiguate runbook environment options from the demo-scope option A",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v7): 手順書の環境の選択肢と、デモ範囲の案Aを区別して記載",
+      "version": "V7",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T08:59:11+09:00",
+      "original_committer_date": "2026-10-31T08:59:11+09:00"
+    },
+    {
+      "sequence": 664,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "61f3d8549a3254014fc17e840d0e5d88fb11699c",
+      "parent_shas": [
+        "9a4d3bc3be3dc371514ef61d5c53df6f70c01719"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-31T00:02:53Z",
+      "author_date_jst": "2026-10-31 09:02:53 +09:00",
+      "committer_date_utc": "2026-10-31T00:02:53Z",
+      "committer_date_jst": "2026-10-31 09:02:53 +09:00",
+      "original_subject": "docs(v8-b01-r06-a): record permission seed implementation state",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v8-b01-r06-a): 権限の初期データの実装状況を記録",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T09:02:53+09:00",
+      "original_committer_date": "2026-10-31T09:02:53+09:00"
+    },
+    {
+      "sequence": 665,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "c8b62db8938b0c36e2c4a2aea800bda209f87dac",
+      "parent_shas": [
+        "61f3d8549a3254014fc17e840d0e5d88fb11699c"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-31T00:22:59Z",
+      "author_date_jst": "2026-10-31 09:22:59 +09:00",
+      "committer_date_utc": "2026-10-31T01:07:08Z",
+      "committer_date_jst": "2026-10-31 10:07:08 +09:00",
+      "original_subject": "feat(v8-b01-r06-b): add read-only Job217 business evidence trace",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v8-b01-r06-b): デモ案件Job217の業務上の根拠を、読み取り専用で追跡できるようにする",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T09:22:59+09:00",
+      "original_committer_date": "2026-10-31T10:07:08+09:00"
+    },
+    {
+      "sequence": 666,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "22d1cdec2a41b8e1554ebc9639cfdc4d661e4e37",
+      "parent_shas": [
+        "c8b62db8938b0c36e2c4a2aea800bda209f87dac"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-31T00:24:23Z",
+      "author_date_jst": "2026-10-31 09:24:23 +09:00",
+      "committer_date_utc": "2026-10-31T01:07:08Z",
+      "committer_date_jst": "2026-10-31 10:07:08 +09:00",
+      "original_subject": "fix(v8-b01-r06-b): keep fixed story results visible, fold older history",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v8-b01-r06-b): 固定シナリオの結果を表示し、過去の履歴は折りたたむよう修正",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T09:24:23+09:00",
+      "original_committer_date": "2026-10-31T10:07:08+09:00"
+    },
+    {
+      "sequence": 667,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "94406eb9aac48d8b42d7c206b0e964218fa18d80",
+      "parent_shas": [
+        "22d1cdec2a41b8e1554ebc9639cfdc4d661e4e37"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-31T00:57:18Z",
+      "author_date_jst": "2026-10-31 09:57:18 +09:00",
+      "committer_date_utc": "2026-10-31T01:07:08Z",
+      "committer_date_jst": "2026-10-31 10:07:08 +09:00",
+      "original_subject": "feat(v8-demo): add Job217 read-only evidence check and JP story runbook",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v8-demo): デモ案件Job217の読み取り専用の根拠確認と、日本語のシナリオ手順書を追加",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T09:57:18+09:00",
+      "original_committer_date": "2026-10-31T10:07:08+09:00"
+    },
+    {
+      "sequence": 668,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "83b6445dabbe2fba379e2324650672cd88f8e1b2",
+      "parent_shas": [
+        "94406eb9aac48d8b42d7c206b0e964218fa18d80"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-31T01:00:17Z",
+      "author_date_jst": "2026-10-31 10:00:17 +09:00",
+      "committer_date_utc": "2026-10-31T01:07:08Z",
+      "committer_date_jst": "2026-10-31 10:07:08 +09:00",
+      "original_subject": "docs(v8-demo): use powershell.exe in reproduction commands",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v8-demo): 再現手順のコマンドでpowershell.exeを使うよう修正",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T10:00:17+09:00",
+      "original_committer_date": "2026-10-31T10:07:08+09:00"
+    },
+    {
+      "sequence": 669,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "cc827b674c97cab189268a483ffccb793cf1e275",
+      "parent_shas": [
+        "351c3bc3f31b92c826f6a8b06bb523364b1d1f8f"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-31T01:40:02Z",
+      "author_date_jst": "2026-10-31 10:40:02 +09:00",
+      "committer_date_utc": "2026-10-31T01:40:02Z",
+      "committer_date_jst": "2026-10-31 10:40:02 +09:00",
+      "original_subject": "docs(v7): record P24 isolated demo rehearsal and harden env script",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v7): P24の隔離環境でのデモ予行を記録し、環境構築スクリプトを強化",
+      "version": "V7",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T10:40:02+09:00",
+      "original_committer_date": "2026-10-31T10:40:02+09:00"
+    },
+    {
+      "sequence": 670,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "3ceb97e7f2e861bb7848046ad6c63bc0fa00ba9c",
+      "parent_shas": [
+        "cc827b674c97cab189268a483ffccb793cf1e275"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-31T01:43:11Z",
+      "author_date_jst": "2026-10-31 10:43:11 +09:00",
+      "committer_date_utc": "2026-10-31T01:43:11Z",
+      "committer_date_jst": "2026-10-31 10:43:11 +09:00",
+      "original_subject": "docs(v7): note V5 window memory stop during P24 start",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v7): P24の起動中にV5の作業ウィンドウがメモリ不足で停止したことを記録",
+      "version": "V7",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T10:43:11+09:00",
+      "original_committer_date": "2026-10-31T10:43:11+09:00"
+    },
+    {
+      "sequence": 671,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "e514b1c8ebaaf247d217d8f2eda4a423c6c11e07",
+      "parent_shas": [
+        "3ceb97e7f2e861bb7848046ad6c63bc0fa00ba9c"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-31T01:45:39Z",
+      "author_date_jst": "2026-10-31 10:45:39 +09:00",
+      "committer_date_utc": "2026-10-31T01:45:39Z",
+      "committer_date_jst": "2026-10-31 10:45:39 +09:00",
+      "original_subject": "docs(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v7): Springの署名用の秘密情報の設定方法を変更（詳細非公開）",
+      "version": "V7",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "件名の機密箇所（内部仕様・保護制御の詳細）は伏字にし、高水準の変更内容のみを日本語訳に記載。元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T10:45:39+09:00",
+      "original_committer_date": "2026-10-31T10:45:39+09:00"
+    },
+    {
+      "sequence": 672,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "2e57272a0983ed682edb19b32a8bfa9701ad7ed0",
+      "parent_shas": [
+        "83b6445dabbe2fba379e2324650672cd88f8e1b2"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-31T01:27:47Z",
+      "author_date_jst": "2026-10-31 10:27:47 +09:00",
+      "committer_date_utc": "2026-10-31T05:27:11Z",
+      "committer_date_jst": "2026-10-31 14:27:11 +09:00",
+      "original_subject": "fix(v8-b01-r07-b): correct Job217 evidence attribution and retrieval display",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v8-b01-r07-b): デモ案件Job217の根拠の帰属と、取得結果の表示を修正",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T10:27:47+09:00",
+      "original_committer_date": "2026-10-31T14:27:11+09:00"
+    },
+    {
+      "sequence": 673,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "78a62688a65fa45ef7f799d3223a6f5f76c45d6d",
+      "parent_shas": [
+        "2e57272a0983ed682edb19b32a8bfa9701ad7ed0"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-31T01:30:31Z",
+      "author_date_jst": "2026-10-31 10:30:31 +09:00",
+      "committer_date_utc": "2026-10-31T05:27:15Z",
+      "committer_date_jst": "2026-10-31 14:27:15 +09:00",
+      "original_subject": "style(v8-b01-r07-b): keep original JavaScript formatting",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "style(v8-b01-r07-b): JavaScriptの元の書式を維持",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T10:30:31+09:00",
+      "original_committer_date": "2026-10-31T14:27:15+09:00"
+    },
+    {
+      "sequence": 674,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "f1593867ad871ff1bbc43e635b4d78e3886f8085",
+      "parent_shas": [
+        "78a62688a65fa45ef7f799d3223a6f5f76c45d6d"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-31T01:22:41Z",
+      "author_date_jst": "2026-10-31 10:22:41 +09:00",
+      "committer_date_utc": "2026-10-31T05:27:18Z",
+      "committer_date_jst": "2026-10-31 14:27:18 +09:00",
+      "original_subject": "docs(v8-b01-r07-c): add demo preflight checks and JP startup runbook",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v8-b01-r07-c): デモ前の事前確認と、日本語の起動手順書を追加",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T10:22:41+09:00",
+      "original_committer_date": "2026-10-31T14:27:18+09:00"
+    },
+    {
+      "sequence": 675,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "69aecc5049cbe177263f1785f4de2702cf8c5813",
+      "parent_shas": [
+        "e514b1c8ebaaf247d217d8f2eda4a423c6c11e07"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-31T05:35:43Z",
+      "author_date_jst": "2026-10-31 14:35:43 +09:00",
+      "committer_date_utc": "2026-10-31T05:35:43Z",
+      "committer_date_jst": "2026-10-31 14:35:43 +09:00",
+      "original_subject": "test(v7): ［内部仕様・保護制御に関する詳細］",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v7): 外部送信時のマスキング結果を固定する検証を追加し、関連する記録を訂正（詳細非公開）",
+      "version": "V7",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "件名の機密箇所（内部仕様・保護制御の詳細）は伏字にし、高水準の変更内容のみを日本語訳に記載。元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T14:35:43+09:00",
+      "original_committer_date": "2026-10-31T14:35:43+09:00"
+    },
+    {
+      "sequence": 676,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "5968cc2c2e62853a51529b0ff05ae99b6b8a6ce9",
+      "parent_shas": [
+        "f1593867ad871ff1bbc43e635b4d78e3886f8085"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-31T05:38:11Z",
+      "author_date_jst": "2026-10-31 14:38:11 +09:00",
+      "committer_date_utc": "2026-10-31T11:57:17Z",
+      "committer_date_jst": "2026-10-31 20:57:17 +09:00",
+      "original_subject": "feat(v8-b01-r08-b): add dry-run-first local demo runtime helper",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v8-b01-r08-b): 事前の試行実行を前提とした、ローカルでのデモ起動補助を追加",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T14:38:11+09:00",
+      "original_committer_date": "2026-10-31T20:57:17+09:00"
+    },
+    {
+      "sequence": 677,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "5c5cf3b05cec8b52fda8e96786fe4e828f4d33a7",
+      "parent_shas": [
+        "5968cc2c2e62853a51529b0ff05ae99b6b8a6ce9"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-31T05:41:43Z",
+      "author_date_jst": "2026-10-31 14:41:43 +09:00",
+      "committer_date_utc": "2026-10-31T11:57:17Z",
+      "committer_date_jst": "2026-10-31 20:57:17 +09:00",
+      "original_subject": "docs(v8-demo): add protected-story guard for Job217 and V5 transport",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v8-demo): デモ案件Job217とV5の交通費シナリオを保護する確認を追加",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T14:41:43+09:00",
+      "original_committer_date": "2026-10-31T20:57:17+09:00"
+    },
+    {
+      "sequence": 678,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "1778726fccb65dfb4caf576a0835e80af437a755",
+      "parent_shas": [
+        "5c5cf3b05cec8b52fda8e96786fe4e828f4d33a7"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-31T05:42:03Z",
+      "author_date_jst": "2026-10-31 14:42:03 +09:00",
+      "committer_date_utc": "2026-10-31T11:57:17Z",
+      "committer_date_jst": "2026-10-31 20:57:17 +09:00",
+      "original_subject": "docs(v8-demo): note working-tree SHA-256 line-ending scope",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v8-demo): 作業ツリーのSHA-256照合における改行コードの扱いを記録",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T14:42:03+09:00",
+      "original_committer_date": "2026-10-31T20:57:17+09:00"
+    },
+    {
+      "sequence": 679,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "eff6200c26596c2b0937af633a7aeda2cb074269",
+      "parent_shas": [
+        "1778726fccb65dfb4caf576a0835e80af437a755"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-31T12:15:47Z",
+      "author_date_jst": "2026-10-31 21:15:47 +09:00",
+      "committer_date_utc": "2026-10-31T12:40:51Z",
+      "committer_date_jst": "2026-10-31 21:40:51 +09:00",
+      "original_subject": "fix(v8-b01-r10-a): register ［内部クラス名］ as a Spring bean",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v8-b01-r10-a): 同期復旧の処理部品をSpringに登録するよう修正",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "件名の機密箇所（内部仕様・保護制御の詳細）は伏字にし、高水準の変更内容のみを日本語訳に記載。V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T21:15:47+09:00",
+      "original_committer_date": "2026-10-31T21:40:51+09:00"
+    },
+    {
+      "sequence": 680,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "e20b8402bf20d27ffc47a79e8daf4d48f9f814a2",
+      "parent_shas": [
+        "eff6200c26596c2b0937af633a7aeda2cb074269"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-31T12:24:15Z",
+      "author_date_jst": "2026-10-31 21:24:15 +09:00",
+      "committer_date_utc": "2026-10-31T12:40:51Z",
+      "committer_date_jst": "2026-10-31 21:40:51 +09:00",
+      "original_subject": "fix(v8-b01-r10-b): derive startup env checks and harden runtime ports",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v8-b01-r10-b): 起動時の環境確認を自動で導出し、実行時のポート設定を強化",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T21:24:15+09:00",
+      "original_committer_date": "2026-10-31T21:40:51+09:00"
+    },
+    {
+      "sequence": 681,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "8a9346f3165e6521409d21802eac9c45dff98d79",
+      "parent_shas": [
+        "e20b8402bf20d27ffc47a79e8daf4d48f9f814a2"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-31T12:26:27Z",
+      "author_date_jst": "2026-10-31 21:26:27 +09:00",
+      "committer_date_utc": "2026-10-31T12:40:51Z",
+      "committer_date_jst": "2026-10-31 21:40:51 +09:00",
+      "original_subject": "docs(v8-b01-r10-b): note A-window bean fix candidate in runtime runbook",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v8-b01-r10-b): 実行手順書に、A担当による部品登録の修正候補を追記",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T21:26:27+09:00",
+      "original_committer_date": "2026-10-31T21:40:51+09:00"
+    },
+    {
+      "sequence": 682,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "2602cc5eb225b77cd85263761972268f4d03eb38",
+      "parent_shas": [
+        "69aecc5049cbe177263f1785f4de2702cf8c5813"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-31T12:59:25Z",
+      "author_date_jst": "2026-10-31 21:59:25 +09:00",
+      "committer_date_utc": "2026-10-31T12:59:25Z",
+      "committer_date_jst": "2026-10-31 21:59:25 +09:00",
+      "original_subject": "fix(v7): keep improvement records out of past questions and use Japanese labels (batch P27)",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v7): 改善の記録が過去の質問として扱われないよう修正し、日本語の表示名に統一（P27）",
+      "version": "V7",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T21:59:25+09:00",
+      "original_committer_date": "2026-10-31T21:59:25+09:00"
+    },
+    {
+      "sequence": 683,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "eb819daa27462032563a57b54f3a731bfbe0f55e",
+      "parent_shas": [
+        "2602cc5eb225b77cd85263761972268f4d03eb38"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-31T06:27:39Z",
+      "author_date_jst": "2026-10-31 15:27:39 +09:00",
+      "committer_date_utc": "2026-10-31T13:27:38Z",
+      "committer_date_jst": "2026-10-31 22:27:38 +09:00",
+      "original_subject": "feat(web): O26 V6/V7 demo UX polish — Agent R draft hierarchy and V6 review status",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(web): V6・V7のデモ画面を改善（Agent R草案の階層表示、V6のレビュー状態）",
+      "version": "V6・V7共通",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T15:27:39+09:00",
+      "original_committer_date": "2026-10-31T22:27:38+09:00"
+    },
+    {
+      "sequence": 684,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "462185fd0b5bbea5815855912ef709f9d7865b00",
+      "parent_shas": [
+        "eb819daa27462032563a57b54f3a731bfbe0f55e"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-31T12:31:15Z",
+      "author_date_jst": "2026-10-31 21:31:15 +09:00",
+      "committer_date_utc": "2026-10-31T13:27:38Z",
+      "committer_date_jst": "2026-10-31 22:27:38 +09:00",
+      "original_subject": "feat(web): O27 V6/V7 UX refinements — confirmations inline, AI section note, cost digits",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(web): V6・V7の画面を改善（確認表示のインライン化、AI欄の注記、費用表示の桁数）",
+      "version": "V6・V7共通",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T21:31:15+09:00",
+      "original_committer_date": "2026-10-31T22:27:38+09:00"
+    },
+    {
+      "sequence": 685,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "e8ec2dc842b66324ae7dff67b89423de223d7f36",
+      "parent_shas": [
+        "462185fd0b5bbea5815855912ef709f9d7865b00"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-10-31T13:30:23Z",
+      "author_date_jst": "2026-10-31 22:30:23 +09:00",
+      "committer_date_utc": "2026-10-31T13:30:23Z",
+      "committer_date_jst": "2026-10-31 22:30:23 +09:00",
+      "original_subject": "feat(v6v7): sync P27 Japanese labels and docs into the A28 unified candidate",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v6v7): P27の日本語表示名と資料を、A28の統合候補版に反映",
+      "version": "V6・V7共通",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-10-31T22:30:23+09:00",
+      "original_committer_date": "2026-10-31T22:30:23+09:00"
+    },
+    {
+      "sequence": 686,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "d7c95b9ee73f94286bfb4cf0698b839d374b6d54",
+      "parent_shas": [
+        "167dc849a683050c4a1000e16181852acb92945a",
+        "e8ec2dc842b66324ae7dff67b89423de223d7f36"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-11-02T06:23:07Z",
+      "author_date_jst": "2026-11-02 15:23:07 +09:00",
+      "committer_date_utc": "2026-11-02T06:23:07Z",
+      "committer_date_jst": "2026-11-02 15:23:07 +09:00",
+      "original_subject": "merge(v6v7): integrate A28 unified candidate e8ec2dc into daily V4 line",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "merge(v6v7): A28の統合候補版を、日常利用しているV4系列に統合",
+      "version": "V6・V7共通",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-11-02T15:23:07+09:00",
+      "original_committer_date": "2026-11-02T15:23:07+09:00"
+    },
+    {
+      "sequence": 687,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "7a3ebe9c82b29b6efd4c7e0682f29336796a850e",
+      "parent_shas": [
+        "d7c95b9ee73f94286bfb4cf0698b839d374b6d54"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-11-02T06:23:17Z",
+      "author_date_jst": "2026-11-02 15:23:17 +09:00",
+      "committer_date_utc": "2026-11-02T06:23:17Z",
+      "committer_date_jst": "2026-11-02 15:23:17 +09:00",
+      "original_subject": "chore(v6v7): carry the already-applied V7.49 migration for daily-DB Flyway parity",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "chore(v6v7): 適用済みのDB移行を取り込み、日常利用のDBと移行履歴をそろえる",
+      "version": "V6・V7共通",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-11-02T15:23:17+09:00",
+      "original_committer_date": "2026-11-02T15:23:17+09:00"
+    },
+    {
+      "sequence": 688,
+      "source_list": "v5-5173-preview-20261102",
+      "sha": "89b965a09358371519a259e7c9cc9c999a6405bf",
+      "parent_shas": [
+        "167dc849a683050c4a1000e16181852acb92945a"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-11-02T06:48:10Z",
+      "author_date_jst": "2026-11-02 15:48:10 +09:00",
+      "committer_date_utc": "2026-11-02T06:48:10Z",
+      "committer_date_jst": "2026-11-02 15:48:10 +09:00",
+      "original_subject": "feat(v5-web): add 5173 local V5 preview page and demo proxy",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v5-5173-preview-20261102"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v5-web): V5のローカル確認用画面と、デモ用の中継設定を追加",
+      "version": "V5",
+      "development_status": "V5確認用分岐の記録（統合・受入は未完了）",
+      "verification_note": "V5のローカル確認用分岐の記録。統合や受入の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-11-02T15:48:10+09:00",
+      "original_committer_date": "2026-11-02T15:48:10+09:00"
+    },
+    {
+      "sequence": 689,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "f657792a0dbb3df07bdb2437f62230fc88d97a0c",
+      "parent_shas": [
+        "60936859a2ab479d11f08630a0da4cba1d673458"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-11-02T06:53:50Z",
+      "author_date_jst": "2026-11-02 15:53:50 +09:00",
+      "committer_date_utc": "2026-11-02T07:23:12Z",
+      "committer_date_jst": "2026-11-02 16:23:12 +09:00",
+      "original_subject": "feat(v8-b01-r14-b): add data quality section to data governance",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v8-b01-r14-b): データ管理画面にデータ品質の項目を追加",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-11-02T15:53:50+09:00",
+      "original_committer_date": "2026-11-02T16:23:12+09:00"
+    },
+    {
+      "sequence": 690,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "a6923d14a806a51dc385ac9d870c90c23b624866",
+      "parent_shas": [
+        "8a9346f3165e6521409d21802eac9c45dff98d79"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-11-02T07:06:22Z",
+      "author_date_jst": "2026-11-02 16:06:22 +09:00",
+      "committer_date_utc": "2026-11-02T07:23:12Z",
+      "committer_date_jst": "2026-11-02 16:23:12 +09:00",
+      "original_subject": "feat(v8-b01-r14-a): add read-only data quality report for Job217",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v8-b01-r14-a): デモ案件Job217のデータ品質レポート（読み取り専用）を追加",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-11-02T16:06:22+09:00",
+      "original_committer_date": "2026-11-02T16:23:12+09:00"
+    },
+    {
+      "sequence": 691,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "60936859a2ab479d11f08630a0da4cba1d673458",
+      "parent_shas": [
+        "a6923d14a806a51dc385ac9d870c90c23b624866"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-11-02T07:12:22Z",
+      "author_date_jst": "2026-11-02 16:12:22 +09:00",
+      "committer_date_utc": "2026-11-02T07:23:12Z",
+      "committer_date_jst": "2026-11-02 16:23:12 +09:00",
+      "original_subject": "feat(v8-b01-r14-a): distinguish manual notes and demo provenance",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v8-b01-r14-a): 手入力のメモとデモデータの出所を区別して表示",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-11-02T16:12:22+09:00",
+      "original_committer_date": "2026-11-02T16:23:12+09:00"
+    },
+    {
+      "sequence": 692,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "67c373bba0da0d60aa2004e2530991ff3151694b",
+      "parent_shas": [
+        "7a3ebe9c82b29b6efd4c7e0682f29336796a850e"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-11-02T07:49:51Z",
+      "author_date_jst": "2026-11-02 16:49:51 +09:00",
+      "committer_date_utc": "2026-11-02T07:49:51Z",
+      "committer_date_jst": "2026-11-02 16:49:51 +09:00",
+      "original_subject": "feat(v6v7): O30 Job217 unified story — V6 DEMO interviews and lighter V6/V7 pages",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v6v7): デモ案件Job217の統一シナリオ（V6のデモ面談データと、V6・V7画面の簡素化）",
+      "version": "V6・V7共通",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-11-02T16:49:51+09:00",
+      "original_committer_date": "2026-11-02T16:49:51+09:00"
+    },
+    {
+      "sequence": 693,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "4e4b82d75bd3dfd928bf482f8a39682f2cfd2b42",
+      "parent_shas": [
+        "67c373bba0da0d60aa2004e2530991ff3151694b"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-11-02T07:53:27Z",
+      "author_date_jst": "2026-11-02 16:53:27 +09:00",
+      "committer_date_utc": "2026-11-02T07:53:27Z",
+      "committer_date_jst": "2026-11-02 16:53:27 +09:00",
+      "original_subject": "fix(v6v7): O30 hide the empty member-approval card when READY and no collaborators",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6v7): 共同作業者がいない場合は、空の承認カードを表示しないよう修正",
+      "version": "V6・V7共通",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-11-02T16:53:27+09:00",
+      "original_committer_date": "2026-11-02T16:53:27+09:00"
+    },
+    {
+      "sequence": 694,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "8408e3343842a36fb3ddedf714b78b90774f164e",
+      "parent_shas": [
+        "4e4b82d75bd3dfd928bf482f8a39682f2cfd2b42"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-11-02T07:55:53Z",
+      "author_date_jst": "2026-11-02 16:55:53 +09:00",
+      "committer_date_utc": "2026-11-02T07:55:53Z",
+      "committer_date_jst": "2026-11-02 16:55:53 +09:00",
+      "original_subject": "fix(v6v7): O30 show the owner's sales report in the reports column; single message on REAL refusal",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6v7): 報告欄に本人の営業報告を表示し、実環境で拒否された場合のメッセージを1件に統一",
+      "version": "V6・V7共通",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-11-02T16:55:53+09:00",
+      "original_committer_date": "2026-11-02T16:55:53+09:00"
+    },
+    {
+      "sequence": 695,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "f712c8505851cd5299fb7fd49682e1205f511fcf",
+      "parent_shas": [
+        "f657792a0dbb3df07bdb2437f62230fc88d97a0c"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-11-02T07:56:28Z",
+      "author_date_jst": "2026-11-02 16:56:28 +09:00",
+      "committer_date_utc": "2026-11-02T07:56:28Z",
+      "committer_date_jst": "2026-11-02 16:56:28 +09:00",
+      "original_subject": "fix(v8-b01-r15): align data-quality contract, repeated-run display, and pagination",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v8-b01-r15): データ品質の仕様、再実行時の表示、ページ送りを整合",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-11-02T16:56:28+09:00",
+      "original_committer_date": "2026-11-02T16:56:28+09:00"
+    },
+    {
+      "sequence": 696,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "64ff837a4340a181b4dff05544c052499d6c116b",
+      "parent_shas": [
+        "f712c8505851cd5299fb7fd49682e1205f511fcf"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-11-02T13:55:14Z",
+      "author_date_jst": "2026-11-02 22:55:14 +09:00",
+      "committer_date_utc": "2026-11-02T13:55:14Z",
+      "committer_date_jst": "2026-11-02 22:55:14 +09:00",
+      "original_subject": "fix(v8-b01-r16): stabilize data-quality messages, PII truncation, and error classification",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v8-b01-r16): データ品質のメッセージ、個人情報の省略表示、エラー分類を安定化",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-11-02T22:55:14+09:00",
+      "original_committer_date": "2026-11-02T22:55:14+09:00"
+    },
+    {
+      "sequence": 697,
+      "source_list": "v6v7-a29-main-integration / v8-b01-r19-b-pii-consistency",
+      "sha": "000c145c14f8a640961b171679279071a0ca57f9",
+      "parent_shas": [
+        "8408e3343842a36fb3ddedf714b78b90774f164e"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-11-02T14:14:03Z",
+      "author_date_jst": "2026-11-02 23:14:03 +09:00",
+      "committer_date_utc": "2026-11-02T14:14:03Z",
+      "committer_date_jst": "2026-11-02 23:14:03 +09:00",
+      "original_subject": "feat(v6): O31 meeting-note import and sales batch confirmation",
+      "coauthors": [
+        "Claude Opus 5.5"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration",
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v6): 会議メモの取り込みと、営業側での一括確認を追加",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-11-02T23:14:03+09:00",
+      "original_committer_date": "2026-11-02T23:14:03+09:00"
+    },
+    {
+      "sequence": 698,
+      "source_list": "v8-b01-r17-foundation-contract",
+      "sha": "f0f3f3dee44dfa8b6b3dfd17d08648576c595207",
+      "parent_shas": [
+        "64ff837a4340a181b4dff05544c052499d6c116b"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-11-02T14:35:10Z",
+      "author_date_jst": "2026-11-02 23:35:10 +09:00",
+      "committer_date_utc": "2026-11-02T14:35:10Z",
+      "committer_date_jst": "2026-11-02 23:35:10 +09:00",
+      "original_subject": "fix(v8-b01-r17): close AI status, audit state, and PASS semantics gaps",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r17-foundation-contract"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v8-b01-r17): AIの状態表示、監査状態、判定結果の意味の不足を解消",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-11-02T23:35:10+09:00",
+      "original_committer_date": "2026-11-02T23:35:10+09:00"
+    },
+    {
+      "sequence": 699,
+      "source_list": "v8-b01-r19-b-pii-consistency",
+      "sha": "64c478091c5b6e5ea6651b8c05d8733158c18e39",
+      "parent_shas": [
+        "000c145c14f8a640961b171679279071a0ca57f9"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-11-03T14:15:59Z",
+      "author_date_jst": "2026-11-03 23:15:59 +09:00",
+      "committer_date_utc": "2026-11-03T14:15:59Z",
+      "committer_date_jst": "2026-11-03 23:15:59 +09:00",
+      "original_subject": "test(v8-b01-r19b): add cross-engine PII consistency corpus and vector PDF probe",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v8-b01-r19-b-pii-consistency"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "test(v8-b01-r19b): 複数の解析方式で個人情報の検出結果が一致するかを確かめる検証データと、ベクター形式PDFの確認を追加",
+      "version": "V8",
+      "development_status": "V8開発分岐の記録（開発中・受入未完了）",
+      "verification_note": "V8統合データ基盤の開発分岐の記録。詳細仕様、Skill、プロンプト、判定ルール、手順の本文は非公開。開発中であり、業務環境での受入完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-11-03T23:15:59+09:00",
+      "original_committer_date": "2026-11-03T23:15:59+09:00"
+    },
+    {
+      "sequence": 700,
+      "source_list": "v6v7-a29-main-integration",
+      "sha": "458bd2b99472e3a5b489faa62ff973e2ad16a7db",
+      "parent_shas": [
+        "000c145c14f8a640961b171679279071a0ca57f9"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-11-03T14:27:24Z",
+      "author_date_jst": "2026-11-03 23:27:24 +09:00",
+      "committer_date_utc": "2026-11-03T14:27:24Z",
+      "committer_date_jst": "2026-11-03 23:27:24 +09:00",
+      "original_subject": "feat(v5): integrate verified railway fare lookup and refresh V5 documentation",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "feat(v5): 確認済みの鉄道運賃の照会を組み込み、V5の資料を更新",
+      "version": "V5",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "通勤定期代の照会で、従来の模擬値に代えて、JR東日本の公開資料で確認・登録した区間の参考運賃を返すようにした記録。リアルタイムの運賃照会ではなく、未登録の区間では金額を返さない。元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-11-03T23:27:24+09:00",
+      "original_committer_date": "2026-11-03T23:27:24+09:00"
+    },
+    {
+      "sequence": 701,
+      "source_list": "v6v7-a29-main-integration",
+      "sha": "812c73e88a6ca264cd342d047edfaa3583f1568d",
+      "parent_shas": [
+        "458bd2b99472e3a5b489faa62ff973e2ad16a7db"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-11-03T14:48:34Z",
+      "author_date_jst": "2026-11-03 23:48:34 +09:00",
+      "committer_date_utc": "2026-11-03T14:48:34Z",
+      "committer_date_jst": "2026-11-03 23:48:34 +09:00",
+      "original_subject": "fix(v6): correct Job217 30201 simulated-client source and split current/old AI items",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "fix(v6): デモ案件Job217の面談記録で模擬の顧客発言の出所を訂正し、AI項目の現行版と旧版を分けて表示",
+      "version": "V6",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "デモデータ上の発言の出所を訂正した記録（実在の顧客の発言ではない）。旧版の項目は履歴として残している。元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-11-03T23:48:34+09:00",
+      "original_committer_date": "2026-11-03T23:48:34+09:00"
+    },
+    {
+      "sequence": 702,
+      "source_list": "v6v7-a29-main-integration",
+      "sha": "e467df31c53bbc8cb0455606542fbe6f13d8f98a",
+      "parent_shas": [
+        "812c73e88a6ca264cd342d047edfaa3583f1568d"
+      ],
+      "author_alias": "作者01",
+      "author_name": "郭 熙臣",
+      "author_date_utc": "2026-11-03T14:49:49Z",
+      "author_date_jst": "2026-11-03 23:49:49 +09:00",
+      "committer_date_utc": "2026-11-03T14:49:49Z",
+      "committer_date_jst": "2026-11-03 23:49:49 +09:00",
+      "original_subject": "docs(v6v7): correct O32 row-id references after clean re-apply",
+      "coauthors": [
+        "Claude Code"
+      ],
+      "branches": [
+        "v6v7-a29-main-integration"
+      ],
+      "message_body_exported": false,
+      "japanese_translation": "docs(v6v7): 再適用後のO32の行番号の参照を訂正",
+      "version": "V6・V7共通",
+      "development_status": "統合ブランチの記録（システム全体の統合・受入は未完了）",
+      "verification_note": "元の件名とGit日時・親SHAを保持。V6・V7の統合ブランチ上の記録で、システム全体の統合や本番配備の完了を意味しない。今回の公開資料更新で業務テストは再実行していない。",
+      "source_origin": "local_git",
+      "snapshot_date_jst": "2026-11-04",
+      "original_author_date": "2026-11-03T23:49:49+09:00",
+      "original_committer_date": "2026-11-03T23:49:49+09:00"
     }
   ],
-  "extension_note": "旧497レコードは不変。追加101件はlocal_git。実日時、SHA、親子関係、AI共同作成者を保持し、件名の機密箇所のみ伏字。V8は設計・基礎型・検証準備。今回業務テストは再実行していない。",
+  "extension_note": "旧497レコードは不変。追加101件はlocal_git。実日時、SHA、親子関係、AI共同作成者を保持し、件名の機密箇所のみ伏字。V8は設計・基礎型・検証準備。今回業務テストは再実行していない。 2026-11-04：599〜702の104件を追記（local_git）。旧598レコードは不変。",
   "author_note": "2026-10-31：author_name は作成者の公開表示名。開発元Gitの作成者記録が本人のものであることを確認して表示。author_alias は旧版との互換用の匿名ID。メールアドレスは非公開。SHA・日時・親子関係・番号・件名・AI共同作成者は変更していない。"
 }
