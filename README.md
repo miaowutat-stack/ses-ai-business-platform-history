@@ -1,5 +1,11 @@
 # SES業務・AI支援プラットフォーム 開発記録
 
+[![火を継ぐもの / THE EMBER（4K短編映画）](assets/the-ember-cover.png)](https://youtu.be/LClEYrYi6n0)
+
+## [▶ YouTubeで『火を継ぐもの / THE EMBER』を見る](https://youtu.be/LClEYrYi6n0)
+
+映像と音をコードで表現した4K短編映画です。
+
 [![時代への挑戦：レガシーとAIの架け橋](assets/legacy-ai-cover.png)](https://youtu.be/8cDl6dlNM2M)
 
 <a name="オリジナル技術prムービー時代への挑戦"></a>
