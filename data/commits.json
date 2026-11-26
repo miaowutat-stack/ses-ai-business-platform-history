@@ -1,7 +1,7 @@
 {
   "format_version": 2,
-  "updated_on": "2026-11-21",
-  "record_count": 760,
+  "updated_on": "2026-11-26",
+  "record_count": 828,
   "fields": "sequence・sha・parent_shas・author_name・作成者日時・コミット日時（JST/UTC）・version・kind・ai_coauthors",
   "note": "開発用リポジトリの実際のコミット1件ごとの記録です。kind はコミット件名の接頭辞による分類です。",
   "records": [
@@ -12782,6 +12782,1158 @@
       "ai_coauthors": [
         "Claude Opus 5.5"
       ]
+    },
+    {
+      "sequence": 761,
+      "sha": "20e947a878561868b6b7928823114427cdbe0a30",
+      "parent_shas": [
+        "2a8118ebdadb814f6ee1e4c9f561880c804d6745"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-11 22:58:57",
+      "committer_date_jst": "2026-11-11 22:58:57",
+      "author_date_utc": "2026-11-11T13:58:57Z",
+      "committer_date_utc": "2026-11-11T13:58:57Z",
+      "version": "V5",
+      "kind": "保守・整形",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 762,
+      "sha": "919e1112ed93deb9832910083907b4a47cab8905",
+      "parent_shas": [
+        "acfbcd2e93f437aebffb33e30cd9eaae863b8967"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-11 22:58:57",
+      "committer_date_jst": "2026-11-11 22:58:57",
+      "author_date_utc": "2026-11-11T13:58:57Z",
+      "committer_date_utc": "2026-11-11T13:58:57Z",
+      "version": "V6・V7共通",
+      "kind": "保守・整形",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 763,
+      "sha": "acfbcd2e93f437aebffb33e30cd9eaae863b8967",
+      "parent_shas": [
+        "20e947a878561868b6b7928823114427cdbe0a30"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-11 22:58:57",
+      "committer_date_jst": "2026-11-11 22:58:57",
+      "author_date_utc": "2026-11-11T13:58:57Z",
+      "committer_date_utc": "2026-11-11T13:58:57Z",
+      "version": "V5",
+      "kind": "保守・整形",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 764,
+      "sha": "d447c73d39c0a745a2cf377415f616a9d1b81c02",
+      "parent_shas": [
+        "919e1112ed93deb9832910083907b4a47cab8905"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-11 22:58:57",
+      "committer_date_jst": "2026-11-11 22:58:57",
+      "author_date_utc": "2026-11-11T13:58:57Z",
+      "committer_date_utc": "2026-11-11T13:58:57Z",
+      "version": "V4",
+      "kind": "保守・整形",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 765,
+      "sha": "9397dbc56163a00163935165441f6839fa5ec1ca",
+      "parent_shas": [
+        "d447c73d39c0a745a2cf377415f616a9d1b81c02"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-11 22:58:58",
+      "committer_date_jst": "2026-11-11 22:58:58",
+      "author_date_utc": "2026-11-11T13:58:58Z",
+      "committer_date_utc": "2026-11-11T13:58:58Z",
+      "version": "V8",
+      "kind": "保守・整形",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 766,
+      "sha": "e74665123efd49f262715e340491256e99302914",
+      "parent_shas": [
+        "9397dbc56163a00163935165441f6839fa5ec1ca",
+        "14fecf62ec7ee16c76b1a1b7afc44cfb8cd414d5"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-11 22:59:54",
+      "committer_date_jst": "2026-11-11 22:59:54",
+      "author_date_utc": "2026-11-11T13:59:54Z",
+      "committer_date_utc": "2026-11-11T13:59:54Z",
+      "version": "V8",
+      "kind": "マージ",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 767,
+      "sha": "3ecefe04bccd7bd73c0c8659ff6f1f6f815be5d4",
+      "parent_shas": [
+        "e74665123efd49f262715e340491256e99302914"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-11 23:15:40",
+      "committer_date_jst": "2026-11-11 23:15:40",
+      "author_date_utc": "2026-11-11T14:15:40Z",
+      "committer_date_utc": "2026-11-11T14:15:40Z",
+      "version": "V8",
+      "kind": "テスト",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 768,
+      "sha": "d72ecc991b4005b2a5a683cafb69306261af97c1",
+      "parent_shas": [
+        "3ecefe04bccd7bd73c0c8659ff6f1f6f815be5d4"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-12 02:12:57",
+      "committer_date_jst": "2026-11-12 02:12:57",
+      "author_date_utc": "2026-11-11T17:12:57Z",
+      "committer_date_utc": "2026-11-11T17:12:57Z",
+      "version": "V8",
+      "kind": "ドキュメント",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 769,
+      "sha": "c28945ee26712bb4abced6a0f12eb53ea532004a",
+      "parent_shas": [
+        "d72ecc991b4005b2a5a683cafb69306261af97c1"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-12 10:39:24",
+      "committer_date_jst": "2026-11-12 10:39:24",
+      "author_date_utc": "2026-11-12T01:39:24Z",
+      "committer_date_utc": "2026-11-12T01:39:24Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 770,
+      "sha": "9b84c6a45fa65cb31f1c1610b0aae8fc878aff7c",
+      "parent_shas": [
+        "d72ecc991b4005b2a5a683cafb69306261af97c1"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-12 11:30:13",
+      "committer_date_jst": "2026-11-12 11:30:13",
+      "author_date_utc": "2026-11-12T02:30:13Z",
+      "committer_date_utc": "2026-11-12T02:30:13Z",
+      "version": "V8",
+      "kind": "機能追加",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 771,
+      "sha": "e1b59bcecd431356bbec52e79c6771c620b77443",
+      "parent_shas": [
+        "d72ecc991b4005b2a5a683cafb69306261af97c1"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-12 12:14:36",
+      "committer_date_jst": "2026-11-12 12:14:36",
+      "author_date_utc": "2026-11-12T03:14:36Z",
+      "committer_date_utc": "2026-11-12T03:14:36Z",
+      "version": "V8",
+      "kind": "機能追加",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 772,
+      "sha": "a0ae44ad02e01915b15d47b8a2a9397eb2f60ae4",
+      "parent_shas": [
+        "c28945ee26712bb4abced6a0f12eb53ea532004a"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-15 21:53:43",
+      "committer_date_jst": "2026-11-15 21:53:43",
+      "author_date_utc": "2026-11-15T12:53:43Z",
+      "committer_date_utc": "2026-11-15T12:53:43Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 773,
+      "sha": "64e329899e472b354f70b169b0c50dde613f246c",
+      "parent_shas": [
+        "c28945ee26712bb4abced6a0f12eb53ea532004a"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-15 21:54:25",
+      "committer_date_jst": "2026-11-15 21:54:25",
+      "author_date_utc": "2026-11-15T12:54:25Z",
+      "committer_date_utc": "2026-11-15T12:54:25Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 774,
+      "sha": "911d92d632860ca1ea446c86e5019fa18333c0e3",
+      "parent_shas": [
+        "a0ae44ad02e01915b15d47b8a2a9397eb2f60ae4"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-15 21:56:29",
+      "committer_date_jst": "2026-11-15 21:56:29",
+      "author_date_utc": "2026-11-15T12:56:29Z",
+      "committer_date_utc": "2026-11-15T12:56:29Z",
+      "version": "V8",
+      "kind": "ドキュメント",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 775,
+      "sha": "95aac642bf681e5c72c5736155b6e51845d16665",
+      "parent_shas": [
+        "b0886f9fddcd06916896ae0b890cb101e904b575"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-15 21:54:25",
+      "committer_date_jst": "2026-11-15 22:07:29",
+      "author_date_utc": "2026-11-15T12:54:25Z",
+      "committer_date_utc": "2026-11-15T13:07:29Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 776,
+      "sha": "b0886f9fddcd06916896ae0b890cb101e904b575",
+      "parent_shas": [
+        "c5bfe13c3e3ce52c1c7e9f77ccdd2bf63e85891f"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-15 21:56:29",
+      "committer_date_jst": "2026-11-15 22:07:29",
+      "author_date_utc": "2026-11-15T12:56:29Z",
+      "committer_date_utc": "2026-11-15T13:07:29Z",
+      "version": "V8",
+      "kind": "ドキュメント",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 777,
+      "sha": "c5bfe13c3e3ce52c1c7e9f77ccdd2bf63e85891f",
+      "parent_shas": [
+        "c28945ee26712bb4abced6a0f12eb53ea532004a"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-15 21:53:43",
+      "committer_date_jst": "2026-11-15 22:07:29",
+      "author_date_utc": "2026-11-15T12:53:43Z",
+      "committer_date_utc": "2026-11-15T13:07:29Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 778,
+      "sha": "85ecdd76dbb26a7a9a7b553c9f7d23a44c312ccd",
+      "parent_shas": [
+        "95aac642bf681e5c72c5736155b6e51845d16665"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-15 22:19:09",
+      "committer_date_jst": "2026-11-15 22:19:09",
+      "author_date_utc": "2026-11-15T13:19:09Z",
+      "committer_date_utc": "2026-11-15T13:19:09Z",
+      "version": "V8",
+      "kind": "テスト",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 779,
+      "sha": "3e9e64a52db4a8364b0a141034b556ca9d82dbeb",
+      "parent_shas": [
+        "c28945ee26712bb4abced6a0f12eb53ea532004a"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-16 13:46:31",
+      "committer_date_jst": "2026-11-16 13:46:31",
+      "author_date_utc": "2026-11-16T04:46:31Z",
+      "committer_date_utc": "2026-11-16T04:46:31Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 780,
+      "sha": "bfb6716ae7b61fcf696aab738d20a722ce97e2c8",
+      "parent_shas": [
+        "3e9e64a52db4a8364b0a141034b556ca9d82dbeb"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-16 13:47:13",
+      "committer_date_jst": "2026-11-16 13:47:13",
+      "author_date_utc": "2026-11-16T04:47:13Z",
+      "committer_date_utc": "2026-11-16T04:47:13Z",
+      "version": "V8",
+      "kind": "機能追加",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 781,
+      "sha": "90cf06d7a873467251d3502f62042e85c2253267",
+      "parent_shas": [
+        "bfb6716ae7b61fcf696aab738d20a722ce97e2c8"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-16 13:48:46",
+      "committer_date_jst": "2026-11-16 13:48:46",
+      "author_date_utc": "2026-11-16T04:48:46Z",
+      "committer_date_utc": "2026-11-16T04:48:46Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 782,
+      "sha": "4809626409275b02b6a79e3165620311310a8b86",
+      "parent_shas": [
+        "dcde5845da7380a44ce6ea7e12613f58dcb2e5f2"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-16 13:48:48",
+      "committer_date_jst": "2026-11-16 13:48:48",
+      "author_date_utc": "2026-11-16T04:48:48Z",
+      "committer_date_utc": "2026-11-16T04:48:48Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 783,
+      "sha": "dcde5845da7380a44ce6ea7e12613f58dcb2e5f2",
+      "parent_shas": [
+        "90cf06d7a873467251d3502f62042e85c2253267"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-16 13:48:48",
+      "committer_date_jst": "2026-11-16 13:48:48",
+      "author_date_utc": "2026-11-16T04:48:48Z",
+      "committer_date_utc": "2026-11-16T04:48:48Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 784,
+      "sha": "2d7fb3d69dd5b05a86ed73a4466c64b117b301f4",
+      "parent_shas": [
+        "4809626409275b02b6a79e3165620311310a8b86"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-16 13:49:03",
+      "committer_date_jst": "2026-11-16 13:49:03",
+      "author_date_utc": "2026-11-16T04:49:03Z",
+      "committer_date_utc": "2026-11-16T04:49:03Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 785,
+      "sha": "60e142de97bbbcc566a1ef4dde09680fda621eec",
+      "parent_shas": [
+        "2d7fb3d69dd5b05a86ed73a4466c64b117b301f4"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-16 13:49:03",
+      "committer_date_jst": "2026-11-16 13:49:03",
+      "author_date_utc": "2026-11-16T04:49:03Z",
+      "committer_date_utc": "2026-11-16T04:49:03Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 786,
+      "sha": "1d102f7dee81daed619bc6c5a87e5ac7acb61cea",
+      "parent_shas": [
+        "60e142de97bbbcc566a1ef4dde09680fda621eec"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-16 13:49:04",
+      "committer_date_jst": "2026-11-16 13:49:04",
+      "author_date_utc": "2026-11-16T04:49:04Z",
+      "committer_date_utc": "2026-11-16T04:49:04Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 787,
+      "sha": "7b9eda3a002dc0e2c34b7704466e56ac43417124",
+      "parent_shas": [
+        "1d102f7dee81daed619bc6c5a87e5ac7acb61cea"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-16 13:49:04",
+      "committer_date_jst": "2026-11-16 13:49:04",
+      "author_date_utc": "2026-11-16T04:49:04Z",
+      "committer_date_utc": "2026-11-16T04:49:04Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 788,
+      "sha": "7eada4613c00795288e11e2611c857bc0c74280b",
+      "parent_shas": [
+        "7b9eda3a002dc0e2c34b7704466e56ac43417124"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-16 13:49:19",
+      "committer_date_jst": "2026-11-16 13:49:19",
+      "author_date_utc": "2026-11-16T04:49:19Z",
+      "committer_date_utc": "2026-11-16T04:49:19Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 789,
+      "sha": "737a4025608dd091fcc2f46f292bb9a42e49a3a6",
+      "parent_shas": [
+        "7eada4613c00795288e11e2611c857bc0c74280b"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-16 13:49:20",
+      "committer_date_jst": "2026-11-16 13:49:20",
+      "author_date_utc": "2026-11-16T04:49:20Z",
+      "committer_date_utc": "2026-11-16T04:49:20Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 790,
+      "sha": "c1c9510a4b5db947d04242f9e17293264850607d",
+      "parent_shas": [
+        "737a4025608dd091fcc2f46f292bb9a42e49a3a6"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-16 18:02:15",
+      "committer_date_jst": "2026-11-16 18:02:15",
+      "author_date_utc": "2026-11-16T09:02:15Z",
+      "committer_date_utc": "2026-11-16T09:02:15Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 791,
+      "sha": "ac6286a7b7ba119443fb6bda96a92b8ae6446570",
+      "parent_shas": [
+        "c1c9510a4b5db947d04242f9e17293264850607d"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-16 18:04:37",
+      "committer_date_jst": "2026-11-16 18:04:37",
+      "author_date_utc": "2026-11-16T09:04:37Z",
+      "committer_date_utc": "2026-11-16T09:04:37Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 792,
+      "sha": "cb3aec6f75cec49c21c5c1fc19b84a2b661565fb",
+      "parent_shas": [
+        "ac6286a7b7ba119443fb6bda96a92b8ae6446570"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-16 18:06:57",
+      "committer_date_jst": "2026-11-16 18:06:57",
+      "author_date_utc": "2026-11-16T09:06:57Z",
+      "committer_date_utc": "2026-11-16T09:06:57Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 793,
+      "sha": "411f67ef004be424f7c5e18dad486cd9191991ee",
+      "parent_shas": [
+        "cb3aec6f75cec49c21c5c1fc19b84a2b661565fb"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-16 18:07:25",
+      "committer_date_jst": "2026-11-16 18:07:25",
+      "author_date_utc": "2026-11-16T09:07:25Z",
+      "committer_date_utc": "2026-11-16T09:07:25Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 794,
+      "sha": "e1c4cdad9ab18cdff21dc85262d87562334e7093",
+      "parent_shas": [
+        "e298f499376853dbdbcfe2857896c1c32767a570"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-16 18:07:25",
+      "committer_date_jst": "2026-11-16 18:07:25",
+      "author_date_utc": "2026-11-16T09:07:25Z",
+      "committer_date_utc": "2026-11-16T09:07:25Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 795,
+      "sha": "e298f499376853dbdbcfe2857896c1c32767a570",
+      "parent_shas": [
+        "411f67ef004be424f7c5e18dad486cd9191991ee"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-16 18:07:25",
+      "committer_date_jst": "2026-11-16 18:07:25",
+      "author_date_utc": "2026-11-16T09:07:25Z",
+      "committer_date_utc": "2026-11-16T09:07:25Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 796,
+      "sha": "695b2072e9c33af815e44cb86e681195e44d4c00",
+      "parent_shas": [
+        "e1c4cdad9ab18cdff21dc85262d87562334e7093"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-16 18:08:34",
+      "committer_date_jst": "2026-11-16 18:08:34",
+      "author_date_utc": "2026-11-16T09:08:34Z",
+      "committer_date_utc": "2026-11-16T09:08:34Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 797,
+      "sha": "6349dfe2f8cea1dd1844cb9acc9b3dd21675c6a8",
+      "parent_shas": [
+        "cb35e2f1a563e5a453b2b3800f0e7a33b653ad77"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-16 18:08:35",
+      "committer_date_jst": "2026-11-16 18:08:35",
+      "author_date_utc": "2026-11-16T09:08:35Z",
+      "committer_date_utc": "2026-11-16T09:08:35Z",
+      "version": "V8",
+      "kind": "保守・整形",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 798,
+      "sha": "cb35e2f1a563e5a453b2b3800f0e7a33b653ad77",
+      "parent_shas": [
+        "695b2072e9c33af815e44cb86e681195e44d4c00"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-16 18:08:35",
+      "committer_date_jst": "2026-11-16 18:08:35",
+      "author_date_utc": "2026-11-16T09:08:35Z",
+      "committer_date_utc": "2026-11-16T09:08:35Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 799,
+      "sha": "698218fa06034aba92c3918340802550cccfef22",
+      "parent_shas": [
+        "6349dfe2f8cea1dd1844cb9acc9b3dd21675c6a8"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-19 11:25:54",
+      "committer_date_jst": "2026-11-19 11:25:54",
+      "author_date_utc": "2026-11-19T02:25:54Z",
+      "committer_date_utc": "2026-11-19T02:25:54Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 800,
+      "sha": "2e00e5602d36053f0dba334c63194ffc2ee928bc",
+      "parent_shas": [
+        "698218fa06034aba92c3918340802550cccfef22"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-19 11:27:06",
+      "committer_date_jst": "2026-11-19 11:27:06",
+      "author_date_utc": "2026-11-19T02:27:06Z",
+      "committer_date_utc": "2026-11-19T02:27:06Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 801,
+      "sha": "5cd894005b9b8caa64d405b5f33059054a65f440",
+      "parent_shas": [
+        "2e00e5602d36053f0dba334c63194ffc2ee928bc"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-19 11:27:06",
+      "committer_date_jst": "2026-11-19 11:27:06",
+      "author_date_utc": "2026-11-19T02:27:06Z",
+      "committer_date_utc": "2026-11-19T02:27:06Z",
+      "version": "V8",
+      "kind": "テスト",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 802,
+      "sha": "09ea03fe8fdca305db978f0eab8874869dfbe279",
+      "parent_shas": [
+        "5cd894005b9b8caa64d405b5f33059054a65f440"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-19 11:48:43",
+      "committer_date_jst": "2026-11-19 11:48:43",
+      "author_date_utc": "2026-11-19T02:48:43Z",
+      "committer_date_utc": "2026-11-19T02:48:43Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": []
+    },
+    {
+      "sequence": 803,
+      "sha": "65e37d1f9a9fa1d3d6b460f248433ffafbdc89ef",
+      "parent_shas": [
+        "8104e2d2bdc2374fe0258ee74bc593d826b42e53"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-19 15:54:37",
+      "committer_date_jst": "2026-11-19 15:54:37",
+      "author_date_utc": "2026-11-19T06:54:37Z",
+      "committer_date_utc": "2026-11-19T06:54:37Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 804,
+      "sha": "8104e2d2bdc2374fe0258ee74bc593d826b42e53",
+      "parent_shas": [
+        "09ea03fe8fdca305db978f0eab8874869dfbe279"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-19 15:54:37",
+      "committer_date_jst": "2026-11-19 15:54:37",
+      "author_date_utc": "2026-11-19T06:54:37Z",
+      "committer_date_utc": "2026-11-19T06:54:37Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 805,
+      "sha": "1b16f76829a2628f0cef8b7d9eb69764de349b47",
+      "parent_shas": [
+        "c899c8fc184d54fb947a924ffa55e04e1008ef24"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-19 15:54:38",
+      "committer_date_jst": "2026-11-19 15:54:38",
+      "author_date_utc": "2026-11-19T06:54:38Z",
+      "committer_date_utc": "2026-11-19T06:54:38Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 806,
+      "sha": "904cefacdb510182bee824c306b846a0913347ea",
+      "parent_shas": [
+        "1b16f76829a2628f0cef8b7d9eb69764de349b47"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-19 15:54:38",
+      "committer_date_jst": "2026-11-19 15:54:38",
+      "author_date_utc": "2026-11-19T06:54:38Z",
+      "committer_date_utc": "2026-11-19T06:54:38Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 807,
+      "sha": "c899c8fc184d54fb947a924ffa55e04e1008ef24",
+      "parent_shas": [
+        "65e37d1f9a9fa1d3d6b460f248433ffafbdc89ef"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-19 15:54:38",
+      "committer_date_jst": "2026-11-19 15:54:38",
+      "author_date_utc": "2026-11-19T06:54:38Z",
+      "committer_date_utc": "2026-11-19T06:54:38Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 808,
+      "sha": "04ff939fe0adbacef6b73a4f4517be09118978b8",
+      "parent_shas": [
+        "904cefacdb510182bee824c306b846a0913347ea"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-19 15:54:39",
+      "committer_date_jst": "2026-11-19 15:54:39",
+      "author_date_utc": "2026-11-19T06:54:39Z",
+      "committer_date_utc": "2026-11-19T06:54:39Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 809,
+      "sha": "62ab95b41f1a20623bb554aeb58057072bee94d8",
+      "parent_shas": [
+        "04ff939fe0adbacef6b73a4f4517be09118978b8"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-19 15:54:39",
+      "committer_date_jst": "2026-11-19 15:54:39",
+      "author_date_utc": "2026-11-19T06:54:39Z",
+      "committer_date_utc": "2026-11-19T06:54:39Z",
+      "version": "V8",
+      "kind": "保守・整形",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 810,
+      "sha": "d884ab886434190ce17b9ca855300c2d3b16a5b9",
+      "parent_shas": [
+        "62ab95b41f1a20623bb554aeb58057072bee94d8"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-19 15:59:22",
+      "committer_date_jst": "2026-11-19 15:59:22",
+      "author_date_utc": "2026-11-19T06:59:22Z",
+      "committer_date_utc": "2026-11-19T06:59:22Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 811,
+      "sha": "fabe6972ec30d2e4b424c9554712eb573c1877f3",
+      "parent_shas": [
+        "d884ab886434190ce17b9ca855300c2d3b16a5b9"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-21 17:38:10",
+      "committer_date_jst": "2026-11-21 17:38:10",
+      "author_date_utc": "2026-11-21T08:38:10Z",
+      "committer_date_utc": "2026-11-21T08:38:10Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 812,
+      "sha": "ad167d6108985e4a59317dd03f2802f8e49c5785",
+      "parent_shas": [
+        "fabe6972ec30d2e4b424c9554712eb573c1877f3"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-21 17:54:47",
+      "committer_date_jst": "2026-11-21 17:54:47",
+      "author_date_utc": "2026-11-21T08:54:47Z",
+      "committer_date_utc": "2026-11-21T08:54:47Z",
+      "version": "V8",
+      "kind": "保守・整形",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 813,
+      "sha": "17c252144ca0400da499d5a61754e89b36fa3266",
+      "parent_shas": [
+        "ad167d6108985e4a59317dd03f2802f8e49c5785"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-21 19:52:39",
+      "committer_date_jst": "2026-11-21 19:52:39",
+      "author_date_utc": "2026-11-21T10:52:39Z",
+      "committer_date_utc": "2026-11-21T10:52:39Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 814,
+      "sha": "64c549c0e4fd3afd8578c2c4d0a7d6ce9b29e72b",
+      "parent_shas": [
+        "17c252144ca0400da499d5a61754e89b36fa3266"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-21 19:53:21",
+      "committer_date_jst": "2026-11-21 19:53:21",
+      "author_date_utc": "2026-11-21T10:53:21Z",
+      "committer_date_utc": "2026-11-21T10:53:21Z",
+      "version": "V8",
+      "kind": "機能追加",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 815,
+      "sha": "a29a71e9220a0b3eb28c5a7271556c2c62db3493",
+      "parent_shas": [
+        "64c549c0e4fd3afd8578c2c4d0a7d6ce9b29e72b"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-21 20:08:45",
+      "committer_date_jst": "2026-11-21 20:08:45",
+      "author_date_utc": "2026-11-21T11:08:45Z",
+      "committer_date_utc": "2026-11-21T11:08:45Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 816,
+      "sha": "24cfd0e125c6f6ef554a7ea92005a528c8c17060",
+      "parent_shas": [
+        "a29a71e9220a0b3eb28c5a7271556c2c62db3493"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-21 20:12:33",
+      "committer_date_jst": "2026-11-21 20:12:33",
+      "author_date_utc": "2026-11-21T11:12:33Z",
+      "committer_date_utc": "2026-11-21T11:12:33Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 817,
+      "sha": "28ba8cedfe6f329a630bc6a752afadb6a315e181",
+      "parent_shas": [
+        "24cfd0e125c6f6ef554a7ea92005a528c8c17060"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-21 20:14:36",
+      "committer_date_jst": "2026-11-21 20:14:36",
+      "author_date_utc": "2026-11-21T11:14:36Z",
+      "committer_date_utc": "2026-11-21T11:14:36Z",
+      "version": "V8",
+      "kind": "機能追加",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 818,
+      "sha": "898b0230d8fef348122013431998670a69bb74b5",
+      "parent_shas": [
+        "28ba8cedfe6f329a630bc6a752afadb6a315e181"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-21 20:14:51",
+      "committer_date_jst": "2026-11-21 20:14:51",
+      "author_date_utc": "2026-11-21T11:14:51Z",
+      "committer_date_utc": "2026-11-21T11:14:51Z",
+      "version": "V8",
+      "kind": "保守・整形",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 819,
+      "sha": "5faac77d75247d502fffc3ac89fd9f202d971e1d",
+      "parent_shas": [
+        "898b0230d8fef348122013431998670a69bb74b5"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-22 01:10:45",
+      "committer_date_jst": "2026-11-22 01:10:45",
+      "author_date_utc": "2026-11-21T16:10:45Z",
+      "committer_date_utc": "2026-11-21T16:10:45Z",
+      "version": "V8",
+      "kind": "機能追加",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 820,
+      "sha": "9427039f1a5287105019cf0443992a63e64bd638",
+      "parent_shas": [
+        "5faac77d75247d502fffc3ac89fd9f202d971e1d"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-22 01:11:49",
+      "committer_date_jst": "2026-11-22 01:11:49",
+      "author_date_utc": "2026-11-21T16:11:49Z",
+      "committer_date_utc": "2026-11-21T16:11:49Z",
+      "version": "V8",
+      "kind": "機能追加",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 821,
+      "sha": "0dc02981429bb20657b5eb76c51a7bdb954e9832",
+      "parent_shas": [
+        "9427039f1a5287105019cf0443992a63e64bd638"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-22 09:20:36",
+      "committer_date_jst": "2026-11-22 09:20:36",
+      "author_date_utc": "2026-11-22T00:20:36Z",
+      "committer_date_utc": "2026-11-22T00:20:36Z",
+      "version": "V8",
+      "kind": "機能追加",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 822,
+      "sha": "1a345a4d11f519d976e10f75e308f684f0cb5753",
+      "parent_shas": [
+        "0dc02981429bb20657b5eb76c51a7bdb954e9832"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-25 21:53:35",
+      "committer_date_jst": "2026-11-25 21:53:35",
+      "author_date_utc": "2026-11-25T12:53:35Z",
+      "committer_date_utc": "2026-11-25T12:53:35Z",
+      "version": "V8",
+      "kind": "修正",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 823,
+      "sha": "ad659d435adfe90693c6c69b729623133b8adfb8",
+      "parent_shas": [
+        "1a345a4d11f519d976e10f75e308f684f0cb5753"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-26 02:22:53",
+      "committer_date_jst": "2026-11-26 02:22:53",
+      "author_date_utc": "2026-11-25T17:22:53Z",
+      "committer_date_utc": "2026-11-25T17:22:53Z",
+      "version": "V8",
+      "kind": "機能追加",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 824,
+      "sha": "1d269b4a79347daef6949aa2b4aca87fdd749695",
+      "parent_shas": [
+        "ad659d435adfe90693c6c69b729623133b8adfb8"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-26 02:29:44",
+      "committer_date_jst": "2026-11-26 02:29:44",
+      "author_date_utc": "2026-11-25T17:29:44Z",
+      "committer_date_utc": "2026-11-25T17:29:44Z",
+      "version": "V8",
+      "kind": "機能追加",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 825,
+      "sha": "3105a01c76e6629167bee9042b455baffc67cd8a",
+      "parent_shas": [
+        "1d269b4a79347daef6949aa2b4aca87fdd749695"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-26 02:43:40",
+      "committer_date_jst": "2026-11-26 02:43:40",
+      "author_date_utc": "2026-11-25T17:43:40Z",
+      "committer_date_utc": "2026-11-25T17:43:40Z",
+      "version": "V8",
+      "kind": "機能追加",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 826,
+      "sha": "9cc0a7455f30a488e62c8cc5406694534033f0ac",
+      "parent_shas": [
+        "3105a01c76e6629167bee9042b455baffc67cd8a"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-26 10:26:53",
+      "committer_date_jst": "2026-11-26 10:26:53",
+      "author_date_utc": "2026-11-26T01:26:53Z",
+      "committer_date_utc": "2026-11-26T01:26:53Z",
+      "version": "V8",
+      "kind": "保守・整形",
+      "ai_coauthors": [
+        "Claude Opus 5.5"
+      ]
+    },
+    {
+      "sequence": 827,
+      "sha": "80324c15d93c2a44ededbbc8efe9dc2517763002",
+      "parent_shas": [
+        "3105a01c76e6629167bee9042b455baffc67cd8a"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-26 10:32:04",
+      "committer_date_jst": "2026-11-26 10:32:04",
+      "author_date_utc": "2026-11-26T01:32:04Z",
+      "committer_date_utc": "2026-11-26T01:32:04Z",
+      "version": "V9・V10",
+      "kind": "機能追加",
+      "ai_coauthors": []
+    },
+    {
+      "sequence": 828,
+      "sha": "dfacc0060eb4c3775dc46c237abdb6f378564c87",
+      "parent_shas": [
+        "9cc0a7455f30a488e62c8cc5406694534033f0ac",
+        "80324c15d93c2a44ededbbc8efe9dc2517763002"
+      ],
+      "author_name": "郭 熙臣",
+      "author_date_jst": "2026-11-26 10:34:43",
+      "committer_date_jst": "2026-11-26 10:34:43",
+      "author_date_utc": "2026-11-26T01:34:43Z",
+      "committer_date_utc": "2026-11-26T01:34:43Z",
+      "version": "V9・V10",
+      "kind": "マージ",
+      "ai_coauthors": []
     }
   ]
 }
